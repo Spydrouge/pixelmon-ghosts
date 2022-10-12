@@ -1,0 +1,68 @@
+{
+  "id": "Alomomola",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Alomomola"
+      },
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 18,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "ocean"
+        ],
+        "minY": 50
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": {
+        "name": "Alomomola"
+      },
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 4,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY": 220
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": {
+        "name": "Alomomola"
+      },
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 4,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "maxY": 40
+      },
+      "rarity": 90.0
+    }
+  ]
+}

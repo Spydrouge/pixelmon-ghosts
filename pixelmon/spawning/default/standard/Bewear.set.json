@@ -1,0 +1,42 @@
+{
+  "id": "Bewear",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Bewear"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 27,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "birches"
+        ]
+      },
+      "rarity": 8.0
+    },
+     {
+      "spec": {
+        "name": "Bewear"
+      },
+      "stringLocationTypes": [
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 27,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":100,
+        "maxY": 220
+      },
+      "rarity": 8.0
+    }
+  ]
+}

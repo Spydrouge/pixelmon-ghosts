@@ -1,0 +1,53 @@
+{
+  "id": "Larvesta",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Larvesta"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "arid"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": {
+        "name": "Larvesta"
+      },
+      "stringLocationTypes": [
+        "Indoors",
+        "Underground"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "heldItems": [
+          {
+            "itemID": "pixelmon:rawst_berry",
+            "percentChance": 25
+          }
+        ],
+        "minY":220
+      },
+      "rarity": 30.0
+    }
+  ]
+}

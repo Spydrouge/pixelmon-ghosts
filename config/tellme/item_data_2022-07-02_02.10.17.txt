@@ -1,0 +1,37 @@
+Slow Cloud Attractor (pixelmon:pixelmon_spawner - 4310:0) has NBT data
+
+{RepairCost:0,BlockEntityTag:{pokemonSpec0:{args:"Castform",name:"Castform"},spawnLocation:6s,rarity0:100s,spawnRandom:0b,fireOnTick:0b,maxSpawns:1s,numPokemon:1s,aggression:0s,bossRatio:100s,levelMax:20s,spawnRadius:8s,id:"pixelmon:pixelmon_spawner",spawnTick:200,levelMin:16s},display:{Lore:["(+NBT)"],Name:"Slow Cloud Attractor"}}
+
+TAG_Compound (10) ('')
+{
+    TAG_Int (3) ('RepairCost'): 0
+    TAG_Compound (10) ('BlockEntityTag')
+    {
+        TAG_Compound (10) ('pokemonSpec0')
+        {
+            TAG_String (8) ('args'): "Castform"
+            TAG_String (8) ('name'): "Castform"
+        }
+        TAG_Short (2) ('spawnLocation'): 6
+        TAG_Short (2) ('rarity0'): 100
+        TAG_Byte (1) ('spawnRandom'): 0
+        TAG_Byte (1) ('fireOnTick'): 0
+        TAG_Short (2) ('maxSpawns'): 1
+        TAG_Short (2) ('numPokemon'): 1
+        TAG_Short (2) ('aggression'): 0
+        TAG_Short (2) ('bossRatio'): 100
+        TAG_Short (2) ('levelMax'): 20
+        TAG_Short (2) ('spawnRadius'): 8
+        TAG_String (8) ('id'): "pixelmon:pixelmon_spawner"
+        TAG_Int (3) ('spawnTick'): 200
+        TAG_Short (2) ('levelMin'): 16
+    }
+    TAG_Compound (10) ('display')
+    {
+        TAG_List (9) ('Lore') (1 entries of TAG_String (8))
+        {
+            TAG_String (8) (''): "(+NBT)"
+        }
+        TAG_String (8) ('Name'): "Slow Cloud Attractor"
+    }
+}

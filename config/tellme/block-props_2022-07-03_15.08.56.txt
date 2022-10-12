@@ -1,0 +1,1602 @@
++---------------------+----------------------------------------------+----------+-------------+
+| NOTE: The Hardness and Resistance values are the raw base values in the fields              |
+| of the Block class in question. The actual final values may be different                    |
+| for different states of the block, or they may depend on a TileEntity etc.                  |
++---------------------+----------------------------------------------+----------+-------------+
+| Mod name            | Registry name                                | Hardness |  Resistance |
++---------------------+----------------------------------------------+----------+-------------+
+| Better Questing     | betterquesting:submit_station                |     1.00 |        5.00 |
+| Biomes O' Plenty    | biomesoplenty:ash_block                      |     0.40 |        5.00 |
+| Biomes O' Plenty    | biomesoplenty:bamboo                         |     0.20 |        1.00 |
+| Biomes O' Plenty    | biomesoplenty:bamboo_thatching               |     2.00 |       10.00 |
+| Biomes O' Plenty    | biomesoplenty:biome_block                    |     0.60 |        5.00 |
+| Biomes O' Plenty    | biomesoplenty:blood                          |   100.00 |      500.00 |
+| Biomes O' Plenty    | biomesoplenty:blue_fire                      |     0.00 |        0.00 |
+| Biomes O' Plenty    | biomesoplenty:bramble_plant                  |     0.50 |        2.50 |
+| Biomes O' Plenty    | biomesoplenty:cherry_door_block              |     3.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:cherry_fence                   |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:cherry_fence_gate              |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:cherry_stairs                  |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:coral                          |     0.60 |        3.00 |
+| Biomes O' Plenty    | biomesoplenty:crystal                        |     0.15 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:dirt                           |     0.50 |        2.50 |
+| Biomes O' Plenty    | biomesoplenty:double_other_slab              |     2.00 |       21.00 |
+| Biomes O' Plenty    | biomesoplenty:double_plant                   |     0.00 |        0.00 |
+| Biomes O' Plenty    | biomesoplenty:double_wood_slab_0             |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:double_wood_slab_1             |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:dried_sand                     |     1.00 |        5.00 |
+| Biomes O' Plenty    | biomesoplenty:ebony_door_block               |     3.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:ebony_fence                    |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:ebony_fence_gate               |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:ebony_stairs                   |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:ethereal_door_block            |     3.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:ethereal_fence                 |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:ethereal_fence_gate            |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:ethereal_stairs                |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:eucalyptus_door_block          |     3.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:eucalyptus_fence               |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:eucalyptus_fence_gate          |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:eucalyptus_stairs              |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:farmland_0                     |     0.60 |        3.00 |
+| Biomes O' Plenty    | biomesoplenty:farmland_1                     |     0.60 |        3.00 |
+| Biomes O' Plenty    | biomesoplenty:fir_door_block                 |     3.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:fir_fence                      |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:fir_fence_gate                 |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:fir_stairs                     |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:flesh                          |     0.40 |        2.00 |
+| Biomes O' Plenty    | biomesoplenty:flower_0                       |     0.00 |        0.00 |
+| Biomes O' Plenty    | biomesoplenty:flower_1                       |     0.00 |        0.00 |
+| Biomes O' Plenty    | biomesoplenty:gem_block                      |     5.00 |       30.00 |
+| Biomes O' Plenty    | biomesoplenty:gem_ore                        |     3.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:grass                          |     0.00 |        0.00 |
+| Biomes O' Plenty    | biomesoplenty:grass_path                     |     0.65 |        3.25 |
+| Biomes O' Plenty    | biomesoplenty:hard_ice                       |     0.75 |        5.00 |
+| Biomes O' Plenty    | biomesoplenty:hellbark_door_block            |     3.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:hellbark_fence                 |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:hellbark_fence_gate            |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:hellbark_stairs                |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:hive                           |     0.50 |        2.50 |
+| Biomes O' Plenty    | biomesoplenty:honey                          |   100.00 |      500.00 |
+| Biomes O' Plenty    | biomesoplenty:honey_block                    |     0.50 |        2.50 |
+| Biomes O' Plenty    | biomesoplenty:hot_spring_water               |   100.00 |      500.00 |
+| Biomes O' Plenty    | biomesoplenty:ivy                            |     0.20 |        1.00 |
+| Biomes O' Plenty    | biomesoplenty:jacaranda_door_block           |     3.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:jacaranda_fence                |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:jacaranda_fence_gate           |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:jacaranda_stairs               |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:leaves_0                       |     0.20 |        1.00 |
+| Biomes O' Plenty    | biomesoplenty:leaves_1                       |     0.20 |        1.00 |
+| Biomes O' Plenty    | biomesoplenty:leaves_2                       |     0.20 |        1.00 |
+| Biomes O' Plenty    | biomesoplenty:leaves_3                       |     0.20 |        1.00 |
+| Biomes O' Plenty    | biomesoplenty:leaves_4                       |     0.20 |        1.00 |
+| Biomes O' Plenty    | biomesoplenty:leaves_5                       |     0.20 |        1.00 |
+| Biomes O' Plenty    | biomesoplenty:leaves_6                       |     0.20 |        1.00 |
+| Biomes O' Plenty    | biomesoplenty:log_0                          |     2.00 |       10.00 |
+| Biomes O' Plenty    | biomesoplenty:log_1                          |     2.00 |       10.00 |
+| Biomes O' Plenty    | biomesoplenty:log_2                          |     2.00 |       10.00 |
+| Biomes O' Plenty    | biomesoplenty:log_3                          |     2.00 |       10.00 |
+| Biomes O' Plenty    | biomesoplenty:log_4                          |     2.00 |       10.00 |
+| Biomes O' Plenty    | biomesoplenty:magic_door_block               |     3.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:magic_fence                    |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:magic_fence_gate               |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:magic_stairs                   |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:mahogany_door_block            |     3.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:mahogany_fence                 |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:mahogany_fence_gate            |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:mahogany_stairs                |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:mangrove_door_block            |     3.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:mangrove_fence                 |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:mangrove_fence_gate            |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:mangrove_stairs                |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:mud                            |     0.60 |        3.00 |
+| Biomes O' Plenty    | biomesoplenty:mud_brick_block                |     1.00 |        6.00 |
+| Biomes O' Plenty    | biomesoplenty:mud_brick_stairs               |     1.00 |        6.00 |
+| Biomes O' Plenty    | biomesoplenty:mushroom                       |     0.00 |        0.00 |
+| Biomes O' Plenty    | biomesoplenty:other_slab                     |     2.00 |       21.00 |
+| Biomes O' Plenty    | biomesoplenty:palm_door_block                |     3.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:palm_fence                     |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:palm_fence_gate                |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:palm_stairs                    |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:pine_door_block                |     3.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:pine_fence                     |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:pine_fence_gate                |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:pine_stairs                    |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:planks_0                       |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:plant_0                        |     0.00 |        0.00 |
+| Biomes O' Plenty    | biomesoplenty:plant_1                        |     0.00 |        0.00 |
+| Biomes O' Plenty    | biomesoplenty:poison                         |   100.00 |      500.00 |
+| Biomes O' Plenty    | biomesoplenty:redwood_door_block             |     3.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:redwood_fence                  |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:redwood_fence_gate             |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:redwood_stairs                 |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:sacred_oak_door_block          |     3.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:sacred_oak_fence               |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:sacred_oak_fence_gate          |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:sacred_oak_stairs              |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:sand                           |     0.50 |        2.50 |
+| Biomes O' Plenty    | biomesoplenty:sapling_0                      |     0.00 |        0.00 |
+| Biomes O' Plenty    | biomesoplenty:sapling_1                      |     0.00 |        0.00 |
+| Biomes O' Plenty    | biomesoplenty:sapling_2                      |     0.00 |        0.00 |
+| Biomes O' Plenty    | biomesoplenty:seaweed                        |     0.00 |        0.00 |
+| Biomes O' Plenty    | biomesoplenty:terrarium                      |     1.00 |        5.00 |
+| Biomes O' Plenty    | biomesoplenty:umbran_door_block              |     3.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:umbran_fence                   |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:umbran_fence_gate              |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:umbran_stairs                  |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:waterlily                      |     0.00 |        0.00 |
+| Biomes O' Plenty    | biomesoplenty:white_sand                     |     0.50 |        2.50 |
+| Biomes O' Plenty    | biomesoplenty:white_sandstone                |     0.80 |        4.00 |
+| Biomes O' Plenty    | biomesoplenty:white_sandstone_stairs         |     0.80 |        4.00 |
+| Biomes O' Plenty    | biomesoplenty:willow_door_block              |     3.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:willow_fence                   |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:willow_fence_gate              |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:willow_stairs                  |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:willow_vine                    |     0.20 |        1.00 |
+| Biomes O' Plenty    | biomesoplenty:wood_slab_0                    |     2.00 |       15.00 |
+| Biomes O' Plenty    | biomesoplenty:wood_slab_1                    |     2.00 |       15.00 |
+| Canny Composter     | composter:compost_bin                        |     1.50 |       15.00 |
+| Ceramics            | ceramics:channel                             |     3.00 |       60.00 |
+| Ceramics            | ceramics:clay_barrel                         |     1.25 |       21.00 |
+| Ceramics            | ceramics:clay_barrel_stained                 |     1.25 |       21.00 |
+| Ceramics            | ceramics:clay_barrel_stained_extension       |     1.25 |       21.00 |
+| Ceramics            | ceramics:clay_barrel_unfired                 |     0.60 |        3.00 |
+| Ceramics            | ceramics:clay_bucket_block                   |     0.00 |        0.00 |
+| Ceramics            | ceramics:clay_hard                           |     1.25 |       90.00 |
+| Ceramics            | ceramics:clay_slab                           |     1.25 |       90.00 |
+| Ceramics            | ceramics:clay_soft                           |     0.60 |        9.00 |
+| Ceramics            | ceramics:clay_wall                           |     1.25 |       90.00 |
+| Ceramics            | ceramics:dark_bricks_stairs                  |     1.25 |       90.00 |
+| Ceramics            | ceramics:dragon_bricks_stairs                |     1.25 |       90.00 |
+| Ceramics            | ceramics:faucet                              |     3.00 |       60.00 |
+| Ceramics            | ceramics:golden_bricks_stairs                |     1.25 |       90.00 |
+| Ceramics            | ceramics:lava_bricks_stairs                  |     1.25 |       90.00 |
+| Ceramics            | ceramics:marine_bricks_stairs                |     1.25 |       90.00 |
+| Ceramics            | ceramics:monochrome_bricks_stairs            |     1.25 |       90.00 |
+| Ceramics            | ceramics:porcelain                           |     1.25 |       90.00 |
+| Ceramics            | ceramics:porcelain_barrel                    |     1.25 |       21.00 |
+| Ceramics            | ceramics:porcelain_barrel_extension          |     1.25 |       21.00 |
+| Ceramics            | ceramics:porcelain_bricks_stairs             |     1.25 |       90.00 |
+| Ceramics            | ceramics:rainbow_bricks_stairs               |     1.25 |       90.00 |
+| Ceramics            | ceramics:rainbow_clay                        |     1.25 |       90.00 |
+| Chisel              | chisel:andesite                              |     1.50 |       90.00 |
+| Chisel              | chisel:andesite1                             |     1.50 |       90.00 |
+| Chisel              | chisel:andesite2                             |     1.50 |       90.00 |
+| Chisel              | chisel:antiblock                             |     1.00 |        5.00 |
+| Chisel              | chisel:auto_chisel                           |     2.50 |       12.50 |
+| Chisel              | chisel:basalt                                |     1.50 |       30.00 |
+| Chisel              | chisel:basalt1                               |     1.50 |       30.00 |
+| Chisel              | chisel:basalt2                               |     1.50 |       30.00 |
+| Chisel              | chisel:block_charcoal                        |     5.00 |       30.00 |
+| Chisel              | chisel:block_charcoal1                       |     5.00 |       30.00 |
+| Chisel              | chisel:block_charcoal2                       |     5.00 |       30.00 |
+| Chisel              | chisel:block_coal                            |     5.00 |       30.00 |
+| Chisel              | chisel:block_coal1                           |     5.00 |       30.00 |
+| Chisel              | chisel:block_coal2                           |     5.00 |       30.00 |
+| Chisel              | chisel:block_coal_coke                       |     5.00 |       30.00 |
+| Chisel              | chisel:block_coal_coke1                      |     5.00 |       30.00 |
+| Chisel              | chisel:block_coal_coke2                      |     5.00 |       30.00 |
+| Chisel              | chisel:blockaluminum                         |     1.00 |        5.00 |
+| Chisel              | chisel:blockbronze                           |     5.00 |       25.00 |
+| Chisel              | chisel:blockcobalt                           |     5.00 |       25.00 |
+| Chisel              | chisel:blockcopper                           |     5.00 |       25.00 |
+| Chisel              | chisel:blockelectrum                         |     5.00 |       25.00 |
+| Chisel              | chisel:blockgold                             |     3.00 |       30.00 |
+| Chisel              | chisel:blockinvar                            |     5.00 |       25.00 |
+| Chisel              | chisel:blockiron                             |     5.00 |       25.00 |
+| Chisel              | chisel:blocklead                             |     5.00 |       25.00 |
+| Chisel              | chisel:blocknickel                           |     5.00 |       25.00 |
+| Chisel              | chisel:blockplatinum                         |     5.00 |       25.00 |
+| Chisel              | chisel:blocksilver                           |     1.00 |        5.00 |
+| Chisel              | chisel:blocksteel                            |     1.00 |        5.00 |
+| Chisel              | chisel:blocktin                              |     1.00 |        5.00 |
+| Chisel              | chisel:blockuranium                          |     1.00 |        5.00 |
+| Chisel              | chisel:bookshelf_acacia                      |     1.50 |        7.50 |
+| Chisel              | chisel:bookshelf_birch                       |     1.50 |        7.50 |
+| Chisel              | chisel:bookshelf_darkoak                     |     1.50 |        7.50 |
+| Chisel              | chisel:bookshelf_jungle                      |     1.50 |        7.50 |
+| Chisel              | chisel:bookshelf_oak                         |     1.50 |        7.50 |
+| Chisel              | chisel:bookshelf_spruce                      |     1.50 |        7.50 |
+| Chisel              | chisel:bricks                                |     2.00 |       30.00 |
+| Chisel              | chisel:bricks1                               |     2.00 |       30.00 |
+| Chisel              | chisel:bricks2                               |     2.00 |       30.00 |
+| Chisel              | chisel:brownstone                            |     1.00 |        5.00 |
+| Chisel              | chisel:carpet_black                          |     0.10 |        5.00 |
+| Chisel              | chisel:carpet_blue                           |     0.10 |        5.00 |
+| Chisel              | chisel:carpet_brown                          |     0.10 |        5.00 |
+| Chisel              | chisel:carpet_cyan                           |     0.10 |        5.00 |
+| Chisel              | chisel:carpet_gray                           |     0.10 |        5.00 |
+| Chisel              | chisel:carpet_green                          |     0.10 |        5.00 |
+| Chisel              | chisel:carpet_lightblue                      |     0.10 |        5.00 |
+| Chisel              | chisel:carpet_lightgray                      |     0.10 |        5.00 |
+| Chisel              | chisel:carpet_lime                           |     0.10 |        5.00 |
+| Chisel              | chisel:carpet_magenta                        |     0.10 |        5.00 |
+| Chisel              | chisel:carpet_orange                         |     0.10 |        5.00 |
+| Chisel              | chisel:carpet_pink                           |     0.10 |        5.00 |
+| Chisel              | chisel:carpet_purple                         |     0.10 |        5.00 |
+| Chisel              | chisel:carpet_red                            |     0.10 |        5.00 |
+| Chisel              | chisel:carpet_white                          |     0.10 |        5.00 |
+| Chisel              | chisel:carpet_yellow                         |     0.10 |        5.00 |
+| Chisel              | chisel:cloud                                 |     0.30 |        5.00 |
+| Chisel              | chisel:cobblestone                           |     2.00 |       30.00 |
+| Chisel              | chisel:cobblestone1                          |     2.00 |       30.00 |
+| Chisel              | chisel:cobblestone2                          |     2.00 |       30.00 |
+| Chisel              | chisel:cobblestonemossy                      |     2.00 |       30.00 |
+| Chisel              | chisel:cobblestonemossy1                     |     2.00 |       30.00 |
+| Chisel              | chisel:cobblestonemossy2                     |     2.00 |       30.00 |
+| Chisel              | chisel:concrete_black                        |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_black1                       |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_black2                       |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_blue                         |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_blue1                        |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_blue2                        |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_brown                        |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_brown1                       |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_brown2                       |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_cyan                         |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_cyan1                        |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_cyan2                        |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_gray                         |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_gray1                        |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_gray2                        |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_green                        |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_green1                       |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_green2                       |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_lightblue                    |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_lightblue1                   |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_lightblue2                   |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_lightgray                    |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_lightgray1                   |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_lightgray2                   |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_lime                         |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_lime1                        |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_lime2                        |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_magenta                      |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_magenta1                     |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_magenta2                     |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_orange                       |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_orange1                      |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_orange2                      |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_pink                         |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_pink1                        |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_pink2                        |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_purple                       |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_purple1                      |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_purple2                      |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_red                          |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_red1                         |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_red2                         |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_white                        |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_white1                       |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_white2                       |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_yellow                       |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_yellow1                      |     1.50 |        7.50 |
+| Chisel              | chisel:concrete_yellow2                      |     1.50 |        7.50 |
+| Chisel              | chisel:diamond                               |     5.00 |       25.00 |
+| Chisel              | chisel:diorite                               |     1.50 |       90.00 |
+| Chisel              | chisel:diorite1                              |     1.50 |       90.00 |
+| Chisel              | chisel:diorite2                              |     1.50 |       90.00 |
+| Chisel              | chisel:dirt                                  |     0.50 |        5.00 |
+| Chisel              | chisel:emerald                               |     5.00 |       30.00 |
+| Chisel              | chisel:endstone                              |     3.00 |       45.00 |
+| Chisel              | chisel:endstone1                             |     3.00 |       45.00 |
+| Chisel              | chisel:endstone2                             |     3.00 |       45.00 |
+| Chisel              | chisel:energizedvoidstone                    |     1.00 |        5.00 |
+| Chisel              | chisel:factory                               |     1.00 |        5.00 |
+| Chisel              | chisel:factory1                              |     1.00 |        5.00 |
+| Chisel              | chisel:futura                                |     1.00 |        5.00 |
+| Chisel              | chisel:glass                                 |     0.30 |        5.00 |
+| Chisel              | chisel:glass1                                |     0.30 |        5.00 |
+| Chisel              | chisel:glassdyedblack                        |     0.30 |        5.00 |
+| Chisel              | chisel:glassdyedblue                         |     0.30 |        5.00 |
+| Chisel              | chisel:glassdyedbrown                        |     0.30 |        5.00 |
+| Chisel              | chisel:glassdyedcyan                         |     0.30 |        5.00 |
+| Chisel              | chisel:glassdyedgray                         |     0.30 |        5.00 |
+| Chisel              | chisel:glassdyedgreen                        |     0.30 |        5.00 |
+| Chisel              | chisel:glassdyedlightblue                    |     0.30 |        5.00 |
+| Chisel              | chisel:glassdyedlightgray                    |     0.30 |        5.00 |
+| Chisel              | chisel:glassdyedlime                         |     0.30 |        5.00 |
+| Chisel              | chisel:glassdyedmagenta                      |     0.30 |        5.00 |
+| Chisel              | chisel:glassdyedorange                       |     0.30 |        5.00 |
+| Chisel              | chisel:glassdyedpink                         |     0.30 |        5.00 |
+| Chisel              | chisel:glassdyedpurple                       |     0.30 |        5.00 |
+| Chisel              | chisel:glassdyedred                          |     0.30 |        5.00 |
+| Chisel              | chisel:glassdyedwhite                        |     0.30 |        5.00 |
+| Chisel              | chisel:glassdyedyellow                       |     0.30 |        5.00 |
+| Chisel              | chisel:glasspane                             |     0.30 |        5.00 |
+| Chisel              | chisel:glasspane1                            |     0.30 |        5.00 |
+| Chisel              | chisel:glasspanedyedblack                    |     0.30 |        5.00 |
+| Chisel              | chisel:glasspanedyedblue                     |     0.30 |        5.00 |
+| Chisel              | chisel:glasspanedyedbrown                    |     0.30 |        5.00 |
+| Chisel              | chisel:glasspanedyedcyan                     |     0.30 |        5.00 |
+| Chisel              | chisel:glasspanedyedgray                     |     0.30 |        5.00 |
+| Chisel              | chisel:glasspanedyedgreen                    |     0.30 |        5.00 |
+| Chisel              | chisel:glasspanedyedlightblue                |     0.30 |        5.00 |
+| Chisel              | chisel:glasspanedyedlightgray                |     0.30 |        5.00 |
+| Chisel              | chisel:glasspanedyedlime                     |     0.30 |        5.00 |
+| Chisel              | chisel:glasspanedyedmagenta                  |     0.30 |        5.00 |
+| Chisel              | chisel:glasspanedyedorange                   |     0.30 |        5.00 |
+| Chisel              | chisel:glasspanedyedpink                     |     0.30 |        5.00 |
+| Chisel              | chisel:glasspanedyedpurple                   |     0.30 |        5.00 |
+| Chisel              | chisel:glasspanedyedred                      |     0.30 |        5.00 |
+| Chisel              | chisel:glasspanedyedwhite                    |     0.30 |        5.00 |
+| Chisel              | chisel:glasspanedyedyellow                   |     0.30 |        5.00 |
+| Chisel              | chisel:glowstone                             |     0.30 |        4.50 |
+| Chisel              | chisel:glowstone1                            |     0.30 |        4.50 |
+| Chisel              | chisel:glowstone2                            |     0.30 |        4.50 |
+| Chisel              | chisel:gold                                  |     3.00 |       30.00 |
+| Chisel              | chisel:granite                               |     1.50 |       90.00 |
+| Chisel              | chisel:granite1                              |     1.50 |       90.00 |
+| Chisel              | chisel:granite2                              |     1.50 |       90.00 |
+| Chisel              | chisel:hardenedclay                          |     1.25 |       21.00 |
+| Chisel              | chisel:hardenedclay1                         |     1.25 |       21.00 |
+| Chisel              | chisel:hardenedclay2                         |     1.25 |       21.00 |
+| Chisel              | chisel:ice                                   |     0.50 |        5.00 |
+| Chisel              | chisel:ice1                                  |     0.50 |        5.00 |
+| Chisel              | chisel:ice2                                  |     0.50 |        5.00 |
+| Chisel              | chisel:icepillar                             |     0.50 |        5.00 |
+| Chisel              | chisel:iron                                  |     5.00 |       25.00 |
+| Chisel              | chisel:ironpane                              |     5.00 |       25.00 |
+| Chisel              | chisel:laboratory                            |     1.00 |        5.00 |
+| Chisel              | chisel:lapis                                 |     3.00 |       15.00 |
+| Chisel              | chisel:lavastone                             |     4.00 |      150.00 |
+| Chisel              | chisel:lavastone1                            |     4.00 |      150.00 |
+| Chisel              | chisel:lavastone2                            |     4.00 |      150.00 |
+| Chisel              | chisel:limestone                             |     1.50 |       30.00 |
+| Chisel              | chisel:limestone1                            |     1.50 |       30.00 |
+| Chisel              | chisel:limestone2                            |     1.50 |       30.00 |
+| Chisel              | chisel:marble                                |     1.50 |       30.00 |
+| Chisel              | chisel:marble1                               |     1.50 |       30.00 |
+| Chisel              | chisel:marble2                               |     1.50 |       30.00 |
+| Chisel              | chisel:marblepillar                          |     1.50 |       30.00 |
+| Chisel              | chisel:netherbrick                           |     2.00 |       30.00 |
+| Chisel              | chisel:netherrack                            |     0.40 |        5.00 |
+| Chisel              | chisel:obsidian                              |    50.00 |     6000.00 |
+| Chisel              | chisel:paper                                 |     1.50 |        7.50 |
+| Chisel              | chisel:planks-acacia                         |     2.00 |       15.00 |
+| Chisel              | chisel:planks-birch                          |     2.00 |       15.00 |
+| Chisel              | chisel:planks-dark-oak                       |     2.00 |       15.00 |
+| Chisel              | chisel:planks-jungle                         |     2.00 |       15.00 |
+| Chisel              | chisel:planks-oak                            |     2.00 |       15.00 |
+| Chisel              | chisel:planks-spruce                         |     2.00 |       15.00 |
+| Chisel              | chisel:prismarine                            |     1.50 |       30.00 |
+| Chisel              | chisel:prismarine1                           |     1.50 |       30.00 |
+| Chisel              | chisel:prismarine2                           |     1.50 |       30.00 |
+| Chisel              | chisel:purpur                                |     1.50 |       30.00 |
+| Chisel              | chisel:purpur1                               |     1.50 |       30.00 |
+| Chisel              | chisel:purpur2                               |     1.50 |       30.00 |
+| Chisel              | chisel:quartz                                |     0.80 |       12.00 |
+| Chisel              | chisel:quartz1                               |     0.80 |       12.00 |
+| Chisel              | chisel:redstone                              |     5.00 |       30.00 |
+| Chisel              | chisel:redstone1                             |     5.00 |       30.00 |
+| Chisel              | chisel:sandstone-scribbles                   |     0.80 |        5.00 |
+| Chisel              | chisel:sandstonered                          |     0.80 |        5.00 |
+| Chisel              | chisel:sandstonered-scribbles                |     0.80 |        5.00 |
+| Chisel              | chisel:sandstonered1                         |     0.80 |        5.00 |
+| Chisel              | chisel:sandstonered2                         |     0.80 |        5.00 |
+| Chisel              | chisel:sandstoneyellow                       |     0.80 |        5.00 |
+| Chisel              | chisel:sandstoneyellow1                      |     0.80 |        5.00 |
+| Chisel              | chisel:sandstoneyellow2                      |     0.80 |        5.00 |
+| Chisel              | chisel:stonebrick                            |     1.50 |       30.00 |
+| Chisel              | chisel:stonebrick1                           |     1.50 |       30.00 |
+| Chisel              | chisel:stonebrick2                           |     1.50 |       30.00 |
+| Chisel              | chisel:technical                             |     1.00 |        5.00 |
+| Chisel              | chisel:technical1                            |     1.00 |        5.00 |
+| Chisel              | chisel:technicalnew                          |     1.00 |        5.00 |
+| Chisel              | chisel:temple                                |     1.50 |       30.00 |
+| Chisel              | chisel:templemossy                           |     1.50 |       30.00 |
+| Chisel              | chisel:tyrian                                |     1.00 |        5.00 |
+| Chisel              | chisel:valentines                            |     1.50 |       60.00 |
+| Chisel              | chisel:voidstone                             |     1.00 |        5.00 |
+| Chisel              | chisel:voidstonerunic                        |     1.00 |        5.00 |
+| Chisel              | chisel:waterstone                            |     4.00 |      150.00 |
+| Chisel              | chisel:waterstone1                           |     4.00 |      150.00 |
+| Chisel              | chisel:waterstone2                           |     4.00 |      150.00 |
+| Chisel              | chisel:wool_black                            |     0.80 |        5.00 |
+| Chisel              | chisel:wool_blue                             |     0.80 |        5.00 |
+| Chisel              | chisel:wool_brown                            |     0.80 |        5.00 |
+| Chisel              | chisel:wool_cyan                             |     0.80 |        5.00 |
+| Chisel              | chisel:wool_gray                             |     0.80 |        5.00 |
+| Chisel              | chisel:wool_green                            |     0.80 |        5.00 |
+| Chisel              | chisel:wool_lightblue                        |     0.80 |        5.00 |
+| Chisel              | chisel:wool_lightgray                        |     0.80 |        5.00 |
+| Chisel              | chisel:wool_lime                             |     0.80 |        5.00 |
+| Chisel              | chisel:wool_magenta                          |     0.80 |        5.00 |
+| Chisel              | chisel:wool_orange                           |     0.80 |        5.00 |
+| Chisel              | chisel:wool_pink                             |     0.80 |        5.00 |
+| Chisel              | chisel:wool_purple                           |     0.80 |        5.00 |
+| Chisel              | chisel:wool_red                              |     0.80 |        5.00 |
+| Chisel              | chisel:wool_white                            |     0.80 |        5.00 |
+| Chisel              | chisel:wool_yellow                           |     0.80 |        5.00 |
+| Hammer Core         | hammercore:diamond_bordered_cobblestone      |     2.00 |       10.00 |
+| Hammer Core         | hammercore:emerald_bordered_cobblestone      |     2.00 |       10.00 |
+| Hammer Core         | hammercore:gold_bordered_cobblestone         |     2.00 |       10.00 |
+| Hammer Core         | hammercore:iron_bordered_cobblestone         |     2.00 |       10.00 |
+| Hammer Core         | hammercore:lying_item                        |     0.00 |        0.00 |
+| Hammer Core         | hammercore:multipart                         |     0.00 |        0.00 |
+| Hammer Core         | hammercore:quartz_bordered_cobblestone       |     2.00 |       10.00 |
+| Inspirations        | inspirations:bookshelf                       |     2.00 |       15.00 |
+| Inspirations        | inspirations:bricks_button                   |     1.50 |       30.00 |
+| Inspirations        | inspirations:cactus_crop                     |     0.40 |        2.00 |
+| Inspirations        | inspirations:carpeted_pressure_plate_1       |     0.50 |        2.50 |
+| Inspirations        | inspirations:carpeted_pressure_plate_2       |     0.50 |        2.50 |
+| Inspirations        | inspirations:carpeted_trapdoor_black         |     3.00 |       15.00 |
+| Inspirations        | inspirations:carpeted_trapdoor_blue          |     3.00 |       15.00 |
+| Inspirations        | inspirations:carpeted_trapdoor_brown         |     3.00 |       15.00 |
+| Inspirations        | inspirations:carpeted_trapdoor_cyan          |     3.00 |       15.00 |
+| Inspirations        | inspirations:carpeted_trapdoor_gray          |     3.00 |       15.00 |
+| Inspirations        | inspirations:carpeted_trapdoor_green         |     3.00 |       15.00 |
+| Inspirations        | inspirations:carpeted_trapdoor_light_blue    |     3.00 |       15.00 |
+| Inspirations        | inspirations:carpeted_trapdoor_lime          |     3.00 |       15.00 |
+| Inspirations        | inspirations:carpeted_trapdoor_magenta       |     3.00 |       15.00 |
+| Inspirations        | inspirations:carpeted_trapdoor_orange        |     3.00 |       15.00 |
+| Inspirations        | inspirations:carpeted_trapdoor_pink          |     3.00 |       15.00 |
+| Inspirations        | inspirations:carpeted_trapdoor_purple        |     3.00 |       15.00 |
+| Inspirations        | inspirations:carpeted_trapdoor_red           |     3.00 |       15.00 |
+| Inspirations        | inspirations:carpeted_trapdoor_silver        |     3.00 |       15.00 |
+| Inspirations        | inspirations:carpeted_trapdoor_white         |     3.00 |       15.00 |
+| Inspirations        | inspirations:carpeted_trapdoor_yellow        |     3.00 |       15.00 |
+| Inspirations        | inspirations:collector                       |     3.50 |       17.50 |
+| Inspirations        | inspirations:enlightened_bush                |     0.00 |        0.00 |
+| Inspirations        | inspirations:flower                          |     0.00 |        0.00 |
+| Inspirations        | inspirations:glass_door                      |     0.30 |        1.50 |
+| Inspirations        | inspirations:glass_trapdoor                  |     0.30 |        1.50 |
+| Inspirations        | inspirations:mulch                           |     0.60 |        3.00 |
+| Inspirations        | inspirations:path                            |     1.50 |       30.00 |
+| Inspirations        | inspirations:pipe                            |     3.00 |       24.00 |
+| Inspirations        | inspirations:redstone_barrel                 |     1.50 |       30.00 |
+| Inspirations        | inspirations:redstone_charge                 |     0.00 |        0.00 |
+| Inspirations        | inspirations:redstone_torch_lever            |     0.00 |        0.00 |
+| Inspirations        | inspirations:redstone_torch_lever_powered    |     0.00 |        0.00 |
+| Inspirations        | inspirations:rope                            |     0.50 |        2.50 |
+| Inspirations        | inspirations:sugar_cane_crop                 |     0.00 |        0.00 |
+| Inspirations        | inspirations:torch_lever                     |     0.00 |        0.00 |
+| McJtyLib            | mcjtylib_ng:multipart                        |     2.00 |       10.00 |
+| Minecraft           | minecraft:acacia_door                        |     3.00 |       15.00 |
+| Minecraft           | minecraft:acacia_fence                       |     2.00 |       15.00 |
+| Minecraft           | minecraft:acacia_fence_gate                  |     2.00 |       15.00 |
+| Minecraft           | minecraft:acacia_stairs                      |     2.00 |       15.00 |
+| Minecraft           | minecraft:activator_rail                     |     0.70 |        3.50 |
+| Minecraft           | minecraft:air                                |     0.00 |        0.00 |
+| Minecraft           | minecraft:anvil                              |     5.00 |     6000.00 |
+| Minecraft           | minecraft:barrier                            |    -1.00 | 18000004.00 |
+| Minecraft           | minecraft:beacon                             |     3.00 |       15.00 |
+| Minecraft           | minecraft:bed                                |     0.20 |        1.00 |
+| Minecraft           | minecraft:bedrock                            |    -1.00 | 18000000.00 |
+| Minecraft           | minecraft:beetroots                          |     0.00 |        0.00 |
+| Minecraft           | minecraft:birch_door                         |     3.00 |       15.00 |
+| Minecraft           | minecraft:birch_fence                        |     2.00 |       15.00 |
+| Minecraft           | minecraft:birch_fence_gate                   |     2.00 |       15.00 |
+| Minecraft           | minecraft:birch_stairs                       |     2.00 |       15.00 |
+| Minecraft           | minecraft:black_glazed_terracotta            |     1.40 |        7.00 |
+| Minecraft           | minecraft:black_shulker_box                  |     2.00 |       10.00 |
+| Minecraft           | minecraft:blue_glazed_terracotta             |     1.40 |        7.00 |
+| Minecraft           | minecraft:blue_shulker_box                   |     2.00 |       10.00 |
+| Minecraft           | minecraft:bone_block                         |     2.00 |       10.00 |
+| Minecraft           | minecraft:bookshelf                          |     1.50 |        7.50 |
+| Minecraft           | minecraft:brewing_stand                      |     0.50 |        2.50 |
+| Minecraft           | minecraft:brick_block                        |     2.00 |       30.00 |
+| Minecraft           | minecraft:brick_stairs                       |     2.00 |       30.00 |
+| Minecraft           | minecraft:brown_glazed_terracotta            |     1.40 |        7.00 |
+| Minecraft           | minecraft:brown_mushroom                     |     0.00 |        0.00 |
+| Minecraft           | minecraft:brown_mushroom_block               |     0.20 |        1.00 |
+| Minecraft           | minecraft:brown_shulker_box                  |     2.00 |       10.00 |
+| Minecraft           | minecraft:cactus                             |     0.40 |        2.00 |
+| Minecraft           | minecraft:cake                               |     0.50 |        2.50 |
+| Minecraft           | minecraft:carpet                             |     0.10 |        0.50 |
+| Minecraft           | minecraft:carrots                            |     0.00 |        0.00 |
+| Minecraft           | minecraft:cauldron                           |     2.00 |       10.00 |
+| Minecraft           | minecraft:chain_command_block                |    -1.00 | 18000000.00 |
+| Minecraft           | minecraft:chest                              |     2.50 |       12.50 |
+| Minecraft           | minecraft:chorus_flower                      |     0.40 |        2.00 |
+| Minecraft           | minecraft:chorus_plant                       |     0.40 |        2.00 |
+| Minecraft           | minecraft:clay                               |     0.60 |        3.00 |
+| Minecraft           | minecraft:coal_block                         |     5.00 |       30.00 |
+| Minecraft           | minecraft:coal_ore                           |     3.00 |       15.00 |
+| Minecraft           | minecraft:cobblestone                        |     2.00 |       30.00 |
+| Minecraft           | minecraft:cobblestone_wall                   |     2.00 |       30.00 |
+| Minecraft           | minecraft:cocoa                              |     0.20 |       15.00 |
+| Minecraft           | minecraft:command_block                      |    -1.00 | 18000000.00 |
+| Minecraft           | minecraft:concrete                           |     1.80 |        9.00 |
+| Minecraft           | minecraft:concrete_powder                    |     0.50 |        2.50 |
+| Minecraft           | minecraft:crafting_table                     |     1.50 |        7.50 |
+| Minecraft           | minecraft:cyan_glazed_terracotta             |     1.40 |        7.00 |
+| Minecraft           | minecraft:cyan_shulker_box                   |     2.00 |       10.00 |
+| Minecraft           | minecraft:dark_oak_door                      |     3.00 |       15.00 |
+| Minecraft           | minecraft:dark_oak_fence                     |     2.00 |       15.00 |
+| Minecraft           | minecraft:dark_oak_fence_gate                |     2.00 |       15.00 |
+| Minecraft           | minecraft:dark_oak_stairs                    |     2.00 |       15.00 |
+| Minecraft           | minecraft:daylight_detector                  |     0.20 |        1.00 |
+| Minecraft           | minecraft:daylight_detector_inverted         |     0.20 |        1.00 |
+| Minecraft           | minecraft:deadbush                           |     0.00 |        0.00 |
+| Minecraft           | minecraft:detector_rail                      |     0.70 |        3.50 |
+| Minecraft           | minecraft:diamond_block                      |     5.00 |       30.00 |
+| Minecraft           | minecraft:diamond_ore                        |     3.00 |       15.00 |
+| Minecraft           | minecraft:dirt                               |     0.50 |        2.50 |
+| Minecraft           | minecraft:dispenser                          |     3.50 |       17.50 |
+| Minecraft           | minecraft:double_plant                       |     0.00 |        0.00 |
+| Minecraft           | minecraft:double_stone_slab                  |     2.00 |       30.00 |
+| Minecraft           | minecraft:double_stone_slab2                 |     2.00 |       30.00 |
+| Minecraft           | minecraft:double_wooden_slab                 |     2.00 |       15.00 |
+| Minecraft           | minecraft:dragon_egg                         |     3.00 |       45.00 |
+| Minecraft           | minecraft:dropper                            |     3.50 |       17.50 |
+| Minecraft           | minecraft:emerald_block                      |     5.00 |       30.00 |
+| Minecraft           | minecraft:emerald_ore                        |     3.00 |       15.00 |
+| Minecraft           | minecraft:enchanting_table                   |     5.00 |     6000.00 |
+| Minecraft           | minecraft:end_bricks                         |     0.80 |        4.00 |
+| Minecraft           | minecraft:end_gateway                        |    -1.00 | 18000000.00 |
+| Minecraft           | minecraft:end_portal                         |    -1.00 | 18000000.00 |
+| Minecraft           | minecraft:end_portal_frame                   |    -1.00 | 18000000.00 |
+| Minecraft           | minecraft:end_rod                            |     0.00 |        0.00 |
+| Minecraft           | minecraft:end_stone                          |     3.00 |       45.00 |
+| Minecraft           | minecraft:ender_chest                        |    22.50 |     3000.00 |
+| Minecraft           | minecraft:farmland                           |     0.60 |        3.00 |
+| Minecraft           | minecraft:fence                              |     2.00 |       15.00 |
+| Minecraft           | minecraft:fence_gate                         |     2.00 |       15.00 |
+| Minecraft           | minecraft:fire                               |     0.00 |        0.00 |
+| Minecraft           | minecraft:flower_pot                         |     0.00 |        0.00 |
+| Minecraft           | minecraft:flowing_lava                       |   100.00 |      500.00 |
+| Minecraft           | minecraft:flowing_water                      |   100.00 |      500.00 |
+| Minecraft           | minecraft:frosted_ice                        |     0.50 |        2.50 |
+| Minecraft           | minecraft:furnace                            |     3.50 |       17.50 |
+| Minecraft           | minecraft:glass                              |     0.30 |        1.50 |
+| Minecraft           | minecraft:glass_pane                         |     0.30 |        1.50 |
+| Minecraft           | minecraft:glowstone                          |     0.30 |        1.50 |
+| Minecraft           | minecraft:gold_block                         |     3.00 |       30.00 |
+| Minecraft           | minecraft:gold_ore                           |     3.00 |       15.00 |
+| Minecraft           | minecraft:golden_rail                        |     0.70 |        3.50 |
+| Minecraft           | minecraft:grass                              |     0.60 |        3.00 |
+| Minecraft           | minecraft:grass_path                         |     0.65 |        3.25 |
+| Minecraft           | minecraft:gravel                             |     0.60 |        3.00 |
+| Minecraft           | minecraft:gray_glazed_terracotta             |     1.40 |        7.00 |
+| Minecraft           | minecraft:gray_shulker_box                   |     2.00 |       10.00 |
+| Minecraft           | minecraft:green_glazed_terracotta            |     1.40 |        7.00 |
+| Minecraft           | minecraft:green_shulker_box                  |     2.00 |       10.00 |
+| Minecraft           | minecraft:hardened_clay                      |     1.25 |       21.00 |
+| Minecraft           | minecraft:hay_block                          |     0.50 |        2.50 |
+| Minecraft           | minecraft:heavy_weighted_pressure_plate      |     0.50 |        2.50 |
+| Minecraft           | minecraft:hopper                             |     3.00 |       24.00 |
+| Minecraft           | minecraft:ice                                |     0.50 |        2.50 |
+| Minecraft           | minecraft:iron_bars                          |     5.00 |       30.00 |
+| Minecraft           | minecraft:iron_block                         |     5.00 |       30.00 |
+| Minecraft           | minecraft:iron_door                          |     5.00 |       25.00 |
+| Minecraft           | minecraft:iron_ore                           |     3.00 |       15.00 |
+| Minecraft           | minecraft:iron_trapdoor                      |     5.00 |       25.00 |
+| Minecraft           | minecraft:jukebox                            |     2.00 |       30.00 |
+| Minecraft           | minecraft:jungle_door                        |     3.00 |       15.00 |
+| Minecraft           | minecraft:jungle_fence                       |     2.00 |       15.00 |
+| Minecraft           | minecraft:jungle_fence_gate                  |     2.00 |       15.00 |
+| Minecraft           | minecraft:jungle_stairs                      |     2.00 |       15.00 |
+| Minecraft           | minecraft:ladder                             |     0.40 |        2.00 |
+| Minecraft           | minecraft:lapis_block                        |     3.00 |       15.00 |
+| Minecraft           | minecraft:lapis_ore                          |     3.00 |       15.00 |
+| Minecraft           | minecraft:lava                               |   100.00 |      500.00 |
+| Minecraft           | minecraft:leaves                             |     0.20 |        1.00 |
+| Minecraft           | minecraft:leaves2                            |     0.20 |        1.00 |
+| Minecraft           | minecraft:lever                              |     0.50 |        2.50 |
+| Minecraft           | minecraft:light_blue_glazed_terracotta       |     1.40 |        7.00 |
+| Minecraft           | minecraft:light_blue_shulker_box             |     2.00 |       10.00 |
+| Minecraft           | minecraft:light_weighted_pressure_plate      |     0.50 |        2.50 |
+| Minecraft           | minecraft:lime_glazed_terracotta             |     1.40 |        7.00 |
+| Minecraft           | minecraft:lime_shulker_box                   |     2.00 |       10.00 |
+| Minecraft           | minecraft:lit_furnace                        |     3.50 |       17.50 |
+| Minecraft           | minecraft:lit_pumpkin                        |     1.00 |        5.00 |
+| Minecraft           | minecraft:lit_redstone_lamp                  |     0.30 |        1.50 |
+| Minecraft           | minecraft:lit_redstone_ore                   |     3.00 |       15.00 |
+| Minecraft           | minecraft:log                                |     2.00 |       10.00 |
+| Minecraft           | minecraft:log2                               |     2.00 |       10.00 |
+| Minecraft           | minecraft:magenta_glazed_terracotta          |     1.40 |        7.00 |
+| Minecraft           | minecraft:magenta_shulker_box                |     2.00 |       10.00 |
+| Minecraft           | minecraft:magma                              |     0.50 |        2.50 |
+| Minecraft           | minecraft:melon_block                        |     1.00 |        5.00 |
+| Minecraft           | minecraft:melon_stem                         |     0.00 |        0.00 |
+| Minecraft           | minecraft:mob_spawner                        |     5.00 |       25.00 |
+| Minecraft           | minecraft:monster_egg                        |     0.75 |        3.75 |
+| Minecraft           | minecraft:mossy_cobblestone                  |     2.00 |       30.00 |
+| Minecraft           | minecraft:mycelium                           |     0.60 |        3.00 |
+| Minecraft           | minecraft:nether_brick                       |     2.00 |       30.00 |
+| Minecraft           | minecraft:nether_brick_fence                 |     2.00 |       30.00 |
+| Minecraft           | minecraft:nether_brick_stairs                |     2.00 |       30.00 |
+| Minecraft           | minecraft:nether_wart                        |     0.00 |        0.00 |
+| Minecraft           | minecraft:nether_wart_block                  |     1.00 |        5.00 |
+| Minecraft           | minecraft:netherrack                         |     0.40 |        2.00 |
+| Minecraft           | minecraft:noteblock                          |     0.80 |        4.00 |
+| Minecraft           | minecraft:oak_stairs                         |     2.00 |       15.00 |
+| Minecraft           | minecraft:observer                           |     3.00 |       15.00 |
+| Minecraft           | minecraft:obsidian                           |    50.00 |     6000.00 |
+| Minecraft           | minecraft:orange_glazed_terracotta           |     1.40 |        7.00 |
+| Minecraft           | minecraft:orange_shulker_box                 |     2.00 |       10.00 |
+| Minecraft           | minecraft:packed_ice                         |     0.50 |        2.50 |
+| Minecraft           | minecraft:pink_glazed_terracotta             |     1.40 |        7.00 |
+| Minecraft           | minecraft:pink_shulker_box                   |     2.00 |       10.00 |
+| Minecraft           | minecraft:piston                             |     0.50 |        2.50 |
+| Minecraft           | minecraft:piston_extension                   |    -1.00 |        0.00 |
+| Minecraft           | minecraft:piston_head                        |     0.50 |        2.50 |
+| Minecraft           | minecraft:planks                             |     2.00 |       15.00 |
+| Minecraft           | minecraft:portal                             |    -1.00 |        0.00 |
+| Minecraft           | minecraft:potatoes                           |     0.00 |        0.00 |
+| Minecraft           | minecraft:powered_comparator                 |     0.00 |        0.00 |
+| Minecraft           | minecraft:powered_repeater                   |     0.00 |        0.00 |
+| Minecraft           | minecraft:prismarine                         |     1.50 |       30.00 |
+| Minecraft           | minecraft:pumpkin                            |     1.00 |        5.00 |
+| Minecraft           | minecraft:pumpkin_stem                       |     0.00 |        0.00 |
+| Minecraft           | minecraft:purple_glazed_terracotta           |     1.40 |        7.00 |
+| Minecraft           | minecraft:purple_shulker_box                 |     2.00 |       10.00 |
+| Minecraft           | minecraft:purpur_block                       |     1.50 |       30.00 |
+| Minecraft           | minecraft:purpur_double_slab                 |     2.00 |       30.00 |
+| Minecraft           | minecraft:purpur_pillar                      |     1.50 |       30.00 |
+| Minecraft           | minecraft:purpur_slab                        |     2.00 |       30.00 |
+| Minecraft           | minecraft:purpur_stairs                      |     1.50 |       30.00 |
+| Minecraft           | minecraft:quartz_block                       |     0.80 |        4.00 |
+| Minecraft           | minecraft:quartz_ore                         |     3.00 |       15.00 |
+| Minecraft           | minecraft:quartz_stairs                      |     0.80 |        4.00 |
+| Minecraft           | minecraft:rail                               |     0.70 |        3.50 |
+| Minecraft           | minecraft:red_flower                         |     0.00 |        0.00 |
+| Minecraft           | minecraft:red_glazed_terracotta              |     1.40 |        7.00 |
+| Minecraft           | minecraft:red_mushroom                       |     0.00 |        0.00 |
+| Minecraft           | minecraft:red_mushroom_block                 |     0.20 |        1.00 |
+| Minecraft           | minecraft:red_nether_brick                   |     2.00 |       30.00 |
+| Minecraft           | minecraft:red_sandstone                      |     0.80 |        4.00 |
+| Minecraft           | minecraft:red_sandstone_stairs               |     0.80 |        4.00 |
+| Minecraft           | minecraft:red_shulker_box                    |     2.00 |       10.00 |
+| Minecraft           | minecraft:redstone_block                     |     5.00 |       30.00 |
+| Minecraft           | minecraft:redstone_lamp                      |     0.30 |        1.50 |
+| Minecraft           | minecraft:redstone_ore                       |     3.00 |       15.00 |
+| Minecraft           | minecraft:redstone_torch                     |     0.00 |        0.00 |
+| Minecraft           | minecraft:redstone_wire                      |     0.00 |        0.00 |
+| Minecraft           | minecraft:reeds                              |     0.00 |        0.00 |
+| Minecraft           | minecraft:repeating_command_block            |    -1.00 | 18000000.00 |
+| Minecraft           | minecraft:sand                               |     0.50 |        2.50 |
+| Minecraft           | minecraft:sandstone                          |     0.80 |        4.00 |
+| Minecraft           | minecraft:sandstone_stairs                   |     0.80 |        4.00 |
+| Minecraft           | minecraft:sapling                            |     0.00 |        0.00 |
+| Minecraft           | minecraft:sea_lantern                        |     0.30 |        1.50 |
+| Minecraft           | minecraft:silver_glazed_terracotta           |     1.40 |        7.00 |
+| Minecraft           | minecraft:silver_shulker_box                 |     2.00 |       10.00 |
+| Minecraft           | minecraft:skull                              |     1.00 |        5.00 |
+| Minecraft           | minecraft:slime                              |     0.00 |        0.00 |
+| Minecraft           | minecraft:snow                               |     0.20 |        1.00 |
+| Minecraft           | minecraft:snow_layer                         |     0.10 |        0.50 |
+| Minecraft           | minecraft:soul_sand                          |     0.50 |        2.50 |
+| Minecraft           | minecraft:sponge                             |     0.60 |        3.00 |
+| Minecraft           | minecraft:spruce_door                        |     3.00 |       15.00 |
+| Minecraft           | minecraft:spruce_fence                       |     2.00 |       15.00 |
+| Minecraft           | minecraft:spruce_fence_gate                  |     2.00 |       15.00 |
+| Minecraft           | minecraft:spruce_stairs                      |     2.00 |       15.00 |
+| Minecraft           | minecraft:stained_glass                      |     0.30 |        1.50 |
+| Minecraft           | minecraft:stained_glass_pane                 |     0.30 |        1.50 |
+| Minecraft           | minecraft:stained_hardened_clay              |     1.25 |       21.00 |
+| Minecraft           | minecraft:standing_banner                    |     1.00 |        5.00 |
+| Minecraft           | minecraft:standing_sign                      |     1.00 |        5.00 |
+| Minecraft           | minecraft:sticky_piston                      |     0.50 |        2.50 |
+| Minecraft           | minecraft:stone                              |     1.50 |       30.00 |
+| Minecraft           | minecraft:stone_brick_stairs                 |     1.50 |       30.00 |
+| Minecraft           | minecraft:stone_button                       |     0.50 |        2.50 |
+| Minecraft           | minecraft:stone_pressure_plate               |     0.50 |        2.50 |
+| Minecraft           | minecraft:stone_slab                         |     2.00 |       30.00 |
+| Minecraft           | minecraft:stone_slab2                        |     2.00 |       30.00 |
+| Minecraft           | minecraft:stone_stairs                       |     2.00 |       30.00 |
+| Minecraft           | minecraft:stonebrick                         |     1.50 |       30.00 |
+| Minecraft           | minecraft:structure_block                    |    -1.00 | 18000000.00 |
+| Minecraft           | minecraft:structure_void                     |     0.00 |        0.00 |
+| Minecraft           | minecraft:tallgrass                          |     0.00 |        0.00 |
+| Minecraft           | minecraft:tnt                                |     0.00 |        0.00 |
+| Minecraft           | minecraft:torch                              |     0.00 |        0.00 |
+| Minecraft           | minecraft:trapdoor                           |     3.00 |       15.00 |
+| Minecraft           | minecraft:trapped_chest                      |     2.50 |       12.50 |
+| Minecraft           | minecraft:tripwire                           |     0.00 |        0.00 |
+| Minecraft           | minecraft:tripwire_hook                      |     0.00 |        0.00 |
+| Minecraft           | minecraft:unlit_redstone_torch               |     0.00 |        0.00 |
+| Minecraft           | minecraft:unpowered_comparator               |     0.00 |        0.00 |
+| Minecraft           | minecraft:unpowered_repeater                 |     0.00 |        0.00 |
+| Minecraft           | minecraft:vine                               |     0.20 |        1.00 |
+| Minecraft           | minecraft:wall_banner                        |     1.00 |        5.00 |
+| Minecraft           | minecraft:wall_sign                          |     1.00 |        5.00 |
+| Minecraft           | minecraft:water                              |   100.00 |      500.00 |
+| Minecraft           | minecraft:waterlily                          |     0.00 |        0.00 |
+| Minecraft           | minecraft:web                                |     4.00 |       20.00 |
+| Minecraft           | minecraft:wheat                              |     0.00 |        0.00 |
+| Minecraft           | minecraft:white_glazed_terracotta            |     1.40 |        7.00 |
+| Minecraft           | minecraft:white_shulker_box                  |     2.00 |       10.00 |
+| Minecraft           | minecraft:wooden_button                      |     0.50 |        2.50 |
+| Minecraft           | minecraft:wooden_door                        |     3.00 |       15.00 |
+| Minecraft           | minecraft:wooden_pressure_plate              |     0.50 |        2.50 |
+| Minecraft           | minecraft:wooden_slab                        |     2.00 |       15.00 |
+| Minecraft           | minecraft:wool                               |     0.80 |        4.00 |
+| Minecraft           | minecraft:yellow_flower                      |     0.00 |        0.00 |
+| Minecraft           | minecraft:yellow_glazed_terracotta           |     1.40 |        7.00 |
+| Minecraft           | minecraft:yellow_shulker_box                 |     2.00 |       10.00 |
+| More Cauldrons      | morecauldrons:acacia_cauldron                |     2.00 |       10.00 |
+| More Cauldrons      | morecauldrons:andesite_cauldron              |     2.00 |       10.00 |
+| More Cauldrons      | morecauldrons:big_oak_cauldron               |     2.00 |       10.00 |
+| More Cauldrons      | morecauldrons:birch_cauldron                 |     2.00 |       10.00 |
+| More Cauldrons      | morecauldrons:brick_cauldron                 |     2.00 |       30.00 |
+| More Cauldrons      | morecauldrons:cobble_cauldron                |     2.00 |       10.00 |
+| More Cauldrons      | morecauldrons:diamond_cauldron               |     5.00 |       30.00 |
+| More Cauldrons      | morecauldrons:diorite_cauldron               |     2.00 |       10.00 |
+| More Cauldrons      | morecauldrons:glass_cauldron                 |     0.30 |       10.00 |
+| More Cauldrons      | morecauldrons:gold_cauldron                  |     3.00 |       30.00 |
+| More Cauldrons      | morecauldrons:granite_cauldron               |     2.00 |       10.00 |
+| More Cauldrons      | morecauldrons:jungle_cauldron                |     2.00 |       10.00 |
+| More Cauldrons      | morecauldrons:oak_cauldron                   |     2.00 |       10.00 |
+| More Cauldrons      | morecauldrons:obsidian_cauldron              |    50.00 |     6000.00 |
+| More Cauldrons      | morecauldrons:smooth_andesite_cauldron       |     2.00 |       10.00 |
+| More Cauldrons      | morecauldrons:smooth_diorite_cauldron        |     2.00 |       10.00 |
+| More Cauldrons      | morecauldrons:smooth_granite_cauldron        |     2.00 |       10.00 |
+| More Cauldrons      | morecauldrons:spruce_cauldron                |     2.00 |       10.00 |
+| More Cauldrons      | morecauldrons:stone_cauldron                 |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:acacia_bench                        |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:aluminium_block                     |     8.50 |       42.50 |
+| Pixelmon            | pixelmon:amethyst_block                      |     8.50 |       42.50 |
+| Pixelmon            | pixelmon:amethyst_ore                        |     1.50 |        7.50 |
+| Pixelmon            | pixelmon:anvil                               |     1.00 |     6000.00 |
+| Pixelmon            | pixelmon:articuno_shrine                     |    -1.00 | 18000000.00 |
+| Pixelmon            | pixelmon:bauxite_ore                         |     5.00 |       25.00 |
+| Pixelmon            | pixelmon:beast_chest                         |    -1.00 | 18000000.00 |
+| Pixelmon            | pixelmon:bench                               |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:berrytree_aguav                     |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_apicot                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_aspear                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_babiri                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_charti                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_cheri                     |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_chesto                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_chilan                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_chople                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_coba                      |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_colbur                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_custap                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_enigma                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_figy                      |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_ganlon                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_grepa                     |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_haban                     |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_hondew                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_iapapa                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_jaboca                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_kasib                     |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_kebia                     |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_kelpsy                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_lansat                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_leppa                     |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_liechi                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_lum                       |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_mago                      |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_micle                     |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_occa                      |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_oran                      |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_passho                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_pecha                     |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_persim                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_petaya                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_pomeg                     |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_qualot                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_rawst                     |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_rindo                     |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_roseli                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_rowap                     |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_salac                     |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_shuca                     |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_sitrus                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_starf                     |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_tamato                    |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_tanga                     |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_wacan                     |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_wiki                      |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:berrytree_yache                     |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:birch_bench                         |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:black_apricorn_tree                 |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:black_armchair                      |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:black_chair                         |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:black_clock                         |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:black_couch                         |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:black_cushion_chair                 |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:black_folding_chair                 |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:black_rug                           |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:black_umbrella                      |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:black_vending_machine               |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:black_water_float                   |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:block.blue_orb                      |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:block.red_orb                       |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:blue_apricorn_tree                  |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:blue_armchair                       |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:blue_chair                          |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:blue_clock                          |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:blue_couch                          |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:blue_cushion_chair                  |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:blue_folding_chair                  |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:blue_rug                            |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:blue_umbrella                       |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:blue_vending_machine                |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:blue_water_float                    |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:bolder                              |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:box                                 |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:braille_block                       |     5.00 |       25.00 |
+| Pixelmon            | pixelmon:braille_block2                      |     5.00 |       25.00 |
+| Pixelmon            | pixelmon:bridge_block                        |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:brown_armchair                      |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:brown_chair                         |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:brown_clock                         |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:brown_couch                         |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:brown_cushion_chair                 |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:brown_folding_chair                 |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:brown_rug                           |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:brown_umbrella                      |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:brown_vending_machine               |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:brown_water_float                   |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:cash_register                       |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:cave_rock                           |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:clear_bell                          |     5.00 |       60.00 |
+| Pixelmon            | pixelmon:cloning_machine                     |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:clothed_table                       |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:cooking_pot                         |     2.50 |       12.50 |
+| Pixelmon            | pixelmon:crystal_block                       |     8.50 |       42.50 |
+| Pixelmon            | pixelmon:crystal_ore                         |     1.50 |        7.50 |
+| Pixelmon            | pixelmon:cyan_armchair                       |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:cyan_chair                          |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:cyan_clock                          |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:cyan_couch                          |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:cyan_cushion_chair                  |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:cyan_folding_chair                  |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:cyan_rug                            |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:cyan_umbrella                       |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:cyan_vending_machine                |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:cyan_water_float                    |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:dark_oak_bench                      |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:darkworkplace                       |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:dawn_dusk_ore                       |     3.00 |       15.00 |
+| Pixelmon            | pixelmon:deep_sea                            |     1.00 |        3.00 |
+| Pixelmon            | pixelmon:dusty_ruins_wall                    |     5.00 |       25.00 |
+| Pixelmon            | pixelmon:elevator                            |     0.80 |        4.00 |
+| Pixelmon            | pixelmon:end_table                           |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:fan                                 |     0.75 |        3.75 |
+| Pixelmon            | pixelmon:fire_stone_ore                      |     3.00 |       15.00 |
+| Pixelmon            | pixelmon:fossil                              |     5.00 |       25.00 |
+| Pixelmon            | pixelmon:fossil_cleaner                      |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:fossil_display                      |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:fossil_machine                      |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:fridge                              |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:full_incense                        |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:galarica_cuff                       |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:gracideablock                       |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:gray_armchair                       |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:gray_chair                          |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:gray_clock                          |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:gray_couch                          |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:gray_cushion_chair                  |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:gray_folding_chair                  |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:gray_rug                            |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:gray_umbrella                       |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:gray_vending_machine                |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:gray_water_float                    |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:green_apricorn_tree                 |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:green_armchair                      |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:green_chair                         |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:green_clock                         |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:green_couch                         |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:green_cushion_chair                 |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:green_folding_chair                 |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:green_rug                           |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:green_umbrella                      |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:green_vending_machine               |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:green_water_float                   |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:gym_sign                            |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:hanging_scroll                      |     3.00 |       15.00 |
+| Pixelmon            | pixelmon:healer                              |     3.50 |       17.50 |
+| Pixelmon            | pixelmon:hidden_cube                         |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:hidden_iron_door                    |    -1.00 |       10.00 |
+| Pixelmon            | pixelmon:hidden_pressure_plate               |    -1.00 |        5.00 |
+| Pixelmon            | pixelmon:hidden_wooden_door                  |    -1.00 |        5.00 |
+| Pixelmon            | pixelmon:ice_rock                            |     5.00 |       25.00 |
+| Pixelmon            | pixelmon:ilex_shrine                         |    -1.00 |        0.00 |
+| Pixelmon            | pixelmon:incense_burner                      |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:infuser                             |     2.50 |       12.50 |
+| Pixelmon            | pixelmon:inside_wall                         |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:inside_wall_molding                 |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:jungle_bench                        |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:lax_incense                         |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:leaf_stone_ore                      |     3.00 |       15.00 |
+| Pixelmon            | pixelmon:letterbox_standing_black            |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_standing_blue             |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_standing_brown            |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_standing_cyan             |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_standing_gray             |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_standing_green            |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_standing_light_blue       |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_standing_lime             |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_standing_magenta          |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_standing_orange           |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_standing_pink             |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_standing_purple           |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_standing_red              |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_standing_silver           |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_standing_white            |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_standing_yellow           |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_wall_black                |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_wall_blue                 |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_wall_brown                |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_wall_cyan                 |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_wall_gray                 |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_wall_green                |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_wall_light_blue           |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_wall_lime                 |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_wall_magenta              |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_wall_orange               |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_wall_pink                 |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_wall_purple               |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_wall_red                  |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_wall_silver               |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_wall_white                |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:letterbox_wall_yellow               |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:lightblue_armchair                  |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:lightblue_couch                     |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:lightworkplace                      |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:lime_armchair                       |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:lime_couch                          |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:luck_incense                        |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:magenta_armchair                    |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:magenta_couch                       |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:mailbox_black                       |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:mailbox_blue                        |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:mailbox_brown                       |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:mailbox_cyan                        |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:mailbox_gray                        |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:mailbox_green                       |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:mailbox_light_blue                  |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:mailbox_lime                        |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:mailbox_magenta                     |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:mailbox_orange                      |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:mailbox_pink                        |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:mailbox_purple                      |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:mailbox_red                         |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:mailbox_silver                      |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:mailbox_white                       |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:mailbox_yellow                      |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:master_chest                        |    -1.00 | 18000000.00 |
+| Pixelmon            | pixelmon:max_mushroom_block                  |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:mechanical_anvil                    |     2.50 |       12.50 |
+| Pixelmon            | pixelmon:mint_crop                           |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:moltres_shrine                      |    -1.00 | 18000000.00 |
+| Pixelmon            | pixelmon:moss_rock                           |     5.00 |       25.00 |
+| Pixelmon            | pixelmon:movement_plate                      |     2.50 |       12.50 |
+| Pixelmon            | pixelmon:mower                               |     0.75 |        3.75 |
+| Pixelmon            | pixelmon:mug_ball                            |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:mug_base                            |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:mug_pika                            |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:music_block                         |    -1.00 |        0.00 |
+| Pixelmon            | pixelmon:odd_incense                         |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:orange_armchair                     |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:orange_chair                        |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:orange_clock                        |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:orange_couch                        |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:orange_cushion_chair                |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:orange_folding_chair                |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:orange_rug                          |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:orange_umbrella                     |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:orange_vending_machine              |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:orange_water_float                  |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:outside_wall                        |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:pc                                  |     2.50 |       12.50 |
+| Pixelmon            | pixelmon:picket_fence                        |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:pink_apricorn_tree                  |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:pink_armchair                       |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:pink_chair                          |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:pink_clock                          |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:pink_couch                          |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:pink_cushion_chair                  |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:pink_folding_chair                  |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:pink_rug                            |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:pink_umbrella                       |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:pink_vending_machine                |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:pink_water_float                    |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:pixelmon_grass                      |     3.00 |       15.00 |
+| Pixelmon            | pixelmon:pixelmon_spawner                    |    -1.00 | 18000000.00 |
+| Pixelmon            | pixelmon:plateholder                         |    -1.00 |        0.00 |
+| Pixelmon            | pixelmon:poke_chest                          |    -1.00 | 18000000.00 |
+| Pixelmon            | pixelmon:poke_dirt                           |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:poke_gift                           |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:poke_gift_event                     |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:poke_grass                          |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:poke_sand                           |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:poke_sand_corner1                   |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:poke_sand_corner2                   |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:poke_sand_corner3                   |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:poke_sand_corner4                   |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:poke_sand_side1                     |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:poke_sand_side2                     |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:poke_sand_side3                     |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:poke_sand_side4                     |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:pokecenter_sign                     |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:pokemart_sign                       |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:pure_incense                        |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:purple_armchair                     |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:purple_chair                        |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:purple_clock                        |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:purple_couch                        |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:purple_cushion_chair                |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:purple_folding_chair                |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:purple_rug                          |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:purple_umbrella                     |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:purple_vending_machine              |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:purple_water_float                  |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:ranch                               |     2.50 |       12.50 |
+| Pixelmon            | pixelmon:reassembly_unit                     |     2.50 |       12.50 |
+| Pixelmon            | pixelmon:red_apricorn_tree                   |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:red_armchair                        |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:red_chair                           |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:red_clock                           |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:red_couch                           |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:red_cushion_chair                   |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:red_folding_chair                   |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:red_rug                             |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:red_umbrella                        |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:red_vending_machine                 |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:red_water_float                     |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:relic_band                          |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:relic_crown                         |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:relic_statue                        |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:relic_vase                          |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:rock                                |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:rock_incense                        |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:rose_incense                        |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:ruby_block                          |     8.50 |       42.50 |
+| Pixelmon            | pixelmon:ruby_ore                            |     1.50 |        7.50 |
+| Pixelmon            | pixelmon:ruins_wall                          |     5.00 |       25.00 |
+| Pixelmon            | pixelmon:sandy_grass                         |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:sapphire_block                      |     8.50 |       42.50 |
+| Pixelmon            | pixelmon:sapphire_ore                        |     1.50 |        7.50 |
+| Pixelmon            | pixelmon:sea_incense                         |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:shingles                            |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:shingles_corner1                    |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:shingles_corner2                    |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:silicon_block                       |     8.50 |       42.50 |
+| Pixelmon            | pixelmon:silicon_ore                         |     1.20 |        6.00 |
+| Pixelmon            | pixelmon:silver_armchair                     |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:silver_couch                        |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:spawner_cave_rock                   |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:spruce_bench                        |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:standing_scroll                     |     3.00 |       15.00 |
+| Pixelmon            | pixelmon:stick_plate                         |     2.50 |       12.50 |
+| Pixelmon            | pixelmon:street_light                        |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:sun_stone_ore                       |     3.00 |       15.00 |
+| Pixelmon            | pixelmon:temple_block                        |     5.00 |       25.00 |
+| Pixelmon            | pixelmon:temple_brick                        |     5.00 |       25.00 |
+| Pixelmon            | pixelmon:temple_brick_double_slab            |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:temple_brick_slab                   |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:temple_brick_stairs                 |     5.00 |       25.00 |
+| Pixelmon            | pixelmon:temple_double_slab                  |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:temple_pillar                       |     6.50 |       32.50 |
+| Pixelmon            | pixelmon:temple_slab                         |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:temple_stairs                       |     5.00 |       25.00 |
+| Pixelmon            | pixelmon:temporary_light                     |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:thunder_stone_ore                   |     3.00 |       15.00 |
+| Pixelmon            | pixelmon:tidal_bell                          |     5.00 |       60.00 |
+| Pixelmon            | pixelmon:timed_fall                          |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:timespace_altar                     |    -1.00 | 18000000.00 |
+| Pixelmon            | pixelmon:trade_machine                       |     3.50 |       17.50 |
+| Pixelmon            | pixelmon:trash_can                           |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:tree                                |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:tree_bottom                         |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:tree_top                            |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:tv                                  |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:tv2                                 |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:tv3                                 |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:ultra_chest                         |    -1.00 | 18000000.00 |
+| Pixelmon            | pixelmon:unown_block                         |     5.00 |       25.00 |
+| Pixelmon            | pixelmon:unown_block2                        |     5.00 |       25.00 |
+| Pixelmon            | pixelmon:warp_plate                          |    -1.00 |        0.00 |
+| Pixelmon            | pixelmon:washing_machine                     |     0.75 |        3.75 |
+| Pixelmon            | pixelmon:water_stone_ore                     |     3.00 |       15.00 |
+| Pixelmon            | pixelmon:wave_incense                        |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:white_apricorn_tree                 |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:white_armchair                      |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:white_chair                         |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:white_clock                         |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:white_couch                         |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:white_cushion_chair                 |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:white_folding_chair                 |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:white_rug                           |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:white_umbrella                      |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:white_vending_machine               |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:white_water_float                   |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:window1                             |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:window2                             |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:wooden_flooring                     |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:yellow_apricorn_tree                |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:yellow_armchair                     |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:yellow_chair                        |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:yellow_clock                        |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:yellow_couch                        |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:yellow_cushion_chair                |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:yellow_folding_chair                |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:yellow_rug                          |     0.50 |        2.50 |
+| Pixelmon            | pixelmon:yellow_umbrella                     |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:yellow_vending_machine              |     2.00 |       10.00 |
+| Pixelmon            | pixelmon:yellow_water_float                  |     1.00 |        5.00 |
+| Pixelmon            | pixelmon:zapdos_shrine                       |    -1.00 | 18000000.00 |
+| Pixelmon            | pixelmon:zygarde_cell                        |     0.00 |        0.00 |
+| Pixelmon            | pixelmon:zygarde_core                        |     0.00 |        0.00 |
+| Pixelmon TCG        | tcg:card_printer                             |     1.50 |       30.00 |
+| Pixelmon TCG        | tcg:large_battle_controller                  |     1.50 |       30.00 |
+| Pixelmon TCG        | tcg:medium_battle_controller                 |     1.50 |       30.00 |
+| Pixelmon TCG        | tcg:small_battle_controller                  |     1.50 |       30.00 |
+| RFTools             | rftools:analog_block                         |     2.00 |       10.00 |
+| RFTools             | rftools:block_protector                      |     0.00 |        0.00 |
+| RFTools             | rftools:booster                              |     2.00 |       10.00 |
+| RFTools             | rftools:builder                              |     2.00 |       10.00 |
+| RFTools             | rftools:camo_shield_block                    |    -1.00 | 18000000.00 |
+| RFTools             | rftools:camo_shield_block_opaque             |    -1.00 | 18000000.00 |
+| RFTools             | rftools:coalgenerator                        |     0.00 |        0.00 |
+| RFTools             | rftools:composer                             |     2.00 |       10.00 |
+| RFTools             | rftools:counter_block                        |     2.00 |       10.00 |
+| RFTools             | rftools:crafter1                             |     0.00 |        0.00 |
+| RFTools             | rftools:crafter2                             |     0.00 |        0.00 |
+| RFTools             | rftools:crafter3                             |     0.00 |        0.00 |
+| RFTools             | rftools:creative_screen                      |     2.00 |       10.00 |
+| RFTools             | rftools:destination_analyzer                 |     2.00 |       10.00 |
+| RFTools             | rftools:dialing_device                       |     2.00 |       10.00 |
+| RFTools             | rftools:digit_block                          |     2.00 |       10.00 |
+| RFTools             | rftools:dimensional_shard_ore                |     3.00 |       15.00 |
+| RFTools             | rftools:elevator                             |     2.00 |       10.00 |
+| RFTools             | rftools:ender_monitor                        |     2.00 |       10.00 |
+| RFTools             | rftools:endergenic                           |     2.00 |       10.00 |
+| RFTools             | rftools:environmental_controller             |     2.00 |       10.00 |
+| RFTools             | rftools:invchecker_block                     |     2.00 |       10.00 |
+| RFTools             | rftools:invisible_shield_block               |    -1.00 | 18000000.00 |
+| RFTools             | rftools:invisible_shield_block_opaque        |    -1.00 | 18000000.00 |
+| RFTools             | rftools:item_filter                          |     2.00 |       10.00 |
+| RFTools             | rftools:level_emitter                        |     2.00 |       10.00 |
+| RFTools             | rftools:liquid_monitor                       |     2.00 |       10.00 |
+| RFTools             | rftools:locator                              |     2.00 |       10.00 |
+| RFTools             | rftools:logic_block                          |     2.00 |       10.00 |
+| RFTools             | rftools:machine_base                         |     0.00 |        0.00 |
+| RFTools             | rftools:machine_frame                        |     0.00 |        0.00 |
+| RFTools             | rftools:machine_infuser                      |     2.00 |       10.00 |
+| RFTools             | rftools:matter_beamer                        |     2.00 |       10.00 |
+| RFTools             | rftools:matter_booster                       |     2.00 |       10.00 |
+| RFTools             | rftools:matter_receiver                      |     2.00 |       10.00 |
+| RFTools             | rftools:matter_transmitter                   |     2.00 |       10.00 |
+| RFTools             | rftools:modular_storage                      |     2.00 |       10.00 |
+| RFTools             | rftools:notick_camo_shield_block             |    -1.00 | 18000000.00 |
+| RFTools             | rftools:notick_camo_shield_block_opaque      |    -1.00 | 18000000.00 |
+| RFTools             | rftools:notick_invisible_shield_block        |    -1.00 | 18000000.00 |
+| RFTools             | rftools:notick_invisible_shield_block_opaque |    -1.00 | 18000000.00 |
+| RFTools             | rftools:notick_solid_shield_block            |    -1.00 | 18000000.00 |
+| RFTools             | rftools:notick_solid_shield_block_opaque     |    -1.00 | 18000000.00 |
+| RFTools             | rftools:pearl_injector                       |     2.00 |       10.00 |
+| RFTools             | rftools:powercell                            |     2.00 |       10.00 |
+| RFTools             | rftools:powercell_advanced                   |     2.00 |       10.00 |
+| RFTools             | rftools:powercell_creative                   |     2.00 |       10.00 |
+| RFTools             | rftools:powercell_simple                     |     2.00 |       10.00 |
+| RFTools             | rftools:projector                            |     2.00 |       10.00 |
+| RFTools             | rftools:redstone_receiver_block              |     2.00 |       10.00 |
+| RFTools             | rftools:redstone_transmitter_block           |     2.00 |       10.00 |
+| RFTools             | rftools:relay                                |     2.00 |       10.00 |
+| RFTools             | rftools:remote_scanner                       |     2.00 |       10.00 |
+| RFTools             | rftools:remote_storage                       |     2.00 |       10.00 |
+| RFTools             | rftools:rf_monitor                           |     2.00 |       10.00 |
+| RFTools             | rftools:scanner                              |     2.00 |       10.00 |
+| RFTools             | rftools:screen                               |     2.00 |       10.00 |
+| RFTools             | rftools:screen_controller                    |     2.00 |       10.00 |
+| RFTools             | rftools:screen_hitblock                      |    -1.00 | 18000000.00 |
+| RFTools             | rftools:security_manager                     |     0.00 |        0.00 |
+| RFTools             | rftools:sensor_block                         |     2.00 |       10.00 |
+| RFTools             | rftools:sequencer_block                      |     2.00 |       10.00 |
+| RFTools             | rftools:shield_block1                        |     2.00 |       10.00 |
+| RFTools             | rftools:shield_block2                        |     2.00 |       10.00 |
+| RFTools             | rftools:shield_block3                        |     2.00 |       10.00 |
+| RFTools             | rftools:shield_block4                        |     2.00 |       10.00 |
+| RFTools             | rftools:shield_template_block                |     0.00 |        0.00 |
+| RFTools             | rftools:simple_dialer                        |     2.00 |       10.00 |
+| RFTools             | rftools:solid_shield_block                   |    -1.00 | 18000000.00 |
+| RFTools             | rftools:solid_shield_block_opaque            |    -1.00 | 18000000.00 |
+| RFTools             | rftools:space_chamber                        |     2.00 |       10.00 |
+| RFTools             | rftools:space_chamber_controller             |     2.00 |       10.00 |
+| RFTools             | rftools:spawner                              |     2.00 |       10.00 |
+| RFTools             | rftools:storage_scanner                      |     2.00 |       10.00 |
+| RFTools             | rftools:storage_terminal                     |     2.00 |       10.00 |
+| RFTools             | rftools:support_block                        |     0.00 |        0.00 |
+| RFTools             | rftools:timer_block                          |     2.00 |       10.00 |
+| RFTools             | rftools:wire_block                           |     2.00 |       10.00 |
+| RFTools Dimensions  | rftoolsdim:activity_probe                    |     2.00 |       10.00 |
+| RFTools Dimensions  | rftoolsdim:biome_absorber                    |     2.00 |       10.00 |
+| RFTools Dimensions  | rftoolsdim:dimension_builder                 |     2.00 |       10.00 |
+| RFTools Dimensions  | rftoolsdim:dimension_editor                  |     2.00 |       10.00 |
+| RFTools Dimensions  | rftoolsdim:dimension_enscriber               |     2.00 |       10.00 |
+| RFTools Dimensions  | rftoolsdim:dimensional_blank_block           |     2.00 |       12.00 |
+| RFTools Dimensions  | rftoolsdim:dimensional_block                 |     2.00 |       12.00 |
+| RFTools Dimensions  | rftoolsdim:dimensional_cross2_block          |     2.00 |       12.00 |
+| RFTools Dimensions  | rftoolsdim:dimensional_cross_block           |     2.00 |       12.00 |
+| RFTools Dimensions  | rftoolsdim:dimensional_pattern1_block        |     2.00 |       12.00 |
+| RFTools Dimensions  | rftoolsdim:dimensional_pattern2_block        |     2.00 |       12.00 |
+| RFTools Dimensions  | rftoolsdim:dimensional_small_blocks          |     2.00 |       12.00 |
+| RFTools Dimensions  | rftoolsdim:dimlet_workbench                  |     2.00 |       10.00 |
+| RFTools Dimensions  | rftoolsdim:energy_extractor                  |     2.00 |       10.00 |
+| RFTools Dimensions  | rftoolsdim:fake_gravel                       |     0.60 |        3.00 |
+| RFTools Dimensions  | rftoolsdim:fake_sand                         |     0.50 |        2.50 |
+| RFTools Dimensions  | rftoolsdim:fake_water                        |   100.00 |      500.00 |
+| RFTools Dimensions  | rftoolsdim:feature_absorber                  |     2.00 |       10.00 |
+| RFTools Dimensions  | rftoolsdim:liquid_absorber                   |     2.00 |       10.00 |
+| RFTools Dimensions  | rftoolsdim:material_absorber                 |     2.00 |       10.00 |
+| RFTools Dimensions  | rftoolsdim:terrain_absorber                  |     2.00 |       10.00 |
+| RFTools Dimensions  | rftoolsdim:time_absorber                     |     2.00 |       10.00 |
+| Unknown             | botania:alchemycatalyst                      |     0.00 |        0.00 |
+| Unknown             | botania:alfheimportal                        |     0.00 |        0.00 |
+| Unknown             | botania:altar                                |     0.00 |        0.00 |
+| Unknown             | botania:altgrass                             |     0.00 |        0.00 |
+| Unknown             | botania:animatedtorch                        |     0.00 |        0.00 |
+| Unknown             | botania:avatar                               |     0.00 |        0.00 |
+| Unknown             | botania:bellows                              |     0.00 |        0.00 |
+| Unknown             | botania:bifrost                              |     0.00 |        0.00 |
+| Unknown             | botania:bifrostperm                          |     0.00 |        0.00 |
+| Unknown             | botania:bifrostpermpane                      |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea                          |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea0slab                     |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea0slabfull                 |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea0stairs                   |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea0wall                     |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea10slab                    |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea10slabfull                |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea10stairs                  |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea11slab                    |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea11slabfull                |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea11stairs                  |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea12slab                    |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea12slabfull                |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea12stairs                  |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea13slab                    |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea13slabfull                |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea13stairs                  |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea14slab                    |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea14slabfull                |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea14stairs                  |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea15slab                    |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea15slabfull                |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea15stairs                  |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea1slab                     |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea1slabfull                 |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea1stairs                   |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea2slab                     |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea2slabfull                 |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea2stairs                   |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea3slab                     |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea3slabfull                 |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea3stairs                   |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea4slab                     |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea4slabfull                 |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea4stairs                   |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea5slab                     |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea5slabfull                 |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea5stairs                   |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea6slab                     |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea6slabfull                 |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea6stairs                   |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea7slab                     |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea7slabfull                 |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea7stairs                   |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea8slab                     |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea8slabfull                 |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea8stairs                   |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea9slab                     |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea9slabfull                 |     0.00 |        0.00 |
+| Unknown             | botania:biomestonea9stairs                   |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb                          |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb0slab                     |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb0slabfull                 |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb0stairs                   |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb1slab                     |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb1slabfull                 |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb1stairs                   |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb2slab                     |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb2slabfull                 |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb2stairs                   |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb3slab                     |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb3slabfull                 |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb3stairs                   |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb4slab                     |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb4slabfull                 |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb4stairs                   |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb5slab                     |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb5slabfull                 |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb5stairs                   |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb6slab                     |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb6slabfull                 |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb6stairs                   |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb7slab                     |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb7slabfull                 |     0.00 |        0.00 |
+| Unknown             | botania:biomestoneb7stairs                   |     0.00 |        0.00 |
+| Unknown             | botania:blazeblock                           |     0.00 |        0.00 |
+| Unknown             | botania:brewery                              |     0.00 |        0.00 |
+| Unknown             | botania:buriedpetals                         |     0.00 |        0.00 |
+| Unknown             | botania:cacophoniumblock                     |     0.00 |        0.00 |
+| Unknown             | botania:cellblock                            |     0.00 |        0.00 |
+| Unknown             | botania:cocoon                               |     0.00 |        0.00 |
+| Unknown             | botania:conjurationcatalyst                  |     0.00 |        0.00 |
+| Unknown             | botania:corporeacrystalcube                  |     0.00 |        0.00 |
+| Unknown             | botania:corporeafunnel                       |     0.00 |        0.00 |
+| Unknown             | botania:corporeaindex                        |     0.00 |        0.00 |
+| Unknown             | botania:corporeainterceptor                  |     0.00 |        0.00 |
+| Unknown             | botania:corporearetainer                     |     0.00 |        0.00 |
+| Unknown             | botania:custombrick                          |     0.00 |        0.00 |
+| Unknown             | botania:distributor                          |     0.00 |        0.00 |
+| Unknown             | botania:doubleflower1                        |     0.00 |        0.00 |
+| Unknown             | botania:doubleflower2                        |     0.00 |        0.00 |
+| Unknown             | botania:dreamwood                            |     0.00 |        0.00 |
+| Unknown             | botania:dreamwood0slab                       |     0.00 |        0.00 |
+| Unknown             | botania:dreamwood0slabfull                   |     0.00 |        0.00 |
+| Unknown             | botania:dreamwood0stairs                     |     0.00 |        0.00 |
+| Unknown             | botania:dreamwood0wall                       |     0.00 |        0.00 |
+| Unknown             | botania:dreamwood1slab                       |     0.00 |        0.00 |
+| Unknown             | botania:dreamwood1slabfull                   |     0.00 |        0.00 |
+| Unknown             | botania:dreamwood1stairs                     |     0.00 |        0.00 |
+| Unknown             | botania:elfglass                             |     0.00 |        0.00 |
+| Unknown             | botania:elfglasspane                         |     0.00 |        0.00 |
+| Unknown             | botania:enchantedsoil                        |     0.00 |        0.00 |
+| Unknown             | botania:enchanter                            |     0.00 |        0.00 |
+| Unknown             | botania:endereyeblock                        |     0.00 |        0.00 |
+| Unknown             | botania:fakeair                              |     0.00 |        0.00 |
+| Unknown             | botania:felpumpkin                           |     0.00 |        0.00 |
+| Unknown             | botania:floatingspecialflower                |     0.00 |        0.00 |
+| Unknown             | botania:flower                               |     0.00 |        0.00 |
+| Unknown             | botania:forestdrum                           |     0.00 |        0.00 |
+| Unknown             | botania:foresteye                            |     0.00 |        0.00 |
+| Unknown             | botania:gaiaheadblock                        |     0.00 |        0.00 |
+| Unknown             | botania:ghostrail                            |     0.00 |        0.00 |
+| Unknown             | botania:hourglass                            |     0.00 |        0.00 |
+| Unknown             | botania:incenseplate                         |     0.00 |        0.00 |
+| Unknown             | botania:lightlauncher                        |     0.00 |        0.00 |
+| Unknown             | botania:lightrelay                           |     0.00 |        0.00 |
+| Unknown             | botania:livingrock                           |     0.00 |        0.00 |
+| Unknown             | botania:livingrock0slab                      |     0.00 |        0.00 |
+| Unknown             | botania:livingrock0slabfull                  |     0.00 |        0.00 |
+| Unknown             | botania:livingrock0stairs                    |     0.00 |        0.00 |
+| Unknown             | botania:livingrock0wall                      |     0.00 |        0.00 |
+| Unknown             | botania:livingrock1slab                      |     0.00 |        0.00 |
+| Unknown             | botania:livingrock1slabfull                  |     0.00 |        0.00 |
+| Unknown             | botania:livingrock1stairs                    |     0.00 |        0.00 |
+| Unknown             | botania:livingwood                           |     0.00 |        0.00 |
+| Unknown             | botania:livingwood0slab                      |     0.00 |        0.00 |
+| Unknown             | botania:livingwood0slabfull                  |     0.00 |        0.00 |
+| Unknown             | botania:livingwood0stairs                    |     0.00 |        0.00 |
+| Unknown             | botania:livingwood0wall                      |     0.00 |        0.00 |
+| Unknown             | botania:livingwood1slab                      |     0.00 |        0.00 |
+| Unknown             | botania:livingwood1slabfull                  |     0.00 |        0.00 |
+| Unknown             | botania:livingwood1stairs                    |     0.00 |        0.00 |
+| Unknown             | botania:manabomb                             |     0.00 |        0.00 |
+| Unknown             | botania:manadetector                         |     0.00 |        0.00 |
+| Unknown             | botania:manaflame                            |     0.00 |        0.00 |
+| Unknown             | botania:managlass                            |     0.00 |        0.00 |
+| Unknown             | botania:managlasspane                        |     0.00 |        0.00 |
+| Unknown             | botania:manavoid                             |     0.00 |        0.00 |
+| Unknown             | botania:miniisland                           |     0.00 |        0.00 |
+| Unknown             | botania:mushroom                             |     0.00 |        0.00 |
+| Unknown             | botania:opencrate                            |     0.00 |        0.00 |
+| Unknown             | botania:pavement                             |     0.00 |        0.00 |
+| Unknown             | botania:pavement0slab                        |     0.00 |        0.00 |
+| Unknown             | botania:pavement0slabfull                    |     0.00 |        0.00 |
+| Unknown             | botania:pavement0stairs                      |     0.00 |        0.00 |
+| Unknown             | botania:pavement1slab                        |     0.00 |        0.00 |
+| Unknown             | botania:pavement1slabfull                    |     0.00 |        0.00 |
+| Unknown             | botania:pavement1stairs                      |     0.00 |        0.00 |
+| Unknown             | botania:pavement2slab                        |     0.00 |        0.00 |
+| Unknown             | botania:pavement2slabfull                    |     0.00 |        0.00 |
+| Unknown             | botania:pavement2stairs                      |     0.00 |        0.00 |
+| Unknown             | botania:pavement3slab                        |     0.00 |        0.00 |
+| Unknown             | botania:pavement3slabfull                    |     0.00 |        0.00 |
+| Unknown             | botania:pavement3stairs                      |     0.00 |        0.00 |
+| Unknown             | botania:pavement4slab                        |     0.00 |        0.00 |
+| Unknown             | botania:pavement4slabfull                    |     0.00 |        0.00 |
+| Unknown             | botania:pavement4stairs                      |     0.00 |        0.00 |
+| Unknown             | botania:pavement5slab                        |     0.00 |        0.00 |
+| Unknown             | botania:pavement5slabfull                    |     0.00 |        0.00 |
+| Unknown             | botania:pavement5stairs                      |     0.00 |        0.00 |
+| Unknown             | botania:petalblock                           |     0.00 |        0.00 |
+| Unknown             | botania:pistonrelay                          |     0.00 |        0.00 |
+| Unknown             | botania:platform                             |     0.00 |        0.00 |
+| Unknown             | botania:pool                                 |     0.00 |        0.00 |
+| Unknown             | botania:prism                                |     0.00 |        0.00 |
+| Unknown             | botania:pump                                 |     0.00 |        0.00 |
+| Unknown             | botania:pylon                                |     0.00 |        0.00 |
+| Unknown             | botania:quartzslabblazefull                  |     0.00 |        0.00 |
+| Unknown             | botania:quartzslabblazehalf                  |     0.00 |        0.00 |
+| Unknown             | botania:quartzslabdarkfull                   |     0.00 |        0.00 |
+| Unknown             | botania:quartzslabdarkhalf                   |     0.00 |        0.00 |
+| Unknown             | botania:quartzslabelffull                    |     0.00 |        0.00 |
+| Unknown             | botania:quartzslabelfhalf                    |     0.00 |        0.00 |
+| Unknown             | botania:quartzslablavenderfull               |     0.00 |        0.00 |
+| Unknown             | botania:quartzslablavenderhalf               |     0.00 |        0.00 |
+| Unknown             | botania:quartzslabmanafull                   |     0.00 |        0.00 |
+| Unknown             | botania:quartzslabmanahalf                   |     0.00 |        0.00 |
+| Unknown             | botania:quartzslabredfull                    |     0.00 |        0.00 |
+| Unknown             | botania:quartzslabredhalf                    |     0.00 |        0.00 |
+| Unknown             | botania:quartzslabsunnyfull                  |     0.00 |        0.00 |
+| Unknown             | botania:quartzslabsunnyhalf                  |     0.00 |        0.00 |
+| Unknown             | botania:quartzstairsblaze                    |     0.00 |        0.00 |
+| Unknown             | botania:quartzstairsdark                     |     0.00 |        0.00 |
+| Unknown             | botania:quartzstairself                      |     0.00 |        0.00 |
+| Unknown             | botania:quartzstairslavender                 |     0.00 |        0.00 |
+| Unknown             | botania:quartzstairsmana                     |     0.00 |        0.00 |
+| Unknown             | botania:quartzstairsred                      |     0.00 |        0.00 |
+| Unknown             | botania:quartzstairssunny                    |     0.00 |        0.00 |
+| Unknown             | botania:quartztypeblaze                      |     0.00 |        0.00 |
+| Unknown             | botania:quartztypedark                       |     0.00 |        0.00 |
+| Unknown             | botania:quartztypeelf                        |     0.00 |        0.00 |
+| Unknown             | botania:quartztypelavender                   |     0.00 |        0.00 |
+| Unknown             | botania:quartztypemana                       |     0.00 |        0.00 |
+| Unknown             | botania:quartztypered                        |     0.00 |        0.00 |
+| Unknown             | botania:quartztypesunny                      |     0.00 |        0.00 |
+| Unknown             | botania:redstringcomparator                  |     0.00 |        0.00 |
+| Unknown             | botania:redstringcontainer                   |     0.00 |        0.00 |
+| Unknown             | botania:redstringdispenser                   |     0.00 |        0.00 |
+| Unknown             | botania:redstringfertilizer                  |     0.00 |        0.00 |
+| Unknown             | botania:redstringinterceptor                 |     0.00 |        0.00 |
+| Unknown             | botania:redstringrelay                       |     0.00 |        0.00 |
+| Unknown             | botania:rfgenerator                          |     0.00 |        0.00 |
+| Unknown             | botania:root                                 |     0.00 |        0.00 |
+| Unknown             | botania:runealtar                            |     0.00 |        0.00 |
+| Unknown             | botania:shimmerrock                          |     0.00 |        0.00 |
+| Unknown             | botania:shimmerrock0slab                     |     0.00 |        0.00 |
+| Unknown             | botania:shimmerrock0slabfull                 |     0.00 |        0.00 |
+| Unknown             | botania:shimmerrock0stairs                   |     0.00 |        0.00 |
+| Unknown             | botania:shimmerwoodplanks                    |     0.00 |        0.00 |
+| Unknown             | botania:shimmerwoodplanks0slab               |     0.00 |        0.00 |
+| Unknown             | botania:shimmerwoodplanks0slabfull           |     0.00 |        0.00 |
+| Unknown             | botania:shimmerwoodplanks0stairs             |     0.00 |        0.00 |
+| Unknown             | botania:shinyflower                          |     0.00 |        0.00 |
+| Unknown             | botania:solidvine                            |     0.00 |        0.00 |
+| Unknown             | botania:sparkchanger                         |     0.00 |        0.00 |
+| Unknown             | botania:spawnerclaw                          |     0.00 |        0.00 |
+| Unknown             | botania:specialflower                        |     0.00 |        0.00 |
+| Unknown             | botania:spreader                             |     0.00 |        0.00 |
+| Unknown             | botania:starfield                            |     0.00 |        0.00 |
+| Unknown             | botania:storage                              |     0.00 |        0.00 |
+| Unknown             | botania:terraplate                           |     0.00 |        0.00 |
+| Unknown             | botania:teruterubozu                         |     0.00 |        0.00 |
+| Unknown             | botania:tinyplanetblock                      |     0.00 |        0.00 |
+| Unknown             | botania:tinypotato                           |     0.00 |        0.00 |
+| Unknown             | botania:turntable                            |     0.00 |        0.00 |
+| Unknown             | darkutils:anti_slime                         |     0.00 |        0.00 |
+| Unknown             | darkutils:ender_hopper                       |     0.00 |        0.00 |
+| Unknown             | darkutils:ender_pearl_hopper                 |     0.00 |        0.00 |
+| Unknown             | darkutils:ender_tether                       |     0.00 |        0.00 |
+| Unknown             | darkutils:fake_tnt                           |     0.00 |        0.00 |
+| Unknown             | darkutils:filter                             |     0.00 |        0.00 |
+| Unknown             | darkutils:filter_inverted                    |     0.00 |        0.00 |
+| Unknown             | darkutils:grate                              |     0.00 |        0.00 |
+| Unknown             | darkutils:monolith                           |     0.00 |        0.00 |
+| Unknown             | darkutils:pearl_block                        |     0.00 |        0.00 |
+| Unknown             | darkutils:slime_dyed                         |     0.00 |        0.00 |
+| Unknown             | darkutils:sneaky                             |     0.00 |        0.00 |
+| Unknown             | darkutils:sneaky_bedrock                     |     0.00 |        0.00 |
+| Unknown             | darkutils:sneaky_button                      |     0.00 |        0.00 |
+| Unknown             | darkutils:sneaky_ghost                       |     0.00 |        0.00 |
+| Unknown             | darkutils:sneaky_lever                       |     0.00 |        0.00 |
+| Unknown             | darkutils:sneaky_obsidian                    |     0.00 |        0.00 |
+| Unknown             | darkutils:sneaky_plate                       |     0.00 |        0.00 |
+| Unknown             | darkutils:sneaky_torch                       |     0.00 |        0.00 |
+| Unknown             | darkutils:timer                              |     0.00 |        0.00 |
+| Unknown             | darkutils:trap_anchor                        |     0.00 |        0.00 |
+| Unknown             | darkutils:trap_move                          |     0.00 |        0.00 |
+| Unknown             | darkutils:trap_move_fast                     |     0.00 |        0.00 |
+| Unknown             | darkutils:trap_move_hyper                    |     0.00 |        0.00 |
+| Unknown             | darkutils:trap_tile                          |     0.00 |        0.00 |
+| Unknown             | darkutils:update_detector                    |     0.00 |        0.00 |
+| Unknown             | darkutils:wither_block                       |     0.00 |        0.00 |
+| Unknown             | exnihilocreatio:block_andesite_crushed       |     0.00 |        0.00 |
+| Unknown             | exnihilocreatio:block_auto_sifter            |     0.00 |        0.00 |
+| Unknown             | exnihilocreatio:block_axle_stone             |     0.00 |        0.00 |
+| Unknown             | exnihilocreatio:block_barrel0                |     0.00 |        0.00 |
+| Unknown             | exnihilocreatio:block_barrel1                |     0.00 |        0.00 |
+| Unknown             | exnihilocreatio:block_crucible               |     0.00 |        0.00 |
+| Unknown             | exnihilocreatio:block_crucible_wood          |     0.00 |        0.00 |
+| Unknown             | exnihilocreatio:block_diorite_crushed        |     0.00 |        0.00 |
+| Unknown             | exnihilocreatio:block_dust                   |     0.00 |        0.00 |
+| Unknown             | exnihilocreatio:block_end_cake               |     0.00 |        0.00 |
+| Unknown             | exnihilocreatio:block_endstone_crushed       |     0.00 |        0.00 |
+| Unknown             | exnihilocreatio:block_granite_crushed        |     0.00 |        0.00 |
+| Unknown             | exnihilocreatio:block_grinder                |     0.00 |        0.00 |
+| Unknown             | exnihilocreatio:block_infested_leaves        |     0.00 |        0.00 |
+| Unknown             | exnihilocreatio:block_infesting_leaves       |     0.00 |        0.00 |
+| Unknown             | exnihilocreatio:block_netherrack_crushed     |     0.00 |        0.00 |
+| Unknown             | exnihilocreatio:block_sieve                  |     0.00 |        0.00 |
+| Unknown             | exnihilocreatio:block_waterwheel             |     0.00 |        0.00 |
+| Unknown             | exnihilocreatio:witchwater                   |     0.00 |        0.00 |
+| Unknown             | extrautils2:analogcrafter                    |     0.00 |        0.00 |
+| Unknown             | extrautils2:angelblock                       |     0.00 |        0.00 |
+| Unknown             | extrautils2:chunkloader                      |     0.00 |        0.00 |
+| Unknown             | extrautils2:compressedcobblestone            |     0.00 |        0.00 |
+| Unknown             | extrautils2:compresseddirt                   |     0.00 |        0.00 |
+| Unknown             | extrautils2:compressedgravel                 |     0.00 |        0.00 |
+| Unknown             | extrautils2:compressednetherrack             |     0.00 |        0.00 |
+| Unknown             | extrautils2:compressedsand                   |     0.00 |        0.00 |
+| Unknown             | extrautils2:crafter                          |     0.00 |        0.00 |
+| Unknown             | extrautils2:creativechest                    |     0.00 |        0.00 |
+| Unknown             | extrautils2:creativeenergy                   |     0.00 |        0.00 |
+| Unknown             | extrautils2:creativeharvest                  |     0.00 |        0.00 |
+| Unknown             | extrautils2:cursedearth                      |     0.00 |        0.00 |
+| Unknown             | extrautils2:decorativebedrock                |     0.00 |        0.00 |
+| Unknown             | extrautils2:decorativeglass                  |     0.00 |        0.00 |
+| Unknown             | extrautils2:decorativesolid                  |     0.00 |        0.00 |
+| Unknown             | extrautils2:decorativesolidwood              |     0.00 |        0.00 |
+| Unknown             | extrautils2:drum                             |     0.00 |        0.00 |
+| Unknown             | extrautils2:enderlilly                       |     0.00 |        0.00 |
+| Unknown             | extrautils2:indexer                          |     0.00 |        0.00 |
+| Unknown             | extrautils2:ineffableglass                   |     0.00 |        0.00 |
+| Unknown             | extrautils2:interactionproxy                 |     0.00 |        0.00 |
+| Unknown             | extrautils2:ironwood_leaves                  |     0.00 |        0.00 |
+| Unknown             | extrautils2:ironwood_log                     |     0.00 |        0.00 |
+| Unknown             | extrautils2:ironwood_planks                  |     0.00 |        0.00 |
+| Unknown             | extrautils2:ironwood_sapling                 |     0.00 |        0.00 |
+| Unknown             | extrautils2:klein                            |     0.00 |        0.00 |
+| Unknown             | extrautils2:largishchest                     |     0.00 |        0.00 |
+| Unknown             | extrautils2:machine                          |     0.00 |        0.00 |
+| Unknown             | extrautils2:miner                            |     0.00 |        0.00 |
+| Unknown             | extrautils2:minichest                        |     0.00 |        0.00 |
+| Unknown             | extrautils2:moonstone                        |     0.00 |        0.00 |
+| Unknown             | extrautils2:opinium                          |     0.00 |        0.00 |
+| Unknown             | extrautils2:passivegenerator                 |     0.00 |        0.00 |
+| Unknown             | extrautils2:pipe                             |     0.00 |        0.00 |
+| Unknown             | extrautils2:pipe_1                           |     0.00 |        0.00 |
+| Unknown             | extrautils2:pipe_2                           |     0.00 |        0.00 |
+| Unknown             | extrautils2:pipe_3                           |     0.00 |        0.00 |
+| Unknown             | extrautils2:playerchest                      |     0.00 |        0.00 |
+| Unknown             | extrautils2:powerbattery                     |     0.00 |        0.00 |
+| Unknown             | extrautils2:poweroverload                    |     0.00 |        0.00 |
+| Unknown             | extrautils2:powertransmitter                 |     0.00 |        0.00 |
+| Unknown             | extrautils2:quarry                           |     0.00 |        0.00 |
+| Unknown             | extrautils2:quarryproxy                      |     0.00 |        0.00 |
+| Unknown             | extrautils2:rainbowgenerator                 |     0.00 |        0.00 |
+| Unknown             | extrautils2:redorchid                        |     0.00 |        0.00 |
+| Unknown             | extrautils2:redstoneclock                    |     0.00 |        0.00 |
+| Unknown             | extrautils2:redstonelantern                  |     0.00 |        0.00 |
+| Unknown             | extrautils2:resonator                        |     0.00 |        0.00 |
+| Unknown             | extrautils2:scanner                          |     0.00 |        0.00 |
+| Unknown             | extrautils2:screen                           |     0.00 |        0.00 |
+| Unknown             | extrautils2:simpledecorative                 |     0.00 |        0.00 |
+| Unknown             | extrautils2:soundmuffler                     |     0.00 |        0.00 |
+| Unknown             | extrautils2:spike_creative                   |     0.00 |        0.00 |
+| Unknown             | extrautils2:spike_diamond                    |     0.00 |        0.00 |
+| Unknown             | extrautils2:spike_gold                       |     0.00 |        0.00 |
+| Unknown             | extrautils2:spike_iron                       |     0.00 |        0.00 |
+| Unknown             | extrautils2:spike_stone                      |     0.00 |        0.00 |
+| Unknown             | extrautils2:spike_wood                       |     0.00 |        0.00 |
+| Unknown             | extrautils2:spotlight                        |     0.00 |        0.00 |
+| Unknown             | extrautils2:supermobspawner                  |     0.00 |        0.00 |
+| Unknown             | extrautils2:teleporter                       |     0.00 |        0.00 |
+| Unknown             | extrautils2:terraformer                      |     0.00 |        0.00 |
+| Unknown             | extrautils2:transferholder                   |     0.00 |        0.00 |
+| Unknown             | extrautils2:trashcan                         |     0.00 |        0.00 |
+| Unknown             | extrautils2:trashcanenergy                   |     0.00 |        0.00 |
+| Unknown             | extrautils2:trashcanfluid                    |     0.00 |        0.00 |
+| Unknown             | extrautils2:trashchest                       |     0.00 |        0.00 |
+| Unknown             | extrautils2:user                             |     0.00 |        0.00 |
+| Unknown             | openterraingenerator:portalotg               |     0.00 |        0.00 |
+| Unknown             | openterraingenerator:portalotg_beige         |     0.00 |        0.00 |
+| Unknown             | openterraingenerator:portalotg_black         |     0.00 |        0.00 |
+| Unknown             | openterraingenerator:portalotg_blue          |     0.00 |        0.00 |
+| Unknown             | openterraingenerator:portalotg_crystalblue   |     0.00 |        0.00 |
+| Unknown             | openterraingenerator:portalotg_darkblue      |     0.00 |        0.00 |
+| Unknown             | openterraingenerator:portalotg_darkgreen     |     0.00 |        0.00 |
+| Unknown             | openterraingenerator:portalotg_darkred       |     0.00 |        0.00 |
+| Unknown             | openterraingenerator:portalotg_emerald       |     0.00 |        0.00 |
+| Unknown             | openterraingenerator:portalotg_flame         |     0.00 |        0.00 |
+| Unknown             | openterraingenerator:portalotg_gold          |     0.00 |        0.00 |
+| Unknown             | openterraingenerator:portalotg_green         |     0.00 |        0.00 |
+| Unknown             | openterraingenerator:portalotg_grey          |     0.00 |        0.00 |
+| Unknown             | openterraingenerator:portalotg_lightblue     |     0.00 |        0.00 |
+| Unknown             | openterraingenerator:portalotg_lightgreen    |     0.00 |        0.00 |
+| Unknown             | openterraingenerator:portalotg_orange        |     0.00 |        0.00 |
+| Unknown             | openterraingenerator:portalotg_pink          |     0.00 |        0.00 |
+| Unknown             | openterraingenerator:portalotg_red           |     0.00 |        0.00 |
+| Unknown             | openterraingenerator:portalotg_white         |     0.00 |        0.00 |
+| Unknown             | openterraingenerator:portalotg_yellow        |     0.00 |        0.00 |
+| Unknown             | progcommblocks:pcb                           |     0.00 |        0.00 |
+| Wumple Util Library | wumpleutil:blank                             |     0.00 |        0.00 |
+| Wumple Util Library | wumpleutil:placeholder                       |     0.00 |        0.00 |
+| Wumple Util Library | wumpleutil:repairing_block                   |     1.50 |        7.50 |
++---------------------+----------------------------------------------+----------+-------------+
+| Mod name            | Registry name                                | Hardness |  Resistance |
++---------------------+----------------------------------------------+----------+-------------+
+| NOTE: The Hardness and Resistance values are the raw base values in the fields              |
+| of the Block class in question. The actual final values may be different                    |
+| for different states of the block, or they may depend on a TileEntity etc.                  |
++---------------------+----------------------------------------------+----------+-------------+

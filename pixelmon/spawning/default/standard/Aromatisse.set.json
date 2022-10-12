@@ -1,0 +1,43 @@
+{
+  "id": "Aromatisse",
+  "spawnInfos": [
+     {
+      "spec": {
+        "name": "Aromatisse"
+      },
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:whipped_dream",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":150
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:cake"
+            ]
+          }
+        }
+      ],
+      "rarity": 3.0
+    }
+  ]
+}

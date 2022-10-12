@@ -1,0 +1,53 @@
+{
+  "id": "Klefki",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Klefki"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 42,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "magical"
+        ]
+      },
+      "rarity": 40.0
+    },
+     {
+      "spec": {
+        "name": "Klefki"
+      },
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 5,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier":20,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:iron_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 1.0
+    }
+  ]
+}

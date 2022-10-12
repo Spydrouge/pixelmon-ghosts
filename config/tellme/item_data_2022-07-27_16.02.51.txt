@@ -1,0 +1,9 @@
+Loot Chest (bq_standard:loot_chest - 6082:103) has NBT data
+
+{loottable:"minecraft:chests/simple_dungeon",hideLootInfo:1b}
+
+TAG_Compound (10) ('')
+{
+    TAG_String (8) ('loottable'): "minecraft:chests/simple_dungeon"
+    TAG_Byte (1) ('hideLootInfo'): 1
+}

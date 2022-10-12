@@ -1,0 +1,203 @@
+{
+  "id": "Gloom",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Gloom",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 21,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:absorb_bulb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "NIGHT",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "swamps",
+          "jungles",
+          "roofed_forest",
+          "mutated_roofed_forest",
+          "rw_bur_oak_forest"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": {
+        "name": "Gloom",
+        "form": 106
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 21,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:absorb_bulb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "NIGHT",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "jungles"
+        ]
+      },
+      "rarity": 1.0
+    },
+    {
+      "spec": {
+        "name": "Gloom",
+        "form": 108
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 21,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:absorb_bulb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "NIGHT",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "swamps",
+          "roofed_forest",
+          "mutated_roofed_forest",
+          "rw_bur_oak_forest"
+        ]
+      },
+      "rarity": 1.0
+    },
+    {
+      "spec": {
+        "name": "Gloom",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 21,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:absorb_bulb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "nether_forest",
+          "nether_mushroom"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier":6,
+          "condition": {
+            "neededNearbyBlocks": [
+              "biomesoplenty:plant_1:10"
+            ]
+          }
+        },
+        {
+          "multiplier":2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:grass"
+            ]
+          }
+        },
+        {
+          "multiplier":2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "biomesoplenty:grass"
+            ]
+          }
+        }
+      ],
+      "rarity": 2
+    },
+    {
+      "spec": {
+        "name": "Gloom",
+        "form": 108
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 21,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:absorb_bulb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "nether_forest",
+          "nether_mushroom"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier":6,
+          "condition": {
+            "neededNearbyBlocks": [
+              "biomesoplenty:plant_1:10"
+            ]
+          }
+        },
+        {
+          "multiplier":2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:grass"
+            ]
+          }
+        },
+        {
+          "multiplier":2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "biomesoplenty:grass"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.5
+    }
+  ]
+}

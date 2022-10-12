@@ -1,0 +1,113 @@
+{
+  "id": "Spiritomb",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Spiritomb"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "roofed_forest",
+          "mutated_roofed_forest"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "times": [
+              "MIDNIGHT"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.5
+    },
+     {
+      "spec": {
+        "name": "Spiritomb"
+      },
+      "stringLocationTypes": [
+        "Underground",
+        "Manmade"
+      ],
+      "minLevel": 6,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":100,
+        "maxY":150
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "times": [
+              "MIDNIGHT"
+            ]
+          }
+        }
+      ],
+      "rarity": 40
+    },
+    {
+      "spec": {
+        "name": "Spiritomb"
+      },
+      "stringLocationTypes": [
+        "Underground",
+        "Manmade"
+      ],
+      "minLevel": 6,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "maxY":50
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "times": [
+              "MIDNIGHT"
+            ]
+          }
+        }
+      ],
+      "rarity": 20
+    },
+    {
+      "spec": {
+        "name": "Spiritomb"
+      },
+      "stringLocationTypes": [
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 30,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether"
+        ]
+      },
+      "rarity": 20
+    }
+  ]
+}

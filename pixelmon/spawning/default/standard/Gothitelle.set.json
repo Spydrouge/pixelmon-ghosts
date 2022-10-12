@@ -1,0 +1,89 @@
+{
+  "id": "Gothitelle",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Gothitelle"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 42,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "roofed_forest",
+          "mutated_roofed_forest",
+          "rw_bur_oak_forest"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": {
+        "name": "Gothitelle"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 42,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "end"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": {
+        "name": "Gothitelle"
+      },
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 42,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT",
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":180
+      },
+      "rarity": 1
+    },
+    {
+      "spec": {
+        "name": "Gothitelle"
+      },
+      "stringLocationTypes": [
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 52,
+      "maxLevel": 64,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:nether_brick",
+          "biomesoplenty:ash_block"
+        ]
+      },
+      "rarity": 1
+    }
+  ]
+}

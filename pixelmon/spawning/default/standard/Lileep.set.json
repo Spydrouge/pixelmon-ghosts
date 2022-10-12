@@ -1,0 +1,24 @@
+{
+  "id": "Lileep",
+  "spawnInfos": [
+	{
+      "spec": {
+        "name": "Lileep",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 5,
+      "maxLevel": 14,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY": 150
+      },
+      "rarity": 40
+    }
+  ]
+}

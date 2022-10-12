@@ -1,0 +1,46 @@
+{
+  "id": "Heliolisk",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Heliolisk"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "arid"
+        ]
+      },
+      "rarity": 6.0
+    },
+    {
+      "spec": {
+        "name": "Heliolisk"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 25,
+      "maxLevel": 37,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether_desert"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:glowstone"
+        ]
+      },
+      "rarity": 6.0
+    }
+  ]
+}

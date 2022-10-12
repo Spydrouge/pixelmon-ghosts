@@ -1,0 +1,46 @@
+{
+  "id": "Tepig",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Tepig"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "savannas"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": {
+        "name": "Tepig"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 5,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "nether_flesh"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

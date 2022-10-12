@@ -1,0 +1,102 @@
+{
+  "id": "Azumarill",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Azumarill",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 18,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "baseBlocks": [
+          "minecraft:sand"
+        ],
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "beaches",
+          "river"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": {
+        "name": "Azumarill",
+        "form": 107
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 18,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "baseBlocks": [
+          "minecraft:sand"
+        ],
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "beaches",
+          "river"
+        ]
+      },
+      "rarity": 0.05
+    },
+    {
+      "spec": {
+        "name": "Azumarill",
+        "form": 107
+      },
+      "stringLocationTypes": [
+        "Beach"
+      ],
+      "minLevel": 18,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "baseBlocks": [
+          "minecraft:sand"
+        ],
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ]
+      },
+      "rarity": 7
+    },
+    {
+      "spec": {
+        "name": "Azumarill",
+        "form": 107
+      },
+      "stringLocationTypes": [
+        "Underground",
+        "Land",
+        "Beach"
+      ],
+      "minLevel": 38,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "baseBlocks": [
+          "minecraft:sand"
+        ],
+        "stringBiomes": [
+          "nether_normal"
+        ]
+      },
+      "rarity": 7
+    }
+  ]
+}

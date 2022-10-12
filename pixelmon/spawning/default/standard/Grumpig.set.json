@@ -1,0 +1,67 @@
+{
+  "id": "Grumpig",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Grumpig"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "stringBiomes": [
+          "mountainous forests"
+        ]
+      },
+      "rarity": 6.0
+    },
+    {
+      "spec": {
+        "name": "Grumpig"
+      },
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY": 100,
+        "maxY": 129
+      },
+      "rarity": 6.0
+    },
+    {
+      "spec": {
+        "name": "Grumpig"
+      },
+      "stringLocationTypes": [
+        "Indoors",
+        "Underground",
+        "Land"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether_flesh",
+          "nether_mushroom"
+        ]
+      },
+      "rarity": 6.0
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "Basculegion",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Basculegion"
+      },
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "minecraft:river"
+        ]
+      },
+      "rarity": 0.01
+    },
+       {
+      "spec": {
+        "name": "Basculegion"
+      },
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":50,
+        "maxY":200
+      },
+      "rarity": 7
+    },
+    {
+      "spec": {
+        "name": "Basculegion"
+      },
+      "stringLocationTypes": [
+        "Water",
+        "Under Water"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether_flesh"
+        ]
+      },
+      "rarity": 7
+    }
+    
+  ]
+}

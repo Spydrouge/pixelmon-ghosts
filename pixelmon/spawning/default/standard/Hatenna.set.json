@@ -1,0 +1,67 @@
+{
+  "id": "Hatenna",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Hatenna"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "magical"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": {
+        "name": "Hatenna"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "end"
+        ]
+      },
+      "rarity": 50.0
+    },
+    {
+      "spec": {
+        "name": "Hatenna"
+      },
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 6,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "times":[
+          "DAY",
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":150,
+        "max":180
+      },
+      "rarity": 100.0
+    }
+  ]
+}

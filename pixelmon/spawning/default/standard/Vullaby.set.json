@@ -1,0 +1,71 @@
+{
+  "id": "Vullaby",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Vullaby"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top",
+        "Headbutt"
+      ],
+      "minLevel": 42,
+      "maxLevel": 53,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "mutated_desert",
+          "mesa_clear_rock",
+          "mesa_rock",
+          "mutated_mesa_clear_rock",
+          "mutated_mesa_rock",
+          "evil",
+          "savannas"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": {
+        "name": "Vullaby"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top",
+        "Headbutt"
+      ],
+      "minLevel": 6,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "maxY":150,
+        "minY":50
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2.5,
+          "condition": {
+            "times": [
+              "DUSK"
+            ]
+          }
+        }
+      ],
+      "rarity": 40.0
+    }
+  ]
+}

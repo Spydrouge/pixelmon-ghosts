@@ -1,0 +1,172 @@
+{
+  "id": "Nincada",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Nincada"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "redwoods"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": {
+        "name": "Nincada"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Manmade",
+        "Indoors",
+        "Sweet Scent"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods
+        ],
+        "minY":80,
+        "maxY":150
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": {
+        "name": "Nincada"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Manmade",
+        "Indoors",
+        "Sweet Scent"
+      ],
+      "minLevel": 21,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods
+        ],
+        "minY":150,
+        "maxY":220
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": {
+        "name": "Nincada"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Manmade",
+        "Indoors",
+        "Sweet Scent"
+      ],
+      "minLevel": 41,
+      "maxLevel": 61,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods
+        ],
+        "minY":220
+      },
+      "rarity": 130.0
+    }, 
+      {
+      "spec": {
+        "name": "Nincada"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Manmade",
+        "Indoors",
+        "Sweet Scent"
+      ],
+      "minLevel": 21,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods
+        ],
+        "minY":40,
+        "maxY":60
+      },
+      "rarity": 130.0
+    },
+     {
+      "spec": {
+        "name": "Nincada"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Manmade",
+        "Indoors",
+        "Sweet Scent"
+      ],
+      "minLevel": 41,
+      "maxLevel": 61,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:soft_sand",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods
+        ],
+        "maxY":40
+      },
+      "rarity": 130.0
+    }, 
+    
+  ]
+}

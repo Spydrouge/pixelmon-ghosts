@@ -1,0 +1,116 @@
++------------------+---------------------------------+--------------------------------------------------------------------+-----+
+| Mod name         | Registry name                   | Entity class name                                                  |  ID |
++------------------+---------------------------------+--------------------------------------------------------------------+-----+
+| Better Questing  | betterquesting:placeholder      | betterquesting.api.placeholders.EntityPlaceholder                  |   0 |
+| Biomes O' Plenty | biomesoplenty:bop_boat          | biomesoplenty.common.entities.item.EntityBOPBoat                   |   2 |
+| Biomes O' Plenty | biomesoplenty:mudball           | biomesoplenty.common.entities.projectiles.EntityMudball            |   1 |
+| Biomes O' Plenty | biomesoplenty:wasp              | biomesoplenty.common.entities.EntityWasp                           |   3 |
+| Clumps           | clumps:xp_orb_big               | com.blamejared.clumps.entities.EntityXPOrbBig                      |   0 |
+| Inspirations     | inspirations:arrow              | knightminer.inspirations.tools.entity.EntityModArrow               |   0 |
+| Minecraft        | minecraft:area_effect_cloud     | net.minecraft.entity.EntityAreaEffectCloud                         |   3 |
+| Minecraft        | minecraft:armor_stand           | net.minecraft.entity.item.EntityArmorStand                         |  30 |
+| Minecraft        | minecraft:arrow                 | net.minecraft.entity.projectile.EntityTippedArrow                  |  10 |
+| Minecraft        | minecraft:bat                   | net.minecraft.entity.passive.EntityBat                             |  65 |
+| Minecraft        | minecraft:blaze                 | net.minecraft.entity.monster.EntityBlaze                           |  61 |
+| Minecraft        | minecraft:boat                  | net.minecraft.entity.item.EntityBoat                               |  41 |
+| Minecraft        | minecraft:cave_spider           | net.minecraft.entity.monster.EntityCaveSpider                      |  59 |
+| Minecraft        | minecraft:chest_minecart        | net.minecraft.entity.item.EntityMinecartChest                      |  43 |
+| Minecraft        | minecraft:chicken               | net.minecraft.entity.passive.EntityChicken                         |  93 |
+| Minecraft        | minecraft:commandblock_minecart | net.minecraft.entity.item.EntityMinecartCommandBlock               |  40 |
+| Minecraft        | minecraft:cow                   | net.minecraft.entity.passive.EntityCow                             |  92 |
+| Minecraft        | minecraft:creeper               | net.minecraft.entity.monster.EntityCreeper                         |  50 |
+| Minecraft        | minecraft:donkey                | net.minecraft.entity.passive.EntityDonkey                          |  31 |
+| Minecraft        | minecraft:dragon_fireball       | net.minecraft.entity.projectile.EntityDragonFireball               |  26 |
+| Minecraft        | minecraft:egg                   | net.minecraft.entity.projectile.EntityEgg                          |   7 |
+| Minecraft        | minecraft:elder_guardian        | net.minecraft.entity.monster.EntityElderGuardian                   |   4 |
+| Minecraft        | minecraft:ender_crystal         | net.minecraft.entity.item.EntityEnderCrystal                       | 200 |
+| Minecraft        | minecraft:ender_dragon          | net.minecraft.entity.boss.EntityDragon                             |  63 |
+| Minecraft        | minecraft:ender_pearl           | net.minecraft.entity.item.EntityEnderPearl                         |  14 |
+| Minecraft        | minecraft:enderman              | net.minecraft.entity.monster.EntityEnderman                        |  58 |
+| Minecraft        | minecraft:endermite             | net.minecraft.entity.monster.EntityEndermite                       |  67 |
+| Minecraft        | minecraft:evocation_fangs       | net.minecraft.entity.projectile.EntityEvokerFangs                  |  33 |
+| Minecraft        | minecraft:evocation_illager     | net.minecraft.entity.monster.EntityEvoker                          |  34 |
+| Minecraft        | minecraft:eye_of_ender_signal   | net.minecraft.entity.item.EntityEnderEye                           |  15 |
+| Minecraft        | minecraft:falling_block         | net.minecraft.entity.item.EntityFallingBlock                       |  21 |
+| Minecraft        | minecraft:fireball              | net.minecraft.entity.projectile.EntityLargeFireball                |  12 |
+| Minecraft        | minecraft:fireworks_rocket      | net.minecraft.entity.item.EntityFireworkRocket                     |  22 |
+| Minecraft        | minecraft:furnace_minecart      | net.minecraft.entity.item.EntityMinecartFurnace                    |  44 |
+| Minecraft        | minecraft:ghast                 | net.minecraft.entity.monster.EntityGhast                           |  56 |
+| Minecraft        | minecraft:giant                 | net.minecraft.entity.monster.EntityGiantZombie                     |  53 |
+| Minecraft        | minecraft:guardian              | net.minecraft.entity.monster.EntityGuardian                        |  68 |
+| Minecraft        | minecraft:hopper_minecart       | net.minecraft.entity.item.EntityMinecartHopper                     |  46 |
+| Minecraft        | minecraft:horse                 | net.minecraft.entity.passive.EntityHorse                           | 100 |
+| Minecraft        | minecraft:husk                  | net.minecraft.entity.monster.EntityHusk                            |  23 |
+| Minecraft        | minecraft:illusion_illager      | net.minecraft.entity.monster.EntityIllusionIllager                 |  37 |
+| Minecraft        | minecraft:item                  | net.minecraft.entity.item.EntityItem                               |   1 |
+| Minecraft        | minecraft:item_frame            | net.minecraft.entity.item.EntityItemFrame                          |  18 |
+| Minecraft        | minecraft:leash_knot            | net.minecraft.entity.EntityLeashKnot                               |   8 |
+| Minecraft        | minecraft:llama                 | net.minecraft.entity.passive.EntityLlama                           | 103 |
+| Minecraft        | minecraft:llama_spit            | net.minecraft.entity.projectile.EntityLlamaSpit                    | 104 |
+| Minecraft        | minecraft:magma_cube            | net.minecraft.entity.monster.EntityMagmaCube                       |  62 |
+| Minecraft        | minecraft:minecart              | net.minecraft.entity.item.EntityMinecartEmpty                      |  42 |
+| Minecraft        | minecraft:mooshroom             | net.minecraft.entity.passive.EntityMooshroom                       |  96 |
+| Minecraft        | minecraft:mule                  | net.minecraft.entity.passive.EntityMule                            |  32 |
+| Minecraft        | minecraft:ocelot                | net.minecraft.entity.passive.EntityOcelot                          |  98 |
+| Minecraft        | minecraft:painting              | net.minecraft.entity.item.EntityPainting                           |   9 |
+| Minecraft        | minecraft:parrot                | net.minecraft.entity.passive.EntityParrot                          | 105 |
+| Minecraft        | minecraft:pig                   | net.minecraft.entity.passive.EntityPig                             |  90 |
+| Minecraft        | minecraft:polar_bear            | net.minecraft.entity.monster.EntityPolarBear                       | 102 |
+| Minecraft        | minecraft:potion                | net.minecraft.entity.projectile.EntityPotion                       |  16 |
+| Minecraft        | minecraft:rabbit                | net.minecraft.entity.passive.EntityRabbit                          | 101 |
+| Minecraft        | minecraft:sheep                 | net.minecraft.entity.passive.EntitySheep                           |  91 |
+| Minecraft        | minecraft:shulker               | net.minecraft.entity.monster.EntityShulker                         |  69 |
+| Minecraft        | minecraft:shulker_bullet        | net.minecraft.entity.projectile.EntityShulkerBullet                |  25 |
+| Minecraft        | minecraft:silverfish            | net.minecraft.entity.monster.EntitySilverfish                      |  60 |
+| Minecraft        | minecraft:skeleton              | net.minecraft.entity.monster.EntitySkeleton                        |  51 |
+| Minecraft        | minecraft:skeleton_horse        | net.minecraft.entity.passive.EntitySkeletonHorse                   |  28 |
+| Minecraft        | minecraft:slime                 | net.minecraft.entity.monster.EntitySlime                           |  55 |
+| Minecraft        | minecraft:small_fireball        | net.minecraft.entity.projectile.EntitySmallFireball                |  13 |
+| Minecraft        | minecraft:snowball              | net.minecraft.entity.projectile.EntitySnowball                     |  11 |
+| Minecraft        | minecraft:snowman               | net.minecraft.entity.monster.EntitySnowman                         |  97 |
+| Minecraft        | minecraft:spawner_minecart      | net.minecraft.entity.item.EntityMinecartMobSpawner                 |  47 |
+| Minecraft        | minecraft:spectral_arrow        | net.minecraft.entity.projectile.EntitySpectralArrow                |  24 |
+| Minecraft        | minecraft:spider                | net.minecraft.entity.monster.EntitySpider                          |  52 |
+| Minecraft        | minecraft:squid                 | net.minecraft.entity.passive.EntitySquid                           |  94 |
+| Minecraft        | minecraft:stray                 | net.minecraft.entity.monster.EntityStray                           |   6 |
+| Minecraft        | minecraft:tnt                   | net.minecraft.entity.item.EntityTNTPrimed                          |  20 |
+| Minecraft        | minecraft:tnt_minecart          | net.minecraft.entity.item.EntityMinecartTNT                        |  45 |
+| Minecraft        | minecraft:vex                   | net.minecraft.entity.monster.EntityVex                             |  35 |
+| Minecraft        | minecraft:villager              | net.minecraft.entity.passive.EntityVillager                        | 120 |
+| Minecraft        | minecraft:villager_golem        | net.minecraft.entity.monster.EntityIronGolem                       |  99 |
+| Minecraft        | minecraft:vindication_illager   | net.minecraft.entity.monster.EntityVindicator                      |  36 |
+| Minecraft        | minecraft:witch                 | net.minecraft.entity.monster.EntityWitch                           |  66 |
+| Minecraft        | minecraft:wither                | net.minecraft.entity.boss.EntityWither                             |  64 |
+| Minecraft        | minecraft:wither_skeleton       | net.minecraft.entity.monster.EntityWitherSkeleton                  |   5 |
+| Minecraft        | minecraft:wither_skull          | net.minecraft.entity.projectile.EntityWitherSkull                  |  19 |
+| Minecraft        | minecraft:wolf                  | net.minecraft.entity.passive.EntityWolf                            |  95 |
+| Minecraft        | minecraft:xp_bottle             | net.minecraft.entity.item.EntityExpBottle                          |  17 |
+| Minecraft        | minecraft:xp_orb                | net.minecraft.entity.item.EntityXPOrb                              |   2 |
+| Minecraft        | minecraft:zombie                | net.minecraft.entity.monster.EntityZombie                          |  54 |
+| Minecraft        | minecraft:zombie_horse          | net.minecraft.entity.passive.EntityZombieHorse                     |  29 |
+| Minecraft        | minecraft:zombie_pigman         | net.minecraft.entity.monster.EntityPigZombie                       |  57 |
+| Minecraft        | minecraft:zombie_villager       | net.minecraft.entity.monster.EntityZombieVillager                  |  27 |
+| Pixelmon         | pixelmon:bike                   | com.pixelmonmod.pixelmon.entities.bikes.EntityBike                 |  18 |
+| Pixelmon         | pixelmon:breeding               | com.pixelmonmod.pixelmon.entities.pixelmon.EntityBreeding          |  17 |
+| Pixelmon         | pixelmon:chair_mount            | com.pixelmonmod.pixelmon.entities.EntityChairMount                 |  11 |
+| Pixelmon         | pixelmon:den                    | com.pixelmonmod.pixelmon.entities.EntityDen                        |  21 |
+| Pixelmon         | pixelmon:empty_pokeball         | com.pixelmonmod.pixelmon.entities.pokeballs.EntityEmptyPokeball    |   9 |
+| Pixelmon         | pixelmon:hook                   | com.pixelmonmod.pixelmon.entities.projectiles.EntityHook           |  10 |
+| Pixelmon         | pixelmon:npc_chatting           | com.pixelmonmod.pixelmon.entities.npcs.NPCChatting                 |   5 |
+| Pixelmon         | pixelmon:npc_nursejoy           | com.pixelmonmod.pixelmon.entities.npcs.NPCNurseJoy                 |  12 |
+| Pixelmon         | pixelmon:npc_oldfisherman       | com.pixelmonmod.pixelmon.entities.npcs.NPCFisherman                |  19 |
+| Pixelmon         | pixelmon:npc_questgiver         | com.pixelmonmod.pixelmon.entities.npcs.NPCQuestGiver               |   6 |
+| Pixelmon         | pixelmon:npc_relearner          | com.pixelmonmod.pixelmon.entities.npcs.NPCRelearner                |   7 |
+| Pixelmon         | pixelmon:npc_shopkeeper         | com.pixelmonmod.pixelmon.entities.npcs.NPCShopkeeper               |  13 |
+| Pixelmon         | pixelmon:npc_trader             | com.pixelmonmod.pixelmon.entities.npcs.NPCTrader                   |   2 |
+| Pixelmon         | pixelmon:npc_trainer            | com.pixelmonmod.pixelmon.entities.npcs.NPCTrainer                  |   0 |
+| Pixelmon         | pixelmon:npc_tutor              | com.pixelmonmod.pixelmon.entities.npcs.NPCTutor                    |   8 |
+| Pixelmon         | pixelmon:occupied_pokeball      | com.pixelmonmod.pixelmon.entities.pokeballs.EntityOccupiedPokeball |  15 |
+| Pixelmon         | pixelmon:painting               | com.pixelmonmod.pixelmon.entities.custom.EntityPixelmonPainting    |  14 |
+| Pixelmon         | pixelmon:pixelmon               | com.pixelmonmod.pixelmon.entities.pixelmon.EntityPixelmon          |   3 |
+| Pixelmon         | pixelmon:pokestop               | com.pixelmonmod.pixelmon.entities.EntityPokestop                   |  20 |
+| Pixelmon         | pixelmon:statue                 | com.pixelmonmod.pixelmon.entities.pixelmon.EntityStatue            |   4 |
+| Pixelmon         | pixelmon:ultra_wormhole         | com.pixelmonmod.pixelmon.entities.EntityWormhole                   |  16 |
++------------------+---------------------------------+--------------------------------------------------------------------+-----+
+| Mod name         | Registry name                   | Entity class name                                                  |  ID |
++------------------+---------------------------------+--------------------------------------------------------------------+-----+

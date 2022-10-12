@@ -1,0 +1,101 @@
+{
+  "id": "Shuppet",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Shuppet"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 31,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "plains",
+          "evil"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:grass_path"
+            ]
+          }
+        }
+      ],
+      "rarity": 90.0
+    },
+      {
+      "spec": {
+        "name": "Shuppet"
+      },
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 8,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+          "minY": 60,
+          "maxY": 220
+      },
+      "rarity": 90.0
+    } ,
+    {
+      "spec": {
+        "name": "Shuppet"
+      },
+      "stringLocationTypes": [
+        "Manmade",
+        "Indoors",
+        "Underground"
+      ],
+      "minLevel": 8,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:spell_tag",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "nether_normal",
+          "nether_desert"
+        ]
+      },
+      "anticondition": {
+        "neededNearbyBlocks": [
+          "biomesoplenty:hive"
+        ]
+      },
+      "rarity": 90.0
+    } 
+  ]
+}

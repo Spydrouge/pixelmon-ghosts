@@ -1,0 +1,29 @@
+{
+  "id": "Igglybuff",
+  "spawnInfos": [
+     {
+      "spec": {
+        "name": "Igglybuff"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:moon_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":120
+      },
+      "rarity": 1
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "Araquanid",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Araquanid"
+      },
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 22,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "river",
+          "swamps"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": {
+        "name": "Araquanid"
+      },
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 22,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods
+        ],
+        "minY":60
+      },
+      "rarity": 8.0
+    }
+  ]
+}

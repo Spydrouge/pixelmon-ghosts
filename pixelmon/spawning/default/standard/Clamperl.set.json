@@ -1,0 +1,59 @@
+{
+  "id": "Clamperl",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Clamperl"
+      },
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 15,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_pearl",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:pearl",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "oceanic"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": {
+        "name": "Clamperl"
+      },
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_pearl",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:pearl",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ]
+      },
+      "rarity": 250.0
+    }
+  ]
+}

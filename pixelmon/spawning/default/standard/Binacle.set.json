@@ -1,0 +1,47 @@
+{
+  "id": "Binacle",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Binacle"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Rock Smash"
+      ],
+      "minLevel": 22,
+      "maxLevel": 38,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "beaches"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": {
+        "name": "Binacle"
+      },
+      "stringLocationTypes": [
+        "Beach",
+        "Rock Smash"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

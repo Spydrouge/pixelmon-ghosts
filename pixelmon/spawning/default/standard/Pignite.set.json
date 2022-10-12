@@ -1,0 +1,46 @@
+{
+  "id": "Pignite",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Pignite"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 17,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "savannas"
+        ]
+      },
+      "rarity": 1.0
+    },
+    {
+      "spec": {
+        "name": "Pignite"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 17,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "nether_flesh"
+        ]
+      },
+      "rarity": 2.0
+    }
+  ]
+}

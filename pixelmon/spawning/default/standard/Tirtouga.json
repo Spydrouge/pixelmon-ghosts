@@ -1,0 +1,23 @@
+{
+  "id": "Tirtouga",
+  "spawnInfos": [
+	{
+      "spec": {
+        "name": "Tirtouga",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Beach"
+      ],
+      "minLevel": 6,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ]
+      },
+      "rarity": 40
+    }
+  ]
+}

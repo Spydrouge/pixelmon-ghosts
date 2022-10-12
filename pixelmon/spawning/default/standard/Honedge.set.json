@@ -1,0 +1,175 @@
+{
+  "id": "Honedge",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Honedge",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 21,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "savannas"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": {
+        "name": "Honedge",
+        "form": 107
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 21,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "savannas"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": {
+        "name": "Honedge",
+        "form": 107
+      },
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 2,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":240
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier":130,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:anvil"
+            ]
+          }
+        }
+      ],
+      "rarity": 2
+    },
+    {
+      "spec": {
+        "name": "Honedge",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 2,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":240
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier":130,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:anvil"
+            ]
+          }
+        }
+      ],
+      "rarity": 2
+    },
+    {
+      "spec": {
+        "name": "Honedge",
+        "form": 107
+      },
+      "stringLocationTypes": [
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 2,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:nether_brick"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier":130,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:anvil"
+            ]
+          }
+        }
+      ],
+      "rarity": 2
+    },
+    {
+      "spec": {
+        "name": "Honedge",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 2,
+      "maxLevel": 34,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:nether_brick"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier":130,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:anvil"
+            ]
+          }
+        }
+      ],
+      "rarity": 2
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "Snom",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Snom"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top",
+        "Headbutt",
+        "Sweet Scent",
+        "Forage"
+      ],
+      "minLevel": 10,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:snowball",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:aspear_berry",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "freezing forests"
+        ]
+      },
+      "rarity": 100.0
+    },
+     {
+      "spec": {
+        "name": "Snom"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top",
+        "Headbutt",
+        "Sweet Scent",
+        "Man Made"
+      ],
+      "minLevel": 2,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:snowball",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:aspear_berry",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":220
+      },
+      "rarity": 130.0
+    }
+  ]
+}

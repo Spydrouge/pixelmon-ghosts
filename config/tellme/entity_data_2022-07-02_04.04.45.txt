@@ -1,0 +1,147 @@
+Entity: Castform [registry name: pixelmon:pixelmon] (entityId: 2033)
+Entity class: com.pixelmonmod.pixelmon.entities.pixelmon.EntityPixelmon
+
+
+TAG_Compound (10) ('')
+{
+    TAG_Short (2) ('EVSpeed'): 0
+    TAG_List (9) ('Attributes') (7 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 55.0
+            TAG_String (8) ('Name'): "generic.maxHealth"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.knockbackResistance"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.55
+            TAG_String (8) ('Name'): "generic.movementSpeed"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.armor"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.armorToughness"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "forge.swimSpeed"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 16.0
+            TAG_String (8) ('Name'): "generic.followRange"
+        }
+    }
+    TAG_List (9) ('Moveset') (4 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+            TAG_Short (2) ('MoveID'): 44
+            TAG_Byte (1) ('MovePP'): 25
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Short (2) ('MoveID'): 239
+            TAG_Byte (1) ('MovePP'): 25
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Short (2) ('MoveID'): 102
+            TAG_Byte (1) ('MovePP'): 25
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Short (2) ('MoveID'): 84
+            TAG_Byte (1) ('MovePP'): 15
+        }
+    }
+    TAG_Byte (1) ('Invulnerable'): 0
+    TAG_Byte (1) ('Gender'): 1
+    TAG_String (8) ('Name'): "Castform"
+    TAG_Byte (1) ('isFly'): 0
+    TAG_Byte (1) ('IVDefence'): 18
+    TAG_Byte (1) ('IVSpDef'): 23
+    TAG_Int (3) ('flyheight'): 30
+    TAG_Byte (1) ('CaughtBall'): 0
+    TAG_Byte (1) ('PersistenceRequired'): 0
+    TAG_List (9) ('ribbons') (0 entries of TAG_End (0))
+    {
+    }
+    TAG_Byte (1) ('DoesLevel'): 1
+    TAG_Int (3) ('DynamaxLevel'): 0
+    TAG_Byte (1) ('Variant'): 3
+    TAG_String (8) ('OwnerUUID'): ""
+    TAG_Short (2) ('EVSpecialAttack'): 0
+    TAG_List (9) ('Pos') (3 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): 9.5
+        TAG_Double (6) (''): 91.0
+        TAG_Double (6) (''): 2.5
+    }
+    TAG_Byte (1) ('IVSpeed'): 21
+    TAG_Byte (1) ('pixelmonType'): 6
+    TAG_Int (3) ('Level'): 17
+    TAG_Short (2) ('EVDefence'): 0
+    TAG_Byte (1) ('IVAttack'): 6
+    TAG_Byte (1) ('Growth'): 2
+    TAG_Byte (1) ('BossMode'): 0
+    TAG_Compound (10) ('PersistentData')
+    {
+    }
+    TAG_Short (2) ('EVSpecialDefence'): 0
+    TAG_Byte (1) ('GigantamaxFactor'): 0
+    TAG_Short (2) ('StatsSpecialDefence'): 35
+    TAG_Byte (1) ('isInRanch'): 0
+    TAG_Short (2) ('Friendship'): 70
+    TAG_Short (2) ('StatsDefence'): 31
+    TAG_Short (2) ('EVAttack'): 0
+    TAG_Short (2) ('StatsSpecialAttack'): 31
+    TAG_Byte (1) ('IVHP'): 25
+    TAG_Byte (1) ('AbilitySlot'): 0
+    TAG_Short (2) ('EVHP'): 0
+    TAG_Short (2) ('ndex'): 351
+    TAG_String (8) ('ribbon_display'): "NONE"
+    TAG_Byte (1) ('Nature'): 21
+    TAG_List (9) ('Motion') (3 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): 0.0
+        TAG_Double (6) (''): -0.0784000015258789
+        TAG_Double (6) (''): 0.0
+    }
+    TAG_Short (2) ('StatsHP'): 55
+    TAG_Long (4) ('UUIDLeast'): -4900319041058423258
+    TAG_Int (3) ('Health'): 55
+    TAG_Byte (1) ('Aggression'): 2
+    TAG_List (9) ('SpecFlags') (0 entries of TAG_End (0))
+    {
+    }
+    TAG_Byte (1) ('OnGround'): 0
+    TAG_Int (3) ('Dimension'): 0
+    TAG_List (9) ('Rotation') (2 entries of TAG_Float (5))
+    {
+        TAG_Float (5) (''): 4.8688436
+        TAG_Float (5) (''): 0.0
+    }
+    TAG_Short (2) ('StatsSpeed'): 32
+    TAG_Byte (1) ('IsShiny'): 0
+    TAG_Short (2) ('StatsAttack'): 26
+    TAG_Long (4) ('UUIDMost'): 501053296292547234
+    TAG_Byte (1) ('canFly'): 1
+    TAG_Byte (1) ('IVSpAtt'): 17
+    TAG_Byte (1) ('NBT_VERSION'): 1
+    TAG_Int (3) ('EXP'): 0
+    TAG_List (9) ('RelrnMoves') (0 entries of TAG_End (0))
+    {
+    }
+}

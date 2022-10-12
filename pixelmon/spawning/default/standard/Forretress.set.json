@@ -1,0 +1,60 @@
+{
+  "id": "Forretress",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Forretress"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt"
+      ],
+      "minLevel": 31,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "taigas",
+          "redwoods"
+        ]
+      },
+      "rarity": 8.0
+    },
+     {
+      "spec": {
+        "name": "Forretress"
+      },
+      "stringLocationTypes": [
+        "Headbutt",
+        "Tree Top"
+      ],
+      "minLevel": 31,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": {
+        "name": "Forretress"
+      },
+      "stringLocationTypes": [
+        "Headbutt",
+        "Tree Top"
+      ],
+      "minLevel": 41,
+      "maxLevel": 65,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether_woods"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

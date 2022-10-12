@@ -1,0 +1,67 @@
+{
+  "id": "Garbodor",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Garbodor"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 37,
+      "maxLevel": 49,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:black_sludge",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:silk_scarf",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "swamps",
+          "evil"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": {
+        "name": "Garbodor"
+      },
+      "stringLocationTypes": [
+        "Manmade",
+          "Land",
+         "Indoors"
+      ],
+      "minLevel": 37,
+      "maxLevel": 49,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:black_sludge",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:silk_scarf",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods
+        ],
+        "minY":100,
+        "maxY": 220
+      },
+      "rarity": 1
+    }
+  ]
+}

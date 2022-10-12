@@ -1,0 +1,91 @@
+{
+  "id": "Froslass",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Froslass"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "RAIN"
+        ],
+        "stringBiomes": [
+          "freezing"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": {
+        "name": "Froslass"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "RAIN"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":220
+      },
+      "rarity": 10
+    },
+    {
+      "spec": {
+        "name": "Froslass"
+      },
+      "stringLocationTypes": [
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether_volcano",
+          "nether_desert"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier":2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:packed_ice"
+            ]
+          }
+        },
+        {
+          "multiplier":1.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:ice"
+            ]
+          }
+        }
+      ],
+      "rarity": 4
+    }
+  ]
+}

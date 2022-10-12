@@ -1,0 +1,147 @@
+Entity: Marowak [registry name: pixelmon:pixelmon] (entityId: 46816)
+Entity class: com.pixelmonmod.pixelmon.entities.pixelmon.EntityPixelmon
+
+
+TAG_Compound (10) ('')
+{
+    TAG_Short (2) ('EVSpeed'): 0
+    TAG_List (9) ('Attributes') (7 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 108.0
+            TAG_String (8) ('Name'): "generic.maxHealth"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.knockbackResistance"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.55
+            TAG_String (8) ('Name'): "generic.movementSpeed"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.armor"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 0.0
+            TAG_String (8) ('Name'): "generic.armorToughness"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 1.0
+            TAG_String (8) ('Name'): "forge.swimSpeed"
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Double (6) ('Base'): 16.0
+            TAG_String (8) ('Name'): "generic.followRange"
+        }
+    }
+    TAG_List (9) ('Moveset') (4 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+            TAG_Short (2) ('MoveID'): 665
+            TAG_Byte (1) ('MovePP'): 10
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Short (2) ('MoveID'): 294
+            TAG_Byte (1) ('MovePP'): 10
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Short (2) ('MoveID'): 207
+            TAG_Byte (1) ('MovePP'): 15
+        }
+        TAG_Compound (10) ('')
+        {
+            TAG_Short (2) ('MoveID'): 262
+            TAG_Byte (1) ('MovePP'): 5
+        }
+    }
+    TAG_Byte (1) ('Invulnerable'): 0
+    TAG_Byte (1) ('Gender'): 0
+    TAG_String (8) ('Name'): "Marowak"
+    TAG_Byte (1) ('isFly'): 0
+    TAG_Byte (1) ('IVDefence'): 3
+    TAG_Byte (1) ('IVSpDef'): 26
+    TAG_Int (3) ('flyheight'): 29
+    TAG_Byte (1) ('CaughtBall'): 0
+    TAG_Byte (1) ('PersistenceRequired'): 0
+    TAG_List (9) ('ribbons') (0 entries of TAG_End (0))
+    {
+    }
+    TAG_Byte (1) ('DoesLevel'): 1
+    TAG_Int (3) ('DynamaxLevel'): 0
+    TAG_Byte (1) ('Variant'): 1
+    TAG_String (8) ('OwnerUUID'): ""
+    TAG_Short (2) ('EVSpecialAttack'): 0
+    TAG_List (9) ('Pos') (3 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): 976.0
+        TAG_Double (6) (''): 106.0
+        TAG_Double (6) (''): 178.0
+    }
+    TAG_Byte (1) ('IVSpeed'): 8
+    TAG_Byte (1) ('pixelmonType'): 0
+    TAG_Int (3) ('Level'): 43
+    TAG_Short (2) ('EVDefence'): 0
+    TAG_Byte (1) ('IVAttack'): 28
+    TAG_Byte (1) ('Growth'): 3
+    TAG_Byte (1) ('BossMode'): 0
+    TAG_Compound (10) ('PersistentData')
+    {
+    }
+    TAG_Short (2) ('EVSpecialDefence'): 0
+    TAG_Byte (1) ('GigantamaxFactor'): 0
+    TAG_Short (2) ('StatsSpecialDefence'): 84
+    TAG_Byte (1) ('isInRanch'): 0
+    TAG_Short (2) ('Friendship'): 70
+    TAG_Short (2) ('StatsDefence'): 100
+    TAG_Short (2) ('EVAttack'): 0
+    TAG_Short (2) ('StatsSpecialAttack'): 56
+    TAG_Byte (1) ('IVHP'): 8
+    TAG_Byte (1) ('AbilitySlot'): 0
+    TAG_Short (2) ('EVHP'): 0
+    TAG_Short (2) ('ndex'): 105
+    TAG_String (8) ('ribbon_display'): "NONE"
+    TAG_Byte (1) ('Nature'): 2
+    TAG_List (9) ('Motion') (3 entries of TAG_Double (6))
+    {
+        TAG_Double (6) (''): 0.0
+        TAG_Double (6) (''): -0.0784000015258789
+        TAG_Double (6) (''): 0.0
+    }
+    TAG_Short (2) ('StatsHP'): 108
+    TAG_Long (4) ('UUIDLeast'): -5957514303641091804
+    TAG_Int (3) ('Health'): 108
+    TAG_Byte (1) ('Aggression'): 0
+    TAG_List (9) ('SpecFlags') (0 entries of TAG_End (0))
+    {
+    }
+    TAG_Byte (1) ('OnGround'): 1
+    TAG_Int (3) ('Dimension'): 0
+    TAG_List (9) ('Rotation') (2 entries of TAG_Float (5))
+    {
+        TAG_Float (5) (''): 1.8925068
+        TAG_Float (5) (''): 0.0
+    }
+    TAG_Short (2) ('StatsSpeed'): 47
+    TAG_Byte (1) ('IsShiny'): 0
+    TAG_Short (2) ('StatsAttack'): 85
+    TAG_Long (4) ('UUIDMost'): -7734243003340600767
+    TAG_Byte (1) ('canFly'): 1
+    TAG_Byte (1) ('IVSpAtt'): 19
+    TAG_Byte (1) ('NBT_VERSION'): 1
+    TAG_Int (3) ('EXP'): 0
+    TAG_List (9) ('RelrnMoves') (0 entries of TAG_End (0))
+    {
+    }
+}

@@ -1,0 +1,108 @@
+{
+  "id": "Clefairy",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Clefairy"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:metronome",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "mountainous"
+        ],
+        "minY": 70
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": {
+        "name": "Clefairy"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:metronome",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "end"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": {
+        "name": "Clefairy"
+      },
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 9,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:metronome",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "minY": 70
+      },
+      "anticondition": {
+        "dimensions": [
+          -1
+
+        ]
+      },
+      "rarity": 20.0
+    },
+    {
+      "spec": {
+        "name": "Clefairy"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 23,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:metronome",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "minY": 180
+      },
+      "rarity": 8.0
+    }
+  ]
+}

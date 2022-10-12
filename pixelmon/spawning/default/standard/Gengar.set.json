@@ -1,0 +1,47 @@
+{
+  "id": "Gengar",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Gengar",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether"
+        ],
+        "neededNearbyBlocks": [
+          "pixelmon:nether_brick"
+        ]
+
+      },
+      "rarity": 1
+    },
+    {
+      "spec": {
+        "name": "Gengar",
+        "form": 113
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether_volcano"
+        ]
+      },
+      "rarity": 1
+    }
+  ]
+}

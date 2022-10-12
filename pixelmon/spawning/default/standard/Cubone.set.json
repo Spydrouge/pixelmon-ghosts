@@ -1,0 +1,67 @@
+{
+  "id": "Cubone",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Cubone"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 28,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:thick_club",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "arid",
+          "mesas"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": {
+        "name": "Cubone"
+      },
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 10,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:thick_club",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY": 120.0
+      },
+       "rarityMultipliers": [
+        {
+          "multiplier": 5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:skull"
+            ]
+          }
+        }
+      ],
+      "rarity": 22.0
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "Omastar",
+  "spawnInfos": [
+	{
+      "spec": {
+        "name": "Omastar",
+        "form": 102
+      },
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 30,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "pixelmon:infinite_ocean"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": {
+        "name": "Omastar",
+        "form": 102
+      },
+      "stringLocationTypes": [
+        "Underground Water"
+      ],
+      "minLevel": 45,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":120,
+        "maxY":180
+      },
+      "heldItems": [
+        {
+          "itemID": "pixelmon:smooth_stone",
+          "percentChance": 15
+        }
+      ],
+      "rarity": 14.0
+    },
+    {
+      "spec": {
+        "name": "Omastar",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Beach"
+      ],
+      "minLevel": 30,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ]
+      },
+      "heldItems": [
+        {
+          "itemID": "pixelmon:smooth_stone",
+          "percentChance": 15
+        }
+      ],
+      "rarity": 7.0
+    }
+  ]
+}

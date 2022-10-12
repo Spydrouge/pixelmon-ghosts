@@ -1,0 +1,116 @@
+{
+  "id": "Burmy",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Burmy"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "forests"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "weathers": [
+              "CLEAR"
+            ]
+          }
+        }
+      ],
+      "rarity": 250.0
+    },
+       {
+      "spec": {
+        "name": "Burmy"
+      },
+      "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt",
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "maxY": 180,
+        "minY":50
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 9.5,
+          "condition": {
+            "weathers": [
+              "CLEAR"
+            ]
+          }
+        }
+      ],
+      "rarity": 20
+    },
+     {
+      "spec": {
+        "name": "Burmy",
+        "form":2
+      },
+      "stringLocationTypes": [
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "maxY": 220,
+        "minY":50
+      },
+      "anticondition": {
+        "dimensions": [
+          -1
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": {
+        "name": "Burmy",
+        "form":2
+      },
+      "stringLocationTypes": [
+        "Indoors",
+        "Manmade",
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether_forests"
+        ]
+      },
+      "rarity": 10.0
+    }
+  ]
+}

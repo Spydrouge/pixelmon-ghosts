@@ -1,0 +1,49 @@
+{
+  "id": "Ariados",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Ariados"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt"
+      ],
+      "minLevel": 22,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "all forests",
+          "flowery"
+        ]
+      },
+      "rarity": 8.0
+    },
+      {
+      "spec": {
+        "name": "Ariados"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt",
+        "Tree Top"
+      ],
+      "minLevel": 10,
+      "maxLevel": 12,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ]
+      },
+      "rarity": 8.0
+    }
+  ]
+}

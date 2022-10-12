@@ -1,0 +1,50 @@
+{
+  "id": "Magnezone",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Magnezone"
+      },
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 35,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:metal_coat",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "weathers": [
+              "STORM"
+            ]
+          }
+        },
+         {
+          "multiplier": 100,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:iron_bars"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.005
+    }
+  ]
+}

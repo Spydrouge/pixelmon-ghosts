@@ -1,0 +1,105 @@
+{
+  "id": "Aron",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Aron"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Rock Smash"
+      ],
+      "minLevel": 15,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "mesas"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": {
+        "name": "Aron"
+      },
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 15,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "maxY": 40
+      },
+      "anticondition": {
+        "dimensions": [
+          -1
+
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:iron_ore"
+            ]
+          }
+        }
+      ],
+      "rarity": 90.0
+    },
+    {
+      "spec": {
+        "name": "Aron"
+      },
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "nether_flesh"
+        ]
+      },
+      "anticondition": {
+        "dimensions": [
+          1
+
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:iron_ore"
+            ]
+          }
+        }
+      ],
+      "rarity": 45.0
+    }
+  ]
+}

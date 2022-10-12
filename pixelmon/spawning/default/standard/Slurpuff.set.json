@@ -1,0 +1,44 @@
+{
+  "id": "Swirlix",
+  "spawnInfos": [
+     {
+      "spec": {
+        "name": "Slurpuff"
+      },
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:whipped_dream",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":150,
+        "maxY": 220
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:cake"
+            ]
+          }
+        }
+      ],
+      "rarity": 3.0
+    }
+  ]
+}

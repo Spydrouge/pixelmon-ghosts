@@ -1,0 +1,98 @@
+{
+  "id": "Roggenrola",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Roggenrola"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Rock Smash"
+      ],
+      "minLevel": 7,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "mutated_savanna",
+          "mutated_savanna_rock",
+          "mesas",
+          "ultra_deep_sea"
+        ]
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": {
+        "name": "Roggenrola"
+      },
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 7,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "maxY": 70
+      },
+      "anticondition": {
+        "dimensions": [
+          -1
+
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": {
+        "name": "Roggenrola"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 7,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:ever_stone",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "maxY": 50
+      },
+      "anticondition": {
+        "dimensions": [
+          -1
+
+        ]
+      },
+      "rarity": 70.0
+    }
+  ]
+}

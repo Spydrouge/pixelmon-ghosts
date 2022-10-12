@@ -1,0 +1,2 @@
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:water"}), <pixelmon:leppa_berry>);
+brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:water"}), [<pixelmon:leppa_berry>], <pixelmon:ether>);

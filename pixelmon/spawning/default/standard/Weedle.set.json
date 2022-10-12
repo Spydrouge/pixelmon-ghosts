@@ -1,0 +1,155 @@
+{
+  "id": "Weedle",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Weedle",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top",
+        "Headbutt",
+        "Sweet Scent",
+        "Forage"
+      ],
+      "minLevel": 2,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "birches",
+          "flowery",
+          "forests",
+          "taigas"
+        ]
+      },
+      "rarity": 300.0
+    },
+    {
+      "spec": {
+        "name": "Weedle",
+        "form": 108
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top"
+      ],
+      "minLevel": 2,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "birches",
+          "flowery",
+          "forests",
+          "taigas"
+        ]
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": {
+        "name": "Weedle",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Tree Top"
+      ],
+      "minLevel": 7,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":100
+      },
+      
+      "rarity": 130.0
+    },
+    {
+      "spec": {
+        "name": "Weedle",
+        "form": 108
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Tree Top"
+      ],
+      "minLevel": 2,
+      "maxLevel": 7,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":100,
+        "maxY":180
+      },
+      "rarity": 5.0
+    },
+    {
+      "spec": {
+        "name": "Weedle",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Tree Top"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether"
+        ],
+        "neededNearbyBlocks": [
+          "biomesoplenty:hive"
+        ]
+      },
+      "rarity": 100
+    },
+    {
+      "spec": {
+        "name": "Weedle",
+        "form": 108
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Underground",
+        "Tree Top"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether"
+        ],
+        "neededNearbyBlocks": [
+          "biomesoplenty:hive"
+        ]
+      },
+      "rarity": 5
+    }
+  ]
+}

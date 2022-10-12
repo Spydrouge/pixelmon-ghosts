@@ -1,0 +1,74 @@
+{
+  "id": "Togedemaru",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Togedemaru"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:electric_seed",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "redwoods",
+          "freezing forests"
+        ]
+      },
+      "rarity": 130.0
+    },
+     {
+      "spec": {
+        "name": "Togedemaru"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 6,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:electric_seed",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":150
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 13,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:iron_bars"
+            ]
+          }
+        }
+      ],
+      "rarity": 10
+    }
+  ]
+}

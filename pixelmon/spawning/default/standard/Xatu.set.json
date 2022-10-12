@@ -1,0 +1,47 @@
+{
+  "id": "Xatu",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Xatu"
+      },
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 25,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "jungles",
+          "mesa_rock"
+        ]
+      },
+      "rarity": 8.0
+    },
+     {
+      "spec": {
+        "name": "Xatu"
+      },
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 25,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":220
+      },
+      "rarity": 8.0
+    }
+  ]
+}

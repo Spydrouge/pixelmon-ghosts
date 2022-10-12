@@ -1,0 +1,68 @@
+{
+  "id": "Skarmory",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Skarmory"
+      },
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 10,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:metal_coat",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "mountainous",
+          "savannas"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": {
+        "name": "Skarmory"
+      },
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 10,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:metal_coat",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ]
+      },
+       "rarityMultipliers": [
+         {
+          "multiplier": 100,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:iron_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.08
+    }
+  ]
+}

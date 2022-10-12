@@ -1,0 +1,206 @@
+{
+  "id": "Mismagius",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Mismagius"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 31,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "roofed_forest",
+          "mutated_roofed_forest",
+          "rw_bur_oak_forest",
+          "evil"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "times": [
+              "MIDNIGHT"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.5
+    },
+    {
+      "spec": {
+        "name": "Mismagius",
+        "form": 108
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 31,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "roofed_forest",
+          "mutated_roofed_forest",
+          "rw_bur_oak_forest"
+        ]
+      },
+      "rarity": 0.1
+    },
+       {
+      "spec": {
+        "name": "Mismagius"
+      },
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 31,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY": 60
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "times": [
+              "NOON"
+            ]
+          }
+        }
+      ],
+      "rarity": 8
+    },
+    {
+      "spec": {
+        "name": "Mismagius",
+        "form": 108
+      },
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 21,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY": 60
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "times": [
+              "MIDNIGHT"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.1
+    },
+    {
+      "spec": {
+        "name": "Mismagius",
+        "form": 108
+      },
+      "stringLocationTypes": [
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 31,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether"
+        ],
+        "neededNearbyBlocks": [
+          "nether_brick"
+        ]
+      },
+      "rarity": 0.1
+    },
+    {
+      "spec": {
+        "name": "Mismagius",
+        "form": 108
+      },
+      "stringLocationTypes": [
+        "Underground",
+        "Land"
+      ],
+      "minLevel": 31,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether_desert"
+        ]
+      },
+      "rarity": 0.1
+    },
+    {
+      "spec": {
+        "name": "Mismagius",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 31,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether"
+        ],
+        "neededNearbyBlocks": [
+          "nether_brick"
+        ]
+      },
+      "rarity": 8
+    },
+    {
+      "spec": {
+        "name": "Mismagius",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Underground",
+        "Land"
+      ],
+      "minLevel": 31,
+      "maxLevel": 45,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether_desert"
+        ]
+      },
+      "rarity": 8
+    }
+  ]
+}

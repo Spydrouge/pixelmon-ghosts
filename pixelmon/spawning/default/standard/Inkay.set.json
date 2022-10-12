@@ -1,0 +1,69 @@
+{
+  "id": "Inkay",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Inkay"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 18,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "stringBiomes": [
+          "roofed_forest",
+          "mutated_roofed_forest",
+          "rw_bur_oak_forest"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": {
+        "name": "Inkay"
+      },
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 4,
+      "maxLevel": 11,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":190
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": {
+        "name": "Inkay"
+      },
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 4,
+      "maxLevel": 11,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "maxY": 55
+      },
+      "rarity": 200.0
+    }
+  ]
+}

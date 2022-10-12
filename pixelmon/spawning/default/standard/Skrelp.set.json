@@ -1,0 +1,65 @@
+{
+  "id": "Skrelp",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Skrelp"
+      },
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 33,
+      "maxLevel": 47,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "deep_ocean",
+          "kelp_forest"
+        ],
+        "maxY": 40
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": {
+        "name": "Skrelp"
+      },
+      "stringLocationTypes": [
+        "Water",
+        "Seafloor"
+      ],
+      "minLevel": 5,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "maxY": 40
+      },
+       "rarityMultipliers": [
+        {
+          "multiplier": 2.5,
+          "condition": {
+            "weathers": [
+              "RAIN"
+            ]
+          }
+        },
+        {
+          "multiplier": 2.5,
+          "condition": {
+            "maxY":10
+          }
+        }
+      ],
+      "rarity": 7.0
+    }
+  ]
+}

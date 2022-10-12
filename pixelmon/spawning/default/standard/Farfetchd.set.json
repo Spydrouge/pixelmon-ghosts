@@ -1,0 +1,117 @@
+{
+  "id": "Farfetchd",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Farfetchd",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 24,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:leek",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "plains"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": {
+        "name": "Farfetchd",
+        "form": 2
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 24,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:leek",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "plains"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": {
+        "name": "Farfetchd",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel":6,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:leek",
+          "percentChance": 10
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":150,
+        "maxY":220
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": {
+        "name": "Farfetchd",
+        "form": 2
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 6,
+      "maxLevel": 19,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:leek",
+          "percentChance": 10
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":150,
+        "maxY":220
+      },
+      "rarity": 40.0
+    }
+  ]
+}

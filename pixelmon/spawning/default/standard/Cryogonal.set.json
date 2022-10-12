@@ -1,0 +1,96 @@
+{
+  "id": "Cryogonal",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Cryogonal"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:never_melt_ice",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "weathers": [
+          "RAIN"
+        ],
+        "stringBiomes": [
+          "freezing"
+        ]
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": {
+        "name": "Cryogonal"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:never_melt_ice",
+          "percentChance": 25
+        }
+      ],
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "weathers": [
+          "RAIN"
+        ],
+        "stringBiomes": [
+          "mountainous"
+        ],
+        "minY": 150
+      },
+      "rarity": 6.0
+    },
+    {
+      "spec": {
+        "name": "Cryogonal"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:never_melt_ice",
+          "percentChance": 25
+        },
+        {
+          "itemID": "pixelmon:aspear_berry",
+          "percentChance": 10
+        }
+      ],
+      "condition": {
+        "weathers": [
+          "RAIN",
+          "STORM"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY": 220
+      },
+      "rarity": 130
+    }
+  ]
+}

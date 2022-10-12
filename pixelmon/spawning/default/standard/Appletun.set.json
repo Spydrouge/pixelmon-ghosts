@@ -1,0 +1,61 @@
+{
+  "id": "Appletun",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Appletun"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "forests"
+        ]
+      },
+      "rarity": 0.5
+    },
+     {
+      "spec": {
+        "name": "Appletun"
+      },
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":150
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:cake"
+            ]
+          }
+        },
+        {
+          "multiplier": 3,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:leaves"
+            ]
+          }
+        }
+      ],
+      "rarity": 3
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "Sudowoodo",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Sudowoodo"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 20,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "redwoods"
+        ]
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": {
+        "name": "Sudowoodo"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 20,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "times": [
+          "DAY"
+        ],
+        "maxY":50
+      },
+      "rarity": 10.0
+    }
+  ]
+}

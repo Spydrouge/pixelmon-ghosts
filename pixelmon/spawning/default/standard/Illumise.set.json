@@ -1,0 +1,88 @@
+{
+  "id": "Illumise",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Illumise"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:bright_powder",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "taigas",
+          "redwoods"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": {
+        "name": "Illumise"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Treetop",
+        "Headbutt"
+      ],
+      "minLevel": 19,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:bright_powder",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": {
+        "name": "Illumise"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Treetop",
+        "Headbutt"
+      ],
+      "minLevel": 29,
+      "maxLevel": 33,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:bright_powder",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "nether_forest"
+        ]
+      },
+      "rarity": 20.0
+    }
+
+  ]
+}

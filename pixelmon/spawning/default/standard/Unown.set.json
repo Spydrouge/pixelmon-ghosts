@@ -1,0 +1,79 @@
+{
+  "id": "Unown",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Unown"
+      },
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 5,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 50,
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "arid",
+          "mesas"
+        ]
+      },
+      "rarity": 6.0
+    },
+    {
+      "spec": {
+        "name": "Unown"
+      },
+      "stringLocationTypes": [
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 5,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 50,
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 17,
+          "condition": {
+            "moonPhase": 0
+          }
+        }
+      ],
+      "rarity": 300
+    },
+    {
+      "spec": {
+        "name": "Unown"
+      },
+      "stringLocationTypes": [
+        "Indoors",
+        "Manmade"
+      ],
+      "minLevel": 5,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether"
+        ],
+        "neededNearbyBlocks": [
+          "nether_brick"
+        ]
+      },
+      "rarity": 300.0
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "Alcremie",
+  "spawnInfos": [
+     {
+      "spec": {
+        "name": "Alcremie"
+      },
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:whipped_dream",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":100,
+        "maxY":130
+      },
+      "rarity": 1.0
+    },
+    {
+      "spec": {
+        "name": "Alcremie"
+      },
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:whipped_dream",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":190
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:cake"
+            ]
+          }
+        }
+      ],
+      "rarity": 2.0
+    }
+  ]
+}

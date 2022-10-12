@@ -1,0 +1,46 @@
+{
+  "id": "Heatmor",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Heatmor"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 34,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "mesas"
+        ],
+        "maxY": 75
+      },
+      "rarity": 30.0
+    },
+    {
+      "spec": {
+        "name": "Heatmor"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 34,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether_volcano",
+          "nether_hell"
+        ]
+      },
+      "rarity": 30.0
+    }
+  ]
+}

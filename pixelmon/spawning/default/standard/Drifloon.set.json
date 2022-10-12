@@ -1,0 +1,120 @@
+{
+  "id": "Drifloon",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Drifloon"
+      },
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "plains"
+        ]
+      },
+      "rarity": 130.0
+    },
+      {
+      "spec": {
+        "name": "Drifloon"
+      },
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 7,
+      "maxLevel": 10,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ]
+      },
+      "rarity": 130.0
+    },
+      
+    {
+      "spec": {
+        "name": "Drifloon"
+      },
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "mountainous"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": {
+        "name": "Drifloon"
+      },
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 17,
+      "maxLevel": 21,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "nether_normal"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": {
+        "name": "Drifloon"
+      },
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 17,
+      "maxLevel": 21,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether_normal"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": {
+        "name": "Drifloon"
+      },
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 17,
+      "maxLevel": 21,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether_normal"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

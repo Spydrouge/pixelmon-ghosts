@@ -1,0 +1,88 @@
+{
+  "id": "Honchkrow",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Honchkrow"
+      },
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "all forests",
+          "swamps"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "times": [
+              "MIDNIGHT"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.5
+    },
+    {
+      "spec": {
+        "name": "Honchkrow"
+      },
+      "stringLocationTypes": [
+        "Air",
+        "Tree Top",
+        "Headbutt"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "times": [
+              "MIDNIGHT"
+            ]
+          }
+        }
+      ],
+      "rarity": 1
+    },
+    {
+      "spec": {
+        "name": "Honchkrow"
+      },
+      "stringLocationTypes": [
+        "Air",
+        "Underground"
+      ],
+      "minLevel": 30,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether_hell",
+          "nether_volcano",
+          "nether_flesh"
+        ]
+      },
+      "rarity": 1
+    }
+  ]
+}

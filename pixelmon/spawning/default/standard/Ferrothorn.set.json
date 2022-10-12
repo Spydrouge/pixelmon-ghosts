@@ -1,0 +1,105 @@
+{
+  "id": "Ferrothorn",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Ferrothorn"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 41,
+      "maxLevel": 53,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:sticky_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "redwoods",
+          "freezing forests"
+        ]
+      },
+      "rarity": 6.0
+    },
+    {
+      "spec": {
+        "name": "Ferrothorn"
+      },
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 41,
+      "maxLevel": 53,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:sticky_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "redwoods",
+          "freezing forests"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": {
+        "name": "Ferrothorn"
+      },
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 41,
+      "maxLevel": 53,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:sticky_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minHeight":180
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": {
+        "name": "Ferrothorn"
+      },
+      "stringLocationTypes": [
+        "Underground",
+        "Land",
+        "Headbutt"
+      ],
+      "minLevel": 41,
+      "maxLevel": 53,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:sticky_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "nether_forest"
+        ]
+      },
+      "rarity": 0.5
+    }
+  ]
+}

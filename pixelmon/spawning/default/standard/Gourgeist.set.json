@@ -1,0 +1,77 @@
+{
+	"id": "Gourgeist",
+	"spawnInfos": [
+	  {
+		"spec": {
+		  "name": "Pumpkaboo"
+		},
+		"stringLocationTypes": [
+		  "Land"
+		],
+		"minLevel": 25,
+		"maxLevel": 40,
+		"typeID": "pokemon",
+		"heldItems": [
+		  {
+			"itemID": "pixelmon:miracle_seed",
+			"percentChance": 100
+		  }
+		],
+		"condition": {
+		  "times": [
+			"DAY"
+		  ],
+		  "stringBiomes": [
+			"ominous_woods"
+		  ],
+		  "minY":60,
+		  "maxY":100
+		},
+		  "rarityMultipliers": [
+		  {
+			"multiplier":16,
+			"condition": {
+			  "neededNearbyBlocks": [
+				"minecraft:pumpkin"
+			  ]
+			}
+		  }
+		],
+		"rarity": 0.5
+	  },
+	  {
+		"spec": {
+		  "name": "Gourgeist"
+		},
+		"stringLocationTypes": [
+		  "Land",
+		  "Underground"
+		],
+		"minLevel": 35,
+		"maxLevel": 55,
+		"typeID": "pokemon",
+		"heldItems": [
+		  {
+			"itemID": "pixelmon:miracle_seed",
+			"percentChance": 100
+		  }
+		],
+		"condition": {
+		  "stringBiomes": [
+			"nether_forest"
+		  ]
+		},
+		  "rarityMultipliers": [
+		  {
+			"multiplier":16,
+			"condition": {
+			  "neededNearbyBlocks": [
+				"minecraft:pumpkin"
+			  ]
+			}
+		  }
+		],
+		"rarity": 0.5
+	  }
+	]
+  }

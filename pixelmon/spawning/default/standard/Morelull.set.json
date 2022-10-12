@@ -1,0 +1,73 @@
+{
+  "id": "Morelull",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Morelull"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 7,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY",
+          "DAWN"
+        ],
+        "stringBiomes": [
+          "birches",
+          "mushroom",
+          "taigas",
+          "redwoods",
+          "magical"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": {
+        "name": "Morelull"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 7,
+      "maxLevel": 11,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:big_mushroom",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:tiny_mushroom",
+          "percentChance": 50
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":60,
+        "maxY":150
+      },
+      "rarity": 90.0
+    }
+  ]
+}

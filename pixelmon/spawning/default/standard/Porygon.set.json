@@ -1,0 +1,44 @@
+{
+  "id": "Porygon",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Porygon",
+        "form": 107
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "end"
+        ]
+      },
+      "rarity": 0.5
+    },
+      {
+      "spec": {
+        "name": "Porygon",
+        "form": 107
+      },
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 5,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "times": [
+          "NIGHT"
+        ]
+      },
+      "rarity": 30
+    }
+  ]
+}

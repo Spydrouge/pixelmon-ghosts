@@ -1,0 +1,44 @@
+{
+  "id": "PorygonZ",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Porygon-Z",
+        "form": 107
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "end"
+        ]
+      },
+      "rarity": 0.01
+    },
+      {
+      "spec": {
+        "name": "Porygon-Z",
+        "form": 107
+      },
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 25,
+      "maxLevel": 40,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "times": [
+          "NIGHT"
+        ]
+      },
+      "rarity": 1
+    }
+  ]
+}

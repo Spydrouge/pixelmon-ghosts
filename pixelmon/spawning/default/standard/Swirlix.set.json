@@ -1,0 +1,74 @@
+{
+  "id": "Swirlix",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Swirlix"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 22,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:whipped_dream",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "birches",
+          "mushroom",
+          "magical"
+        ]
+      },
+      "rarity": 90.0
+    },
+     {
+      "spec": {
+        "name": "Swirlix"
+      },
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 4,
+      "maxLevel": 11,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:whipped_dream",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":150,
+        "maxY":220
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 3,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:cake"
+            ]
+          }
+        }
+      ],
+      "rarity": 40.0
+    }
+  ]
+}

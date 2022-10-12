@@ -1,0 +1,89 @@
+{
+  "id": "Goomy",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Goomy"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 22,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:shed_shell",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "RAIN"
+        ],
+        "stringBiomes": [
+          "swamps"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": {
+        "name": "Goomy"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:shed_shell",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "RAIN"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "maxY":20
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": {
+        "name": "Goomy"
+      },
+      "stringLocationTypes": [
+        "Water",
+        "Underground Water"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:shed_shell",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "nether_flesh"
+        ]
+      },
+      "rarity": 4.0
+    }
+  ]
+}

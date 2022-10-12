@@ -1,0 +1,8 @@
+Loot Chest (bq_standard:loot_chest - 6082:100) has NBT data
+
+{hideLootInfo:1b}
+
+TAG_Compound (10) ('')
+{
+    TAG_Byte (1) ('hideLootInfo'): 1
+}

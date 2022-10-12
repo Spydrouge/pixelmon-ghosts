@@ -1,0 +1,93 @@
+{
+  "id": "Duraludon",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Duraludon"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 55,
+      "maxLevel": 75,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "mountainous"
+        ]
+      },
+      "rarity": 0.1
+    },
+    {
+      "spec": {
+        "name": "Duraludon"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 55,
+      "maxLevel": 75,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+          
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":220
+      },
+     "rarityMultipliers": [
+        {
+          "multiplier":5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:mechanical_anvil",
+              "minecraft:concrete"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.1
+    },
+    {
+      "spec": {
+        "name": "Duraludon"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 55,
+      "maxLevel": 75,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+          
+        "stringBiomes": [
+          "nether"
+        ],
+        "neededNearbyBlocks": [
+          "nether_brick"
+        ]
+      },
+     "rarityMultipliers": [
+        {
+          "multiplier":5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:mechanical_anvil",
+              "minecraft:concrete"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.1
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "Gligar",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Gligar"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 29,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "swamps",
+          "redwoods"
+        ]
+      },
+      "rarity": 90.0
+    },
+     {
+      "spec": {
+        "name": "Gligar"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "maxY":60
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": {
+        "name": "Gligar"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 15,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether_mushroom"
+        ]
+      },
+      "rarity": 60.0
+    }
+  ]
+}

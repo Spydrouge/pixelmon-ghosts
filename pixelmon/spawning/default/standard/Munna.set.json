@@ -1,0 +1,69 @@
+{
+  "id": "Munna",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Munna"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 6,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "redwoods"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": {
+        "name": "Munna"
+      },
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 6,
+      "maxLevel": 17,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":150,
+        "maxY":180
+      },
+      "rarity": 100.0
+    },
+    {
+      "spec": {
+        "name": "Munna"
+      },
+      "stringLocationTypes": [
+        "Indoors",
+        "Underground",
+        "Land"
+      ],
+      "minLevel": 16,
+      "maxLevel": 27,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "nether_flesh"
+        ]
+      },
+      "rarity": 20.0
+    }
+  ]
+}

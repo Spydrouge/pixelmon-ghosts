@@ -1,0 +1,50 @@
+{
+  "id": "Frillish",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Frillish"
+      },
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 22,
+      "maxLevel": 39,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "oceanic"
+        ],
+        "maxY": 50
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": {
+        "name": "Frillish"
+      },
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT",
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY": 60,
+        "maxY": 220
+      },
+      "rarity": 150.0
+    }
+  ]
+}

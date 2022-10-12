@@ -1,0 +1,68 @@
+{
+  "id": "Phantump",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Phantump"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "roofed_forest",
+          "mutated_roofed_forest",
+          "rw_bur_oak_forest",
+          "evil"
+        ]
+      },
+      "rarity": 110.0
+    },
+      {
+      "spec": {
+        "name": "Phantump"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":60,
+        "maxY":180
+      },
+      "rarity": 250.0
+    },
+    {
+      "spec": {
+        "name": "Phantump"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 12,
+      "maxLevel": 16,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether_forest"
+        ]
+      },
+      "rarity": 250.0
+    }
+  ]
+}

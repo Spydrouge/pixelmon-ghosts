@@ -1,0 +1,49 @@
+{
+  "id": "Escavalier",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Escavalier"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Sweet Scent"
+      ],
+      "minLevel": 15,
+      "maxLevel": 24,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DUSK",
+          "DAWN",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "maxY":180,
+        "minY":50
+        
+      },
+       "rarityMultipliers": [
+         {
+          "multiplier": 8,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:iron_block"
+            ]
+          }
+        },
+        {
+          "multiplier": 8,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:slime_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.5
+    }
+  ]
+}

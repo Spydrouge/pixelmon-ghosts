@@ -1,0 +1,93 @@
+{
+  "id": "Skorupi",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Skorupi"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "arid",
+          "swamps",
+          "mesas"
+        ]
+      },
+      "rarity": 170.0
+    },
+    {
+      "spec": {
+        "name": "Skorupi"
+      },
+      "stringLocationTypes": [
+        "Manmade",
+        "Headbutt"
+      ],
+      "minLevel": 5,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_Woods"
+        ],
+        "maxY":50
+      },
+      "rarity": 70.0
+    },
+    {
+      "spec": {
+        "name": "Skorupi"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "nether_desert"
+        ]
+      },
+      "anticondition": {
+        "neededNearbyBlocks": [
+          "biomesoplenty:hive"
+        ]
+      },
+      "rarity": 30.0
+    }
+  ]
+}

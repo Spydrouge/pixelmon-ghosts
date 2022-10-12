@@ -1,0 +1,54 @@
+{
+  "id": "Snubbull",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Snubbull"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "plains"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": {
+        "name": "Snubbull"
+      },
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 5,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:love_ball_lid",
+          "percentChance": 30
+        }
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":100,
+        "maxY":150
+      },
+      "rarity": 100.0
+    }
+  ]
+}

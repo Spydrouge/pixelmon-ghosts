@@ -1,0 +1,6 @@
+White Apricorn (pixelmon:white_apricorn_tree - 855:0) no TileEntity
+Full block state: pixelmon:white_apricorn_tree[blockpos=top]
+Hardness: 2.0000, Explosion resistance: 2.0000, Material: WOOD
+Block class: com.pixelmonmod.pixelmon.blocks.apricornTrees.BlockApricornTree
+IBlockState properties, including getActualState():
+PropertyEnum{name=blockpos, clazz=class com.pixelmonmod.pixelmon.blocks.enums.EnumBlockPos, values=[top, bottom]}: top

@@ -1,0 +1,29 @@
+{
+  "id": "Azurill",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Azurill",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Beach"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "baseBlocks": [
+          "minecraft:sand"
+        ],
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ]
+      },
+      "rarity": 100
+    }
+  ]
+}

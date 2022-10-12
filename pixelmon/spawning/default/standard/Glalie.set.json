@@ -1,0 +1,47 @@
+{
+  "id": "Glalie",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Glalie"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 40,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "freezing"
+        ],
+        "minY": 110
+      },
+      "rarity": 0.5
+    },
+     {
+      "spec": {
+        "name": "Glalie"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 40,
+      "maxLevel": 60,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY": 220
+      },
+      "rarity": 5
+    }
+  ]
+}

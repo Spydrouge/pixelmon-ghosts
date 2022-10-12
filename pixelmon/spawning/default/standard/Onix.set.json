@@ -1,0 +1,235 @@
+{
+  "id": "Onix",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Onix"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Rock Smash"
+      ],
+      "minLevel": 10,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:lagging_tail",
+          "percentChance": 30
+        }
+      ],
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "mountainous",
+          "mesas"
+        ],
+        "maxY": 100
+      },
+      "rarity": 8.0
+    },
+    {
+      "spec": {
+        "name": "Onix"
+      },
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 10,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 50
+      },
+      "anticondition": {
+        "dimensions": [
+          -1
+
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": {
+        "name": "Onix",
+        "form": 110
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:lagging_tail",
+          "percentChance": 30
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "mountainous",
+          "mesas"
+        ],
+        "maxY": 100
+      },
+      "rarity": 1.0
+    },
+    {
+      "spec": {
+        "name": "Onix",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:lagging_tail",
+          "percentChance": 30
+        }
+      ],
+      "minLevel": 10,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "maxY": 50
+      },
+      "anticondition": {
+        "dimensions": [
+          -1
+
+        ]
+      },
+      "rarityMultipliers": [
+        {
+         "multiplier": 2,
+         "condition": {
+           "neededNearbyBlocks": [
+             "minecraft:glowstone"
+           ]
+         }
+       },
+       {
+        "multiplier": 2,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
+      },
+      {
+        "multiplier": 2,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
+      },
+      {
+        "multiplier": 20,
+        "condition": {
+          "neededNearbyBlocks": [
+            "pixelmon:boulder"
+          ]
+        }
+      }
+     ],
+      "rarity": 0.5
+    },
+    {
+      "spec": {
+        "name": "Onix",
+        "form": 110
+      },
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "heldItems": [
+        {
+          "itemID": "pixelmon:hard_stone",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:lagging_tail",
+          "percentChance": 30
+        }
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "minY": 220,
+        "stringBiomes": [
+          "ominous_woods"
+        ]
+      },
+      "anticondition": {
+        "dimensions": [
+          -1
+
+        ]
+      },
+      "rarityMultipliers": [
+        {
+         "multiplier": 2,
+         "condition": {
+           "neededNearbyBlocks": [
+             "minecraft:glowstone"
+           ]
+         }
+       },
+       {
+        "multiplier": 2,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
+      },
+      {
+        "multiplier": 2,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:iron_block"
+          ]
+        }
+      },
+      {
+        "multiplier": 20,
+        "condition": {
+          "neededNearbyBlocks": [
+            "pixelmon:boulder"
+          ]
+        }
+      }
+     ],
+      "rarity": 0.5
+    }
+  ]
+}

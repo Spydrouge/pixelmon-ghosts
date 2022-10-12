@@ -1,0 +1,26 @@
+Oran Berry (pixelmon:berrytree_oran - 810:4) has a TileEntity
+Full block state: pixelmon:berrytree_oran[blockpos=bottom,facing=south]
+Hardness: 1.0000, Explosion resistance: 0.0000, Material: PLANTS
+Block class: com.pixelmonmod.pixelmon.blocks.BlockBerryTree
+IBlockState properties, including getActualState():
+PropertyEnum{name=blockpos, clazz=class com.pixelmonmod.pixelmon.blocks.enums.EnumBlockPos, values=[top, bottom]}: bottom
+PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}: south
+TileEntity class: com.pixelmonmod.pixelmon.blocks.tileEntities.TileEntityBerryTree
+
+TileEntity NBT (from TileEntity#writeToNBT()):
+TAG_Compound (10) ('')
+{
+    TAG_Short (2) ('hours'): 0
+    TAG_Byte (1) ('isBoosted'): 0
+    TAG_Short (2) ('nextGrowth'): 3
+    TAG_Byte (1) ('typeOrdinal'): 6
+    TAG_Short (2) ('projectedYield'): 3
+    TAG_Byte (1) ('isGenerated'): 0
+    TAG_Long (4) ('worldTime'): 473216
+    TAG_Byte (1) ('stage'): 1
+    TAG_Int (3) ('x'): 992
+    TAG_Int (3) ('y'): 87
+    TAG_Int (3) ('z'): 3
+    TAG_Byte (1) ('timesReplanted'): 0
+    TAG_String (8) ('id'): "pixelmon:berry_tree"
+}

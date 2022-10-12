@@ -1,0 +1,186 @@
+{
+  "id": "Misdreavus",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Misdreavus"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "roofed_forest",
+          "mutated_roofed_forest",
+          "rw_bur_oak_forest",
+          "evil"
+        ]
+      },
+      "rarity": 40.0
+    },
+    {
+      "spec": {
+        "name": "Misdreavus",
+        "form": 108
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 30,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "roofed_forest",
+          "mutated_roofed_forest",
+          "rw_bur_oak_forest"
+        ]
+      },
+      "rarity": 1.0
+    },
+       {
+      "spec": {
+        "name": "Misdreavus"
+      },
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 9,
+      "maxLevel": 13,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY": 60
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": {
+        "name": "Misdreavus",
+        "form": 108
+      },
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 9,
+      "maxLevel": 13,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY": 60
+      },
+      "rarity": 1.0
+    },
+    {
+      "spec": {
+        "name": "Misdreavus",
+        "form": 108
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 19,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether_desert"
+        ]
+      },
+      "rarity": 1
+    },
+    {
+      "spec": {
+        "name": "Misdreavus",
+        "form": 108
+      },
+      "stringLocationTypes": [
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 19,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether"
+        ],
+        "neededNearbyBlocks": [
+          "nether_brick"
+        ]
+      },
+      "rarity": 1
+    },
+    {
+      "spec": {
+        "name": "Misdreavus",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 19,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether_desert"
+        ]
+      },
+      "anticondition": {
+        "neededNearbyBlocks": [
+          "biomesoplenty:hive"
+        ]
+      },
+      "rarity": 90
+    },
+    {
+      "spec": {
+        "name": "Misdreavus",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 19,
+      "maxLevel": 23,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether"
+        ],
+        "neededNearbyBlocks": [
+          "nether_brick"
+        ]
+      },
+      "anticondition": {
+        "neededNearbyBlocks": [
+          "biomesoplenty:hive"
+        ]
+      },
+      "rarity": 90
+    }
+  ]
+}

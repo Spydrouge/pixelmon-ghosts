@@ -1,0 +1,75 @@
+{
+  "id": "Lampent",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Lampent"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 41,
+      "maxLevel": 55,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "roofed_forest",
+          "mutated_roofed_forest",
+          "rw_bur_oak_forest"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:torch"
+            ]
+          }
+        }
+      ],
+      "rarity": 8.0
+    },
+    {
+      "spec": {
+        "name": "Lampent"
+      },
+      "stringLocationTypes": [
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 33,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "maxY":180
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 4,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:street_light"
+            ]
+          }
+        }
+      ],
+      "rarity": 4.0
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "Dewpider",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Dewpider"
+      },
+      "stringLocationTypes": [
+        "Seafloor"
+      ],
+      "minLevel": 9,
+      "maxLevel": 21,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "river",
+          "swamps"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": {
+        "name": "Dewpider"
+      },
+      "stringLocationTypes": [
+        "Water"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:mystic_water",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods
+        ],
+        "minY":60
+      },
+      "rarity": 130.0
+    }
+  ]
+}

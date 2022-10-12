@@ -1,0 +1,116 @@
+{
+  "id": "Pidove",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Pidove"
+      },
+      "stringLocationTypes": [
+        "Headbutt",
+        "Tree Top"
+      ],
+      "minLevel": 6,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "plains",
+          "ice_flats",
+          "mutated_ice_flats"
+        ]
+      },
+      "rarity": 300.0
+    },
+    {
+      "spec": {
+        "name": "Pidove"
+      },
+      "stringLocationTypes": [
+        "Air"
+      ],
+      "minLevel": 6,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "plains",
+          "ice_flats",
+          "mutated_ice_flats"
+        ]
+      },
+      "rarity": 200.0
+    },
+     {
+      "spec": {
+        "name": "Pidove"
+      },
+      "stringLocationTypes": [
+        "Headbutt",
+        "Tree Top"
+      ],
+      "minLevel": 6,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+       "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":180
+      },
+      "rarity": 300.0
+    },
+    {
+      "spec": {
+        "name": "Pidove"
+      },
+      "stringLocationTypes": [
+        "Air",
+        "Manmade",
+        "Land"
+      ],
+      "minLevel": 6,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY",
+          "DUSK"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":180
+      },
+      "rarity": 200.0
+    }
+    
+  ]
+}

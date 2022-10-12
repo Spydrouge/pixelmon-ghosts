@@ -1,0 +1,109 @@
+{
+  "id": "Koffing",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Koffing"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 15,
+      "maxLevel": 35,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:smoke_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DUSK",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "swamps",
+          "visceral_heap",
+          "evil"
+        ]
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": {
+        "name": "Koffing"
+      },
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 5,
+      "maxLevel": 15,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:smoke_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":100,
+        "maxY":150
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": {
+        "name": "Koffing"
+      },
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 28,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:smoke_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":150
+      },
+      "rarity": 130.0
+    },
+    {
+      "spec": {
+        "name": "Koffing"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Indoors",
+        "Underground",
+        "Manmade"
+      ],
+      "minLevel": 28,
+      "maxLevel": 36,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:smoke_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "nether_volcano"
+        ]
+      },
+      "rarity": 130.0
+    }
+  ]
+}

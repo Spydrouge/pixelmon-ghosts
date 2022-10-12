@@ -1,0 +1,163 @@
+{
+  "id": "Milcery",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Milcery"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:strawberry_sweet",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:flower_sweet",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:love_sweet",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:berry_sweet",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:clover_sweet",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:star_sweet",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:ribbon_sweet",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "all forests"
+        ]
+      },
+      "rarity": 90.0
+    },
+     {
+      "spec": {
+        "name": "Milcery"
+      },
+      "stringLocationTypes": [
+        "Manmade",
+        "Indoors"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:strawberry_sweet",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:flower_sweet",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:love_sweet",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:berry_sweet",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:clover_sweet",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:star_sweet",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:ribbon_sweet",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":100,
+        "maxY":150
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": {
+        "name": "Milcery"
+      },
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 5,
+      "maxLevel": 20,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:strawberry_sweet",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:flower_sweet",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:love_sweet",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:berry_sweet",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:clover_sweet",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:star_sweet",
+          "percentChance": 5
+        },
+        {
+          "itemID": "pixelmon:ribbon_sweet",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":190
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 2.5,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:cake"
+            ]
+          }
+        }
+      ],
+      "rarity": 50.0
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "Mawile",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Mawile"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 33,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:iron_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "mountainous"
+        ]
+      },
+      "rarity": 6.0
+    },
+    {
+      "spec": {
+        "name": "Mawile"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 33,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:iron_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "freezing mountains"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": {
+        "name": "Mawile"
+      },
+      "stringLocationTypes": [
+        "Underground"
+      ],
+      "minLevel": 33,
+      "maxLevel": 46,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:iron_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "freezing mountains",
+          "mountainous"
+        ],
+        "maxY": 50
+      },
+      "rarity": 6.0
+    },
+     {
+      "spec": {
+        "name": "Mawile"
+      },
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 5,
+      "maxLevel": 21,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:iron_ball",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY": 80
+      },
+         
+        "rarityMultipliers": [
+         {
+          "multiplier": 10,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:emerald_block"
+            ]
+          }
+        },
+         {
+          "multiplier": 10,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:amethyst_block"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.5
+    }
+  ]
+}

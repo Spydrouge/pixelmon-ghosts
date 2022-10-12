@@ -1,0 +1,175 @@
+{
+  "id": "Doublade",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Doublade",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 36,
+      "maxLevel": 49,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "savannas"
+        ]
+      },
+      "rarity": 6.0
+    },
+    {
+      "spec": {
+        "name": "Doublade",
+        "form": 107
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 36,
+      "maxLevel": 49,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "savannas"
+        ]
+      },
+      "rarity": 0.1
+    },
+     {
+      "spec": {
+        "name": "Doublade",
+        "form": 107
+      },
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 36,
+      "maxLevel": 49,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":220
+      },
+        "rarityMultipliers": [
+        {
+          "multiplier":8,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:anvil"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.5
+    },
+    {
+      "spec": {
+        "name": "Doublade",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 36,
+      "maxLevel": 49,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":220
+      },
+        "rarityMultipliers": [
+        {
+          "multiplier":8,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:anvil"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.5
+    },
+    {
+      "spec": {
+        "name": "Doublade",
+        "form": 107
+      },
+      "stringLocationTypes": [
+        "Mandmade",
+        "Indoors"
+      ],
+      "minLevel": 36,
+      "maxLevel": 49,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:nether_brick"
+        ]
+      },
+        "rarityMultipliers": [
+        {
+          "multiplier":8,
+          "condition": {
+            "neededNearbyBlocks": [
+              "minecraft:anvil"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.5
+    },
+    {
+      "spec": {
+        "name": "Doublade",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Mandmade",
+        "Indoors"
+      ],
+      "minLevel": 36,
+      "maxLevel": 49,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "nether"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:nether_brick"
+        ]
+      },
+        "rarityMultipliers": [
+        {
+          "multiplier":8,
+          "condition": {
+            "neededNearbyBlocks": [
+              "pixelmon:anvil"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.5
+    }
+  ]
+}

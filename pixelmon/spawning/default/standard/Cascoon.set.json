@@ -1,0 +1,52 @@
+{
+  "id": "Cascoon",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Cascoon"
+      },
+      "stringLocationTypes": [
+        "Land",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 6,
+      "maxLevel": 11,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "all forests",
+          "bamboo_forest"
+        ]
+      },
+      "rarity": 40.0
+    },
+      {
+      "spec": {
+        "name": "Cascoon"
+      },
+      "stringLocationTypes": [
+        "Tree Top",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 4,
+      "maxLevel": 8,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ]
+      },
+      "rarity": 40.0
+    }
+  ]
+}

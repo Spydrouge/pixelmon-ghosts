@@ -1,0 +1,64 @@
+{
+  "id": "Vespiquen",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Vespiquen"
+      },
+      "stringLocationTypes": [
+        "Air",
+        "Headbutt",
+        "Sweet Scent"
+      ],
+      "minLevel": 26,
+      "maxLevel": 44,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "times": [
+          "DAWN",
+          "MORNING"
+        ],
+        "stringBiomes": [
+          "flowery"
+        ]
+      },
+      "rarity": 0.5
+    },
+    {
+      "spec": {
+        "name": "Vespiquen"
+      },
+      "stringLocationTypes": [
+        "Air",
+        "Headbutt",
+        "Sweet Scent",
+        "Land",
+        "Underground"
+      ],
+      "minLevel": 36,
+      "maxLevel": 54,
+      "typeID": "pokemon",
+      "heldItems": [
+        {
+          "itemID": "pixelmon:poison_barb",
+          "percentChance": 5
+        }
+      ],
+      "condition": {
+        "stringBiomes": [
+          "nether"
+        ],
+        "neededNearbyBlocks": [
+          "biomesoplenty:hive"
+        ]
+      },
+      "rarity": 20
+    }
+  ]
+}

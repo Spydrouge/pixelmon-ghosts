@@ -1,0 +1,49 @@
+{
+  "id": "Spinda",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Spinda"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 10,
+      "maxLevel": 25,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "mutated_extreme_hills",
+          "mutated_extreme_hills_with_trees"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": {
+        "name": "Spinda"
+      },
+      "stringLocationTypes": [
+        "Indoors"
+      ],
+      "minLevel": 11,
+      "maxLevel": 22,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "maxY":50
+      },
+      "rarity": 90.0
+    }
+  ]
+}

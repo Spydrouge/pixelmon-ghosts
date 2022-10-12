@@ -1,0 +1,65 @@
+{
+  "id": "Elgyem",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Elgyem"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 41,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "redwoods"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": {
+        "name": "Elgyem"
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 41,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "end"
+        ]
+      },
+      "rarity": 90.0
+    },
+    {
+      "spec": {
+        "name": "Elgyem"
+      },
+      "stringLocationTypes": [
+        "Manmade",
+        "Land"
+      ],
+      "minLevel": 30,
+      "maxLevel": 41,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":220
+      },
+      "rarity": 90.0
+    }
+  ]
+}
