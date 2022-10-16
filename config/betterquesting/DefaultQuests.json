@@ -44,7 +44,7 @@
           "viaPlayer:1": 0,
           "index:3": 0,
           "title:8": "bq_standard.reward.command",
-          "command:8": "w @p something has appeared...!\n\nexecute @e ~ ~ ~ scoreboard players operation @s IDMath \u003d @s ID\nscoreboard players operation @e[type\u003darmor_stand,tag\u003dIslandCenter] IDMath -\u003d @p ID\n\n\nexecute @e[type\u003darmor_stand,tag\u003dIslandCenter,score_IDMath\u003d0,score_IDMath_min\u003d0] ~ ~ ~ pillar-spawn altar ~ 85 ~5\nscoreboard objectives add gamestage dummy\nscoreboard players set @p gamestage 0\nscoreboard objectives add shinyloonfail dummy\nscoreboard players set @p shinyloonfail 0"
+          "command:8": "w @p something has appeared...!\n\nexecute @e ~ ~ ~ scoreboard players operation @s IDMath \u003d @s ID\nscoreboard players operation @e[type\u003darmor_stand,tag\u003dIslandCenter] IDMath -\u003d @p ID\n\n\nexecute @e[type\u003darmor_stand,tag\u003dIslandCenter,score_IDMath\u003d0,score_IDMath_min\u003d0] ~ ~ ~ pillar-spawn altar ~ 85 ~5\nscoreboard objectives add gamestage dummy\nscoreboard players set @p gamestage 0\nscoreboard objectives add shinyloonfail dummy\nscoreboard players set @p shinyloonfail 0\ncloseguiscreen"
         }
       }
     },
@@ -121,7 +121,6 @@
     "2:10": {
       "questID:3": 2,
       "preRequisites:11": [
-        59,
         8
       ],
       "properties:10": {
@@ -222,7 +221,7 @@
           "viaPlayer:1": 0,
           "index:3": 0,
           "title:8": "bq_standard.reward.command",
-          "command:8": "w @p Look Behind You, Child\n\nexecute @e ~ ~ ~ scoreboard players operation @s IDMath \u003d @s ID\nscoreboard players operation @e[type\u003darmor_stand,tag\u003dIslandCenter] IDMath -\u003d @p ID\n\n\nexecute @e[type\u003darmor_stand,tag\u003dIslandCenter,score_IDMath\u003d0,score_IDMath_min\u003d0] ~ ~ ~ pillar-spawn masterball ~ 88 ~7\nexecute @p[r\u003d1,score_shinyloonfail_min\u003d0,score_shinyloonfail\u003d0] ~ ~ ~ execute @e[r\u003d1000,type\u003darmor_stand,tag\u003dIslandCenter,score_IDMath\u003d0,score_IDMath_min\u003d0] ~1 86 ~8 pokespawn drifloon lvl:2 ability:FlareBoost nature:Lonely growth:7 shiny\nexecute @p[r\u003d1,score_shinyloonfail_min\u003d1,score_shinyloonfail\u003d1] ~ ~ ~ execute @e[r\u003d1000,type\u003darmor_stand,tag\u003dIslandCenter,score_IDMath\u003d0,score_IDMath_min\u003d0] ~1 86 ~8 pokespawn drifloon lvl:2 nature:Lonely growth:7\nbq_admin reset 7 @p\nbq_admin reset 21 @p\nscoreboard players set @p shinyloonfail 1"
+          "command:8": "w @p Look Behind You, Child\nw @p Make Sure to Step Back When Throwing the Ball\n\nexecute @e ~ ~ ~ scoreboard players operation @s IDMath \u003d @s ID\nscoreboard players operation @e[type\u003darmor_stand,tag\u003dIslandCenter] IDMath -\u003d @p ID\n\n\nexecute @e[type\u003darmor_stand,tag\u003dIslandCenter,score_IDMath\u003d0,score_IDMath_min\u003d0] ~ ~ ~ pillar-spawn masterball ~ 88 ~7\nexecute @p[r\u003d1,score_shinyloonfail_min\u003d0,score_shinyloonfail\u003d0] ~ ~ ~ execute @e[r\u003d1000,type\u003darmor_stand,tag\u003dIslandCenter,score_IDMath\u003d0,score_IDMath_min\u003d0] ~1 86 ~8 pokespawn drifloon lvl:2 ability:FlareBoost nature:Lonely growth:7 shiny\nexecute @p[r\u003d1,score_shinyloonfail_min\u003d1,score_shinyloonfail\u003d1] ~ ~ ~ execute @e[r\u003d1000,type\u003darmor_stand,tag\u003dIslandCenter,score_IDMath\u003d0,score_IDMath_min\u003d0] ~1 86.5 ~8 pokespawn drifloon lvl:2 nature:Lonely growth:7\nbq_admin reset 7 @p\nbq_admin reset 21 @p\ntp @e[r\u003d10,c\u003d1,type\u003dpixelmon:pixelmon] @e[r\u003d1000,type\u003darmor_stand,tag\u003dIslandCenter,score_IDMath\u003d0,score_IDMath_min\u003d0]\ntp @e[r\u003d10,c\u003d1,type\u003dpixelmon:pixelmon] ~1 86 ~8\nscoreboard players set @p shinyloonfail 1\ncloseguiscreen"
         }
       }
     },
@@ -411,16 +410,16 @@
       "questID:3": 7,
       "preRequisites:11": [
         3,
-        59
+        6
       ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "lockedprogress:1": 0,
-          "tasklogic:8": "XOR",
-          "repeattime:3": 100,
-          "visibility:8": "NORMAL",
+          "tasklogic:8": "AND",
+          "repeattime:3": 1000,
+          "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "pixelmon:air_balloon",
@@ -429,7 +428,7 @@
             "OreDict:8": ""
           },
           "globalshare:1": 0,
-          "questlogic:8": "AND",
+          "questlogic:8": "XOR",
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
@@ -1159,7 +1158,7 @@
           "viaPlayer:1": 0,
           "index:3": 1,
           "title:8": "bq_standard.reward.command",
-          "command:8": "w @p Look Down Child, Look to the West\n\nexecute @e ~ ~ ~ scoreboard players operation @s IDMath \u003d @s ID\nscoreboard players operation @e[type\u003darmor_stand,tag\u003dIslandCenter] IDMath -\u003d @p ID\nexecute @e[type\u003darmor_stand,tag\u003dIslandCenter,score_IDMath\u003d0,score_IDMath_min\u003d0] ~ ~ ~ pillar-spawn graniteboulder ~-10 63 ~-4\n\n"
+          "command:8": "w @p Look Down Child, Look to the West\n\nexecute @e ~ ~ ~ scoreboard players operation @s IDMath \u003d @s ID\nscoreboard players operation @e[type\u003darmor_stand,tag\u003dIslandCenter] IDMath -\u003d @p ID\nexecute @e[type\u003darmor_stand,tag\u003dIslandCenter,score_IDMath\u003d0,score_IDMath_min\u003d0] ~ ~ ~ pillar-spawn graniteboulder ~-10 63 ~-4\ncloseguiscreen\n\n"
         }
       }
     },
@@ -1340,7 +1339,7 @@
       "questID:3": 21,
       "preRequisites:11": [
         3,
-        59
+        6
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1349,7 +1348,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "XOR",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "pixelmon:master_ball",
@@ -1358,7 +1357,7 @@
             "OreDict:8": ""
           },
           "globalshare:1": 0,
-          "questlogic:8": "AND",
+          "questlogic:8": "XOR",
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
@@ -1382,7 +1381,7 @@
           "viaPlayer:1": 0,
           "index:3": 0,
           "title:8": "bq_standard.reward.command",
-          "command:8": "execute @e ~ ~ ~ scoreboard players operation @s IDMath \u003d @s ID\nscoreboard players operation @e[type\u003darmor_stand,tag\u003dIslandCenter] IDMath -\u003d @p ID\n\n\nexecute @p[r\u003d0,score_gamestage_min\u003d0,score_gamestage\u003d0] ~ ~ ~ w @p Try Again Child\nbq_admin reset 3 @p[r\u003d0,score_gamestage_min\u003d0,score_gamestage\u003d0]\nkill @e[r\u003d1000,type\u003ditem,name\u003ditem.item.master_ball]\nclear @p[r\u003d0] pixelmon:master_ball\nexecute @p[r\u003d0,score_gamestage_min\u003d0,score_gamestage\u003d0] ~ ~ ~ execute @e[type\u003darmor_stand,tag\u003dIslandCenter,score_IDMath\u003d0,score_IDMath_min\u003d0] ~ ~ ~\n ~ ~ ~ setblock ~ 88 ~7 air"
+          "command:8": "execute @e ~ ~ ~ scoreboard players operation @s IDMath \u003d @s ID\nscoreboard players operation @e[type\u003darmor_stand,tag\u003dIslandCenter] IDMath -\u003d @p ID\nexecute @p[r\u003d0,score_gamestage_min\u003d0,score_gamestage\u003d0] ~ ~ ~ w @p Try Again Child\nbq_admin reset 3 @p[r\u003d0,score_gamestage_min\u003d0,score_gamestage\u003d0]\nkill @e[r\u003d1000,type\u003ditem,name\u003ditem.item.master_ball]\nclear @p pixelmon:master_ball\nexecute @p[r\u003d1,score_gamestage_min\u003d0,score_gamestage\u003d0] ~ ~ ~ execute @e[type\u003darmor_stand,tag\u003dIslandCenter,score_IDMath\u003d0,score_IDMath_min\u003d0] ~ ~ ~ fill ~ 88 ~7 ~ 88 ~7 stone\nexecute @p[r\u003d1,score_gamestage_min\u003d0,score_gamestage\u003d0] ~ ~ ~ execute @e[type\u003darmor_stand,tag\u003dIslandCenter,score_IDMath\u003d0,score_IDMath_min\u003d0] ~ ~ ~ fill ~ 88 ~7 ~ 88 ~7 air"
         }
       }
     },
@@ -1390,8 +1389,7 @@
       "questID:3": 22,
       "preRequisites:11": [
         0,
-        29,
-        59
+        29
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1400,7 +1398,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:dirt",
@@ -1465,7 +1463,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Analyzing the Enemy",
-          "desc:8": "§l§l§lBugs and Ghosts\n\n§d§d§d§r§r§\n§5§5§5§r§r§r§5§5§5§r§r§r1. §5§5§5Shedinja (Lvl 2-6)§r§r§r \n- Harvest for string\n- Harvest for experience\n- Only 1 HP - Will be one-shot by any move you have!\n- Slow\n- Moves: 1 Normal, §6§6§62 Ground§r§r§r, 1 super powerful §5§5§5Shadow Claw§r (will one-shot you)\n\nShedinja are appearing to hang motionless in the sky above you. High level ones might outspeed and kill you, but there\u0027s a 75% chance they will use the wrong move anyway; use your §b§b§brevives§r§r§r and try to get lucky!\n\n§oThe hardest thing about fighting Shedinja is getting your ball to connect just right to start the battle. Balls connect better while falling. If the Shedinja is too close, try having your pokemon out and instructing it to attack with §dV§r §oi§on§l§r§ostead.§r\n\n§lFight Shedinja!\n\n§d§d§d§r2. § §a§a§aBurmy (6-11)§r§r§r \n- Harvest for string\n- Can\u0027t normally hit you\n- May run out of move PP and kill you with \"Struggle\" \n- Waste your PP \u003e:(\n- Only weak to Gust, when you hit level 4\n\nBurmy are dropping out of your tree! Their move \u0027Protect\u0027 will shield them from all damage for a few turns, forcing you to waste move PP taking them down. They only have 10 PP on Protect, after which they will use Struggle, which will one-shot you.\n\nStruggle cannot miss. Minimize won\u0027t help!\n\nFight a high (Lvl 10) Burmy! They learn Tackle, which can\u0027t hit you and prevents them from struggling.\n\n3. §d§d§dPhantump (Lvl 8-12)§r§r§r \n- Harvest for wood\n- §2§2§2§r§r§rGrass §r§r§rand §5§5§5§r§r§rGhost§r§r§r type; weak to all your moves! \n- Too high level.\n\nThe Phantump gathering around your tree are too high level to take on just yet. Eventually they will kill you with weak §2§2§2Branch Pokes§2§2§2§r§r§r, §2§2§2Leech Seed§r§r§r, or a super effective §5§5§5Astonish§r§r§r of their own.§r \n\nDon\u0027t fight one yet. Wait until you out-level them.\n\n4. §a§a§aPineco (6-11)§r§r§r \n- Best Pokemon to fight\n- Harvest for wood and string\n- Very rare spawn\n\nHigh level Pinco have §a§a§aBug Bite (Lvl 9)§r§r§r which is not very effective against you but can still deal damage. All Pineco have a chance to Self Destruct, which, being Normal type, will kill them instantly and not harm you! \n\nThere is only room for one Burmy or one Pineco on your island at a time. Push Burmy off the island to encourage a Pineco to appear.\n\n§lFight Pineco!\n\n§r5. §d§d§d§b§b§bOther Drifloon (Level 2-6)§r§r§r \n- Harvest for experience. \n- Not useful\n\nYou started with a very low level Drifloon. Fight other Drifloon only after you have grown a few levels.\n\n\n6. Other Pokemon\n\nIt is possible, although rare, for other Pokemon to spawn high up on your tree. You will have to make best guesses about what to do with them as they come.\n\n\n\n\n"
+          "desc:8": "§l§l§lBugs and Ghosts\n\n§d§d§d§r§r§\n§5§5§5§r§r§r§5§5§5§r§r§r1. §5§5§5Shedinja (Lvl 2-6)§r§r§r \n- Harvest for string\n- Harvest for experience\n- Only 1 HP - Will be one-shot by any move you have!\n- Slow\n- Moves: 1 Normal, §6§6§62 Ground§r§r§r, 1 super powerful §5§5§5Shadow Claw§r (will one-shot you)\n\nShedinja are appearing to hang motionless in the sky above you. High level ones might outspeed and kill you, but there\u0027s a 75% chance they will use the wrong move anyway; use your §b§b§brevives§r§r§r and try to get lucky!\n\n§oThe hardest thing about fighting Shedinja is getting your ball to connect just right to start the battle. Balls connect better while falling. If the Shedinja is too close, try having your pokemon out and instructing it to attack with §dV§r §oi§on§l§r§ostead.§r\n\n§lFight Shedinja!\n\n§d§d§d§r2. § §a§a§aBurmy (6-11)§r§r§r \n- Harvest for string\n- Can\u0027t normally hit you\n- May run out of move PP and kill you with \"Struggle\" \n- Waste your PP \u003e:(\n- Only weak to Gust, when you hit level 4\n\nBurmy are dropping out of your tree! Their move \u0027Protect\u0027 will shield them from all damage for a few turns, forcing you to waste move PP taking them down. They only have 10 PP on Protect, after which they will use Struggle, which will one-shot you.\n\nStruggle cannot miss. Minimize won\u0027t help!\n\nFight a high (Lvl 10) Burmy! They learn Tackle, which can\u0027t hit you and prevents them from struggling.\n\n3. §d§d§dPhantump (Lvl 8-12)§r§r§r \n- Harvest for wood\n- §2§2§2§r§r§rGrass §r§r§rand §5§5§5§r§r§rGhost§r§r§r type; weak to all your moves! \n- Too high level.\n\nThe Phantump gathering around your tree are too high level to take on just yet. Eventually they will kill you with weak §2§2§2Branch Pokes§2§2§2§r§r§r, §2§2§2Leech Seed§r§r§r, or a super effective §5§5§5Astonish§r§r§r of their own.§r \n\nDon\u0027t fight one yet. Wait until you out-level them.\n\n4. §a§a§aPineco (6-11)§r§r§r \n- Best Pokemon to fight\n- Harvest for wood and string\n- Very rare spawn\n\nHigh level Pinco have §a§a§aBug Bite (Lvl 9)§r§r§r which is not very effective against you but can still deal damage. All Pineco have a chance to Self Destruct, which, being Normal type, will kill them instantly and not harm you! \n\nThere is only room for one Burmy or one Pineco on your island at a time. Push Burmy off the island to encourage a Pineco to appear.\n\n§lFight Pineco!\n\n§r5. §d§d§d§b§b§bOther Drifloon (Level 2-6)§r§r§r \n- Harvest for experience. \n- Not useful\n- Can explode on death with Aftermath and deal big damage :(\n\nYou started with a very low level Drifloon. Fight other Drifloon only after you have grown a few levels.\n\n\n6. Other Pokemon\n\nIt is possible, although rare, for other Pokemon to spawn high up on your tree. You will have to make best guesses about what to do with them as they come.\n\n\n\n\n"
         }
       },
       "tasks:9": {},
@@ -1782,8 +1780,7 @@
     "30:10": {
       "questID:3": 30,
       "preRequisites:11": [
-        0,
-        59
+        0
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1792,7 +1789,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:bedrock",
@@ -2561,7 +2558,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
-          "repeattime:3": -1,
+          "repeattime:3": 1,
           "visibility:8": "HIDDEN",
           "simultaneous:1": 0,
           "icon:10": {
@@ -2603,7 +2600,7 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
-          "repeattime:3": -1,
+          "repeattime:3": 1,
           "visibility:8": "HIDDEN",
           "simultaneous:1": 0,
           "icon:10": {
@@ -4451,7 +4448,6 @@
     "75:10": {
       "questID:3": 75,
       "preRequisites:11": [
-        99,
         31
       ],
       "properties:10": {
@@ -5565,7 +5561,6 @@
     "89:10": {
       "questID:3": 89,
       "preRequisites:11": [
-        59,
         6
       ],
       "properties:10": {
@@ -7941,7 +7936,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "pixelmon:diamond_hammer",
@@ -8363,7 +8358,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "pixelmon:ever_stone",
@@ -19352,7 +19347,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:feather",
@@ -23481,7 +23476,7 @@
     "289:10": {
       "questID:3": 289,
       "preRequisites:11": [
-        75
+        99
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -23801,7 +23796,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "pixelmon:white_shard",
@@ -25853,7 +25848,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "pixelmon:fossil",
@@ -27048,7 +27043,7 @@
       "questID:3": 331,
       "preRequisites:11": [
         127,
-        75
+        99
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -27137,7 +27132,6 @@
     "332:10": {
       "questID:3": 332,
       "preRequisites:11": [
-        145,
         292
       ],
       "properties:10": {
@@ -27220,7 +27214,6 @@
     "333:10": {
       "questID:3": 333,
       "preRequisites:11": [
-        145,
         292
       ],
       "properties:10": {
@@ -27303,7 +27296,6 @@
     "334:10": {
       "questID:3": 334,
       "preRequisites:11": [
-        145,
         292
       ],
       "properties:10": {
@@ -27386,7 +27378,6 @@
     "335:10": {
       "questID:3": 335,
       "preRequisites:11": [
-        145,
         292
       ],
       "properties:10": {
@@ -27478,7 +27469,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "OR",
           "repeattime:3": 24000,
-          "visibility:8": "NORMAL",
+          "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "minecraft:nether_star",
@@ -27555,7 +27546,6 @@
     "337:10": {
       "questID:3": 337,
       "preRequisites:11": [
-        145,
         292
       ],
       "properties:10": {
@@ -27638,7 +27628,6 @@
     "338:10": {
       "questID:3": 338,
       "preRequisites:11": [
-        145,
         351
       ],
       "properties:10": {
@@ -27739,7 +27728,6 @@
     "339:10": {
       "questID:3": 339,
       "preRequisites:11": [
-        145,
         292
       ],
       "properties:10": {
@@ -27921,7 +27909,6 @@
     "341:10": {
       "questID:3": 341,
       "preRequisites:11": [
-        145,
         292
       ],
       "properties:10": {
@@ -28004,7 +27991,6 @@
     "342:10": {
       "questID:3": 342,
       "preRequisites:11": [
-        145,
         292
       ],
       "properties:10": {
@@ -28096,7 +28082,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "pixelmon:black_shard",
@@ -28120,7 +28106,6 @@
     "344:10": {
       "questID:3": 344,
       "preRequisites:11": [
-        145,
         343
       ],
       "properties:10": {
@@ -28203,7 +28188,6 @@
     "345:10": {
       "questID:3": 345,
       "preRequisites:11": [
-        145,
         343
       ],
       "properties:10": {
@@ -28280,7 +28264,6 @@
     "346:10": {
       "questID:3": 346,
       "preRequisites:11": [
-        145,
         343
       ],
       "properties:10": {
@@ -28369,7 +28352,6 @@
     "347:10": {
       "questID:3": 347,
       "preRequisites:11": [
-        145,
         343
       ],
       "properties:10": {
@@ -28440,7 +28422,6 @@
     "348:10": {
       "questID:3": 348,
       "preRequisites:11": [
-        145,
         343
       ],
       "properties:10": {
@@ -28511,7 +28492,6 @@
     "349:10": {
       "questID:3": 349,
       "preRequisites:11": [
-        145,
         343
       ],
       "properties:10": {
@@ -28582,7 +28562,6 @@
     "350:10": {
       "questID:3": 350,
       "preRequisites:11": [
-        145,
         343
       ],
       "properties:10": {
@@ -28680,7 +28659,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "pixelmon:blue_shard2",
@@ -28704,7 +28683,6 @@
     "352:10": {
       "questID:3": 352,
       "preRequisites:11": [
-        145,
         351
       ],
       "properties:10": {
@@ -28938,7 +28916,6 @@
     "354:10": {
       "questID:3": 354,
       "preRequisites:11": [
-        145,
         351
       ],
       "properties:10": {
@@ -29009,7 +28986,6 @@
     "355:10": {
       "questID:3": 355,
       "preRequisites:11": [
-        145,
         351
       ],
       "properties:10": {
@@ -29080,7 +29056,6 @@
     "356:10": {
       "questID:3": 356,
       "preRequisites:11": [
-        145,
         351
       ],
       "properties:10": {
@@ -29151,7 +29126,6 @@
     "357:10": {
       "questID:3": 357,
       "preRequisites:11": [
-        145,
         351
       ],
       "properties:10": {
@@ -29222,7 +29196,6 @@
     "358:10": {
       "questID:3": 358,
       "preRequisites:11": [
-        145,
         343
       ],
       "properties:10": {
@@ -29299,7 +29272,6 @@
     "359:10": {
       "questID:3": 359,
       "preRequisites:11": [
-        145,
         343
       ],
       "properties:10": {
@@ -29376,7 +29348,6 @@
     "360:10": {
       "questID:3": 360,
       "preRequisites:11": [
-        145,
         292
       ],
       "properties:10": {
@@ -29459,7 +29430,6 @@
     "361:10": {
       "questID:3": 361,
       "preRequisites:11": [
-        145,
         292
       ],
       "properties:10": {
@@ -31093,329 +31063,322 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": -204,
-          "id:3": 75,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "sizeX:3": 24,
           "x:3": -84,
           "y:3": 84,
           "id:3": 78,
           "sizeY:3": 24
         },
-        "2:10": {
+        "1:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": 120,
           "id:3": 80,
           "sizeY:3": 24
         },
-        "3:10": {
+        "2:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": -240,
           "id:3": 82,
           "sizeY:3": 24
         },
-        "4:10": {
+        "3:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": 12,
           "id:3": 86,
           "sizeY:3": 24
         },
-        "5:10": {
+        "4:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": -60,
           "id:3": 93,
           "sizeY:3": 24
         },
-        "6:10": {
+        "5:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": 12,
           "id:3": 96,
           "sizeY:3": 24
         },
-        "7:10": {
+        "6:10": {
           "sizeX:3": 48,
           "x:3": -24,
           "y:3": -24,
           "id:3": 99,
           "sizeY:3": 48
         },
-        "8:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": -132,
           "id:3": 100,
           "sizeY:3": 24
         },
-        "9:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": -156,
           "y:3": 84,
           "id:3": 101,
           "sizeY:3": 24
         },
-        "10:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": 12,
           "id:3": 102,
           "sizeY:3": 24
         },
-        "11:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": 84,
           "id:3": 103,
           "sizeY:3": 24
         },
-        "12:10": {
+        "11:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": 84,
           "id:3": 104,
           "sizeY:3": 24
         },
-        "13:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": 132,
           "y:3": 84,
           "id:3": 105,
           "sizeY:3": 24
         },
-        "14:10": {
+        "13:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": 120,
           "id:3": 106,
           "sizeY:3": 24
         },
-        "15:10": {
+        "14:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": -24,
           "id:3": 107,
           "sizeY:3": 24
         },
-        "16:10": {
+        "15:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": 120,
           "id:3": 108,
           "sizeY:3": 24
         },
-        "17:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": 132,
           "y:3": 12,
           "id:3": 109,
           "sizeY:3": 24
         },
-        "18:10": {
+        "17:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": -96,
           "id:3": 114,
           "sizeY:3": 24
         },
-        "19:10": {
+        "18:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": -168,
           "id:3": 118,
           "sizeY:3": 24
         },
-        "20:10": {
+        "19:10": {
           "sizeX:3": 24,
           "x:3": 168,
           "y:3": 12,
           "id:3": 126,
           "sizeY:3": 24
         },
-        "21:10": {
+        "20:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": 228,
           "id:3": 142,
           "sizeY:3": 24
         },
-        "22:10": {
+        "21:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": 228,
           "id:3": 143,
           "sizeY:3": 24
         },
-        "23:10": {
+        "22:10": {
           "sizeX:3": 24,
           "x:3": 132,
           "y:3": 228,
           "id:3": 144,
           "sizeY:3": 24
         },
-        "24:10": {
+        "23:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": 156,
           "id:3": 146,
           "sizeY:3": 24
         },
-        "25:10": {
+        "24:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": -204,
           "id:3": 147,
           "sizeY:3": 24
         },
-        "26:10": {
+        "25:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": 48,
           "id:3": 198,
           "sizeY:3": 24
         },
-        "27:10": {
+        "26:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": 228,
           "id:3": 199,
           "sizeY:3": 24
         },
-        "28:10": {
+        "27:10": {
           "sizeX:3": 24,
           "x:3": -84,
           "y:3": 192,
           "id:3": 200,
           "sizeY:3": 24
         },
-        "29:10": {
+        "28:10": {
           "sizeX:3": 24,
           "x:3": -120,
           "y:3": 48,
           "id:3": 201,
           "sizeY:3": 24
         },
-        "30:10": {
+        "29:10": {
           "sizeX:3": 24,
           "x:3": -120,
           "y:3": -132,
           "id:3": 202,
           "sizeY:3": 24
         },
-        "31:10": {
+        "30:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": 192,
           "id:3": 212,
           "sizeY:3": 24
         },
-        "32:10": {
+        "31:10": {
           "sizeX:3": 24,
           "x:3": -156,
           "y:3": 180,
           "id:3": 228,
           "sizeY:3": 24
         },
-        "33:10": {
+        "32:10": {
           "sizeX:3": 24,
           "x:3": -156,
           "y:3": -12,
           "id:3": 229,
           "sizeY:3": 24
         },
-        "34:10": {
+        "33:10": {
           "sizeX:3": 24,
           "x:3": -120,
           "y:3": -96,
           "id:3": 230,
           "sizeY:3": 24
         },
-        "35:10": {
+        "34:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": -60,
           "id:3": 231,
           "sizeY:3": 24
         },
-        "36:10": {
+        "35:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": -60,
           "id:3": 232,
           "sizeY:3": 24
         },
-        "37:10": {
+        "36:10": {
           "sizeX:3": 24,
           "x:3": -120,
           "y:3": 84,
           "id:3": 234,
           "sizeY:3": 24
         },
-        "38:10": {
+        "37:10": {
           "sizeX:3": 24,
           "x:3": 204,
           "y:3": 12,
           "id:3": 238,
           "sizeY:3": 24
         },
-        "39:10": {
+        "38:10": {
           "sizeX:3": 12,
           "x:3": 0,
           "y:3": -84,
           "id:3": 270,
           "sizeY:3": 12
         },
-        "40:10": {
+        "39:10": {
           "sizeX:3": 24,
           "x:3": -12,
           "y:3": -120,
           "id:3": 274,
           "sizeY:3": 24
         },
-        "41:10": {
+        "40:10": {
           "sizeX:3": 24,
-          "x:3": 96,
+          "x:3": 60,
           "y:3": -204,
           "id:3": 289,
           "sizeY:3": 24
         },
-        "42:10": {
+        "41:10": {
           "sizeX:3": 24,
           "x:3": 60,
           "y:3": -240,
           "id:3": 290,
           "sizeY:3": 24
         },
-        "43:10": {
+        "42:10": {
           "sizeX:3": 24,
           "x:3": -12,
           "y:3": -72,
           "id:3": 293,
           "sizeY:3": 24
         },
-        "44:10": {
+        "43:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": -240,
           "id:3": 304,
           "sizeY:3": 24
         },
-        "45:10": {
+        "44:10": {
           "sizeX:3": 24,
-          "x:3": 132,
+          "x:3": 96,
           "y:3": -204,
           "id:3": 305,
           "sizeY:3": 24
         },
-        "46:10": {
+        "45:10": {
           "sizeX:3": 24,
-          "x:3": 96,
+          "x:3": 60,
           "y:3": -168,
           "id:3": 331,
           "sizeY:3": 24

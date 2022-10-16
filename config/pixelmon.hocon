@@ -322,7 +322,7 @@ General {
     # Allow random generation of structures such as Pokémon Centers, shrines, and other buildings if true.
     spawnStructures=true
     # If true, must be opped to use spawners. If false, must be in Creative mode.
-    spawnersOpOnly=true
+    spawnersOpOnly=false
     # Lets you choose to give/not give a starter to a player on join (via the Pixelmon starter screen).
     starterOnJoin=false
     # Whether TMs, HMs, and TRs can be used regardless of generation if the Pokémon has it in their base stats somewhere.
