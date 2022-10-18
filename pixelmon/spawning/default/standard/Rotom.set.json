@@ -163,7 +163,7 @@
          "multiplier": 5,
          "condition": {
            "neededNearbyBlocks": [
-             "pixelmon:washer"
+             "pixelmon:washing_machine"
            ]
          }
        }

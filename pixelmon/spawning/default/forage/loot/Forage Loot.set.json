@@ -42,7 +42,8 @@
             "Forage"
           ],
           "item": {
-            "itemID": "minecraft:sapling",
+            "itemID": "biomesoplenty:sapling_0",
+            "meta":4,
             "quantity": 1
           },
           "typeID": "item",
@@ -52,6 +53,23 @@
             ]
           },
           "rarity": 300
+        },
+        {   
+          "stringLocationTypes": [
+            "Forage"
+          ],
+          "item": {
+            "itemID": "biomesoplenty:flower_0",
+            "meta":2,
+            "quantity": 1
+          },
+          "typeID": "item",
+          "condition": {
+            "stringBiomes": [
+              "ominous_woods"
+            ]
+          },
+          "rarity": 60
         },
 		{
           "stringLocationTypes": [
@@ -3409,8 +3427,7 @@
               "all forests",
               "jungles",
               "plains",
-              "flowery",
-              "ominous_woods" 
+              "flowery"
             ]
           },
           "rarityMultipliers": [
@@ -3873,7 +3890,7 @@
               "ominous_woods"
             ]
           },
-          "rarity": 40
+          "rarity": 30
         },
         {
           "stringLocationTypes": [
@@ -3893,7 +3910,7 @@
               "ominous_woods"
             ]
           },
-          "rarity": 25
+          "rarity": 10
         },
         {
           "stringLocationTypes": [

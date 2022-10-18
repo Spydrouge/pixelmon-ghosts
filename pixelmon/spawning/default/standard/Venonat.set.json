@@ -76,7 +76,37 @@
         "maxY":150,
         "minY":50
       },
-      "rarity": 130.0
+      "rarity": 10.0
+    },
+    {
+      "spec": {
+        "name": "Venonat",
+        "form": 0
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 6,
+      "maxLevel": 12,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON",
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "heldItems": [
+          {
+            "itemID": "pixelmon:persim_berry",
+            "percentChance": 25
+          }
+        ],
+        "maxY":150,
+        "minY":50
+      },
+      "rarity": 120.0
     }
   ]
 }

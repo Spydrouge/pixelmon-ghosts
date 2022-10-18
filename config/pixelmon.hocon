@@ -715,7 +715,7 @@ Spawning {
     # Sets whether or not Pokémon levels are determined by distance from the World's spawn point.
     spawnLevelsByDistance=false
     # Whether or not wild Pokémon will have levels closer to the player's Pokémon. Note: This will effect the external jsons!
-    spawnLevelsCloserToPlayerLevels=true
+    spawnLevelsCloserToPlayerLevels=false
     # Whether or not wild Pokémon will spawn with higher levels underground.
     spawnLevelsIncreaseInCaves=false
     # Poke Marts will spawn with shopkeepers in Minecraft's towns.

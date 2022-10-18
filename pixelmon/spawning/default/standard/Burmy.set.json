@@ -65,14 +65,48 @@
       ],
       "rarity": 20
     },
+    {
+      "spec": {
+        "name": "Burmy",
+        "form":2
+      },
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "maxY": 220,
+        "minY":50
+      },
+      "anticondition": {
+        "dimensions": [
+          -1
+        ]
+      },
+      "rarity": 6.0,
+      "rarityMultipliers": [
+        {
+          "multiplier": 4,
+          "condition": {
+            "weathers": [
+              "CLEAR"
+            ]
+          }
+        }
+      ]
+    },
      {
       "spec": {
         "name": "Burmy",
         "form":2
       },
       "stringLocationTypes": [
-        "Indoors",
-        "Manmade"
+        "Indoors"
       ],
       "minLevel": 2,
       "maxLevel": 6,

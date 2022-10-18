@@ -2058,7 +2058,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Castform"
@@ -2518,7 +2518,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Bunnelby"
@@ -4264,7 +4264,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Diglett"
@@ -4392,7 +4392,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "I Wasn\u0027t Given a Starter!",
-          "desc:8": "In this modpack, you do not recieve a starter.\n\nYour first Pokemon will be cause by throwing a ball §cout of combat, §rwhich can be done by right-clicking with it. \n\nAn out-of-combat ball §dwill not§r catch a Pokemon unless it lands §bsafely §ron a block. If it plummets into the void, it and the Pokemon inside it will be lost.\n\nFollow the instructions in the main quest line closely, and if you make a §cmistake, §rcheck out the \u0027Mistakes were Made\u0027 questline."
+          "desc:8": "In this modpack, you do not recieve a starter.\n\nYour first Pokemon will be cause by throwing a ball §cout of combat, §rwhich can be done by right-clicking with the ball. Step back a bit to get a perfect throw.\n\nAn out-of-combat ball §dwill not§r catch a Pokemon unless it lands §bsafely §ron a block. If it plummets into the void, both the ball and the Pokemon inside it will be lost.\n\nFollow the instructions in the main quest line closely, and if you make a §cmistake, §rcheck out the \u0027Mistakes were Made\u0027 questline.\n\nIf you want to play an especially hardcore run, you can free your starter by removing the wood slab beside it, and wait for a random spawn or stroke of luck with the flying Drifloon."
         }
       },
       "tasks:9": {},
@@ -4496,7 +4496,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Roggenrola"
@@ -4760,7 +4760,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Aron"
@@ -4919,7 +4919,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Sableye"
@@ -5002,7 +5002,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Clefairy"
@@ -5084,7 +5084,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Larvitar"
@@ -5356,7 +5356,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Klink"
@@ -5445,7 +5445,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Shuckle"
@@ -5527,7 +5527,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Dunsparce"
@@ -5624,7 +5624,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "I Put a \"Pokemon Attractor\" in a Bad Spot!",
-          "desc:8": "Have you accidentally set down your Pokemon Attractor in a bad spot? Do you want to move one of the attractors that you started with?\n\nYou can\u0027t break an Attractor, but the §cCarry On §rmod is installed specifically for you to move around Attractors with! If you get very close to an Attractor, you can hold shift, and right click §ewith an empty hand§r. This will let you pick the Pokemon Attractor so you can put it in a better location. \n\nOther blocks you can Carry include the cauldron."
+          "desc:8": "§5[NOTE: This feature is currently bugged. Pokemon attractors cannot be \u0027carried\u0027 unless you are OP-ed on the server, at which point they can also be edited/broken/etch which defeats the purpose of using Carry On with them. For now, be careful in placing them. Cauldrons can still be moved as normal.] §r\n\nHave you accidentally set down your Pokemon Attractor in a bad spot? Do you want to move one of the attractors that you started with?\n\nYou can\u0027t break an Attractor, but the §cCarry On §rmod is installed specifically for you to move around Attractors with! If you get very close to an Attractor, you can hold shift, and right click §ewith an empty hand§r. This will let you pick the Pokemon Attractor so you can put it in a better location. \n\nOther blocks you can Carry include the cauldron."
         }
       },
       "tasks:9": {},
@@ -5767,7 +5767,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Porygon"
@@ -5997,7 +5997,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Hatenna"
@@ -6009,7 +6009,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Munna"
@@ -6180,7 +6180,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Rotom"
@@ -6263,7 +6263,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Magnemite"
@@ -6376,7 +6376,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Voltorb"
@@ -6778,7 +6778,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Yamask"
@@ -7085,7 +7085,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Whismur"
@@ -7244,7 +7244,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Variant:1": 114,
@@ -7336,7 +7336,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Tynamo"
@@ -7419,7 +7419,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Gastly"
@@ -7508,7 +7508,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Litwick"
@@ -7661,7 +7661,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Azurill"
@@ -9835,7 +9835,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Honchkrow"
@@ -9847,7 +9847,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Dunsparce"
@@ -9921,7 +9921,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Dratini"
@@ -10004,7 +10004,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Sableye"
@@ -10105,7 +10105,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Gulpin"
@@ -10117,7 +10117,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Gossifleur"
@@ -10129,7 +10129,7 @@
         "3:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 3,
           "targetNBT:10": {
             "Name:8": "Cottonee"
@@ -10236,7 +10236,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Spritzee"
@@ -10248,7 +10248,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Swirlix"
@@ -10260,7 +10260,7 @@
         "3:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 3,
           "targetNBT:10": {
             "Name:8": "Baltoy"
@@ -10397,7 +10397,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Milcery"
@@ -10409,7 +10409,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Ralts"
@@ -10421,7 +10421,7 @@
         "3:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 3,
           "targetNBT:10": {
             "Name:8": "Gothita"
@@ -10612,7 +10612,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Variant:1": 1,
@@ -10625,7 +10625,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Variant:1": 2,
@@ -10638,7 +10638,7 @@
         "3:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 3,
           "targetNBT:10": {
             "Name:8": "Vanillite"
@@ -10739,7 +10739,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "elgyem"
@@ -10751,7 +10751,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 3,
           "targetNBT:10": {
             "Name:8": "vanillite"
@@ -10864,7 +10864,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Variant:1": 2,
@@ -10960,7 +10960,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Cottonee"
@@ -11048,7 +11048,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Jigglypuff"
@@ -11161,7 +11161,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Koffing"
@@ -11173,7 +11173,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Trubbish"
@@ -11185,7 +11185,7 @@
         "3:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 3,
           "targetNBT:10": {
             "Name:8": "Spiritomb"
@@ -11286,7 +11286,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Farfetchd"
@@ -11298,7 +11298,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 3,
           "targetNBT:10": {
             "Name:8": "Flabébé"
@@ -11400,7 +11400,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Pidove"
@@ -11412,7 +11412,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Timburr"
@@ -11513,7 +11513,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Snom"
@@ -11525,7 +11525,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "pachirisu"
@@ -11537,7 +11537,7 @@
         "3:10": {
           "amount:3": 0,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 3,
           "targetNBT:10": {
             "Variant:1": 1,
@@ -11644,7 +11644,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Cubone"
@@ -11751,7 +11751,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Lileep"
@@ -11763,7 +11763,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Gulpin"
@@ -11775,7 +11775,7 @@
         "3:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 3,
           "targetNBT:10": {
             "Name:8": "Flabébé"
@@ -11882,7 +11882,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Ferroseed"
@@ -11894,7 +11894,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Timburr"
@@ -11906,7 +11906,7 @@
         "3:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 3,
           "targetNBT:10": {
             "Name:8": "Cutiefly"
@@ -12013,7 +12013,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Minior"
@@ -12025,7 +12025,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Variant:1": 1,
@@ -12038,7 +12038,7 @@
         "3:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 3,
           "targetNBT:10": {
             "Name:8": "Larvesta"
@@ -12151,7 +12151,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Sewaddle"
@@ -12163,7 +12163,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Wurmple"
@@ -12270,7 +12270,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Stufful"
@@ -12282,7 +12282,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Snubbull"
@@ -12419,7 +12419,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Cutiefly"
@@ -12526,7 +12526,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Variant:1": 102,
@@ -12640,7 +12640,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Variant:1": 102,
@@ -12748,7 +12748,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Variant:1": 0,
@@ -12761,7 +12761,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Tentacool"
@@ -12868,7 +12868,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Variant:1": 102,
@@ -12976,7 +12976,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Variant:1": 102,
@@ -12989,7 +12989,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Variant:1": 102,
@@ -13103,7 +13103,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Variant:1": 0,
@@ -13217,7 +13217,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Variant:1": 102,
@@ -13325,7 +13325,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Variant:1": 0,
@@ -13433,7 +13433,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Poliwag"
@@ -13445,7 +13445,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Variant:1": 106,
@@ -13559,7 +13559,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Relicanth"
@@ -13672,7 +13672,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Kakuna"
@@ -13684,7 +13684,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Metapod"
@@ -13696,7 +13696,7 @@
         "3:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 3,
           "targetNBT:10": {
             "Name:8": "Cascoon"
@@ -13796,7 +13796,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Hoothoot"
@@ -13808,7 +13808,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Noctowl"
@@ -13914,7 +13914,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Sentret"
@@ -13926,7 +13926,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Furret"
@@ -14026,7 +14026,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Stunky"
@@ -14132,7 +14132,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Dottler"
@@ -14244,7 +14244,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Corsola"
@@ -14256,7 +14256,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Variant:1": 2,
@@ -14332,7 +14332,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Chinchou"
@@ -14407,7 +14407,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Skrelp"
@@ -14470,7 +14470,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Skiddo"
@@ -15019,7 +15019,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Jigglypuff"
@@ -15031,7 +15031,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Gulpin"
@@ -15113,7 +15113,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Form:8": "",
@@ -15203,7 +15203,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Pidove"
@@ -15215,7 +15215,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Spritzee"
@@ -15227,7 +15227,7 @@
         "3:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 3,
           "targetNBT:10": {
             "Name:8": "Vullaby"
@@ -15309,7 +15309,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Sinistea"
@@ -15391,7 +15391,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Milcery"
@@ -15403,7 +15403,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Sinistea"
@@ -15485,7 +15485,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Sableye"
@@ -15568,7 +15568,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Sableye"
@@ -15647,7 +15647,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Bunnelby"
@@ -15730,7 +15730,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Rolycoly"
@@ -15807,7 +15807,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Variant:1": 1,
@@ -15884,7 +15884,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Impidimp"
@@ -15966,7 +15966,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Venonat"
@@ -16125,7 +16125,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Sewaddle"
@@ -16213,7 +16213,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Larvesta"
@@ -16225,7 +16225,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Snom"
@@ -16319,7 +16319,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Variant:1": 2,
@@ -16402,7 +16402,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Zubat"
@@ -16840,7 +16840,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Hatenna"
@@ -16852,7 +16852,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Misdreavus"
@@ -16864,7 +16864,7 @@
         "3:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 3,
           "targetNBT:10": {
             "Name:8": "Munna"
@@ -16952,7 +16952,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Morelull"
@@ -17231,7 +17231,7 @@
           "issilent:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "lockedprogress:1": 0,
-          "tasklogic:8": "OR",
+          "tasklogic:8": "AND",
           "repeattime:3": -1,
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
@@ -17272,7 +17272,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Murkrow"
@@ -17284,7 +17284,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Natu"
@@ -17296,7 +17296,7 @@
         "3:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 3,
           "targetNBT:10": {
             "Name:8": "Fletchling"
@@ -17384,7 +17384,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Magikarp"
@@ -17396,7 +17396,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Basculin"
@@ -17478,7 +17478,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Azumarill"
@@ -17490,7 +17490,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Pachirisu"
@@ -17502,7 +17502,7 @@
         "3:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 3,
           "targetNBT:10": {
             "Name:8": "Bunnelby"
@@ -17584,7 +17584,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Munna"
@@ -17596,7 +17596,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Spoink"
@@ -17846,7 +17846,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "grimer"
@@ -17858,7 +17858,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Gulpin"
@@ -17940,7 +17940,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Wurmple"
@@ -17952,7 +17952,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 3,
           "targetNBT:10": {
             "Name:8": "Applin"
@@ -18155,7 +18155,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Variant:1": 110,
@@ -18301,7 +18301,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Variant:1": 0,
@@ -18415,7 +18415,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Variant:1": 1,
@@ -18660,7 +18660,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Clefairy"
@@ -18743,7 +18743,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Aron"
@@ -18825,7 +18825,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Tentacool"
@@ -18913,7 +18913,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Hoothoot"
@@ -18925,7 +18925,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Timburr"
@@ -19013,7 +19013,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Ferroseed"
@@ -19419,7 +19419,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Swirlix"
@@ -19548,7 +19548,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Burmy"
@@ -19636,7 +19636,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Surskit"
@@ -19648,7 +19648,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Feebas"
@@ -19732,7 +19732,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Milcery"
@@ -20041,7 +20041,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Weedle"
@@ -20136,7 +20136,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Spinarak"
@@ -20302,7 +20302,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Vanillite"
@@ -20384,7 +20384,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Togedemaru"
@@ -20466,7 +20466,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Sewaddle"
@@ -20548,7 +20548,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Sentret"
@@ -20630,7 +20630,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Blipbug"
@@ -20795,7 +20795,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Pidove"
@@ -21292,7 +21292,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Farfetch\u0027d"
@@ -21366,7 +21366,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Vullaby"
@@ -21440,7 +21440,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Hoothoot"
@@ -21452,7 +21452,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Wingull"
@@ -21526,7 +21526,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Natu"
@@ -21600,7 +21600,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Fletchling"
@@ -21824,7 +21824,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "cubone"
@@ -21836,7 +21836,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Snubbull"
@@ -27870,7 +27870,7 @@
         "1:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 1,
           "targetNBT:10": {
             "Name:8": "Gligar"
@@ -27882,7 +27882,7 @@
         "2:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "targetNBT:10": {
             "Name:8": "Stonjourner"
@@ -27894,7 +27894,7 @@
         "3:10": {
           "amount:3": 1,
           "range:3": 4,
-          "ignoreNBT:1": 1,
+          "ignoreNBT:1": 0,
           "index:3": 3,
           "targetNBT:10": {
             "Name:8": "Rhyhorn"
@@ -29502,6 +29502,119 @@
           }
         }
       }
+    },
+    "362:10": {
+      "questID:3": 362,
+      "preRequisites:11": [
+        6
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "OR",
+          "repeattime:3": -1,
+          "visibility:8": "HIDDEN",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "pixelmon:shed_shell",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Hidden Quest Unlocked: Skins",
+          "desc:8": "Hey! There\u0027s still something inside this §6shed skin§r.... Is it a Pokemon Egg? But- §dShedinja§r can\u0027t lay eggs, can it?!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "pixelmon:shed_shell",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "363:10": {
+      "questID:3": 363,
+      "preRequisites:11": [
+        362
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "OR",
+          "repeattime:3": 4000,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "pixelmon:shed_shell",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Did Shedinja Lay an Egg?",
+          "desc:8": "Hey! This isn\u0027t a §6shed skin§r at all! \n\nIs it a Pokemon Egg? But- §dShedinja§r can\u0027t lay eggs, can it?!\n\nIf it is an egg, it will take very many steps to hatch. If you manage to get materials to build a long path, you should be able to run back and forward on it in-between foraging sessions."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "pixelmon:shed_shell",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Your Shed Shell/Skin turns out to be an egg!",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "title:8": "bq_standard.reward.command",
+          "command:8": "/pokegive @p Nincada egg ball:premier_ball"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -29761,30 +29874,44 @@
         },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": -108,
+          "x:3": 36,
           "y:3": 108,
           "id:3": 62,
           "sizeY:3": 24
         },
         "27:10": {
           "sizeX:3": 24,
-          "x:3": -144,
+          "x:3": 72,
           "y:3": 108,
           "id:3": 63,
           "sizeY:3": 24
         },
         "28:10": {
           "sizeX:3": 24,
-          "x:3": -108,
+          "x:3": 36,
           "y:3": 72,
           "id:3": 64,
           "sizeY:3": 24
         },
         "29:10": {
           "sizeX:3": 24,
-          "x:3": -144,
+          "x:3": 72,
           "y:3": 72,
           "id:3": 65,
+          "sizeY:3": 24
+        },
+        "30:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": 72,
+          "id:3": 362,
+          "sizeY:3": 24
+        },
+        "31:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": 108,
+          "id:3": 363,
           "sizeY:3": 24
         }
       },
@@ -31038,6 +31165,13 @@
           "x:3": -168,
           "y:3": -180,
           "id:3": 361,
+          "sizeY:3": 24
+        },
+        "81:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 180,
+          "id:3": 363,
           "sizeY:3": 24
         }
       },

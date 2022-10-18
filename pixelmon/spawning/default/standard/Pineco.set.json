@@ -1,63 +1,81 @@
 {
-  "id": "Pineco",
-  "spawnInfos": [
+	"id": "Pineco",
+	"spawnInfos": [
+	  {
+		"spec": {
+		  "name": "Pineco"
+		},
+		"stringLocationTypes": [
+		  "Land"
+		],
+		"minLevel": 6,
+		"maxLevel": 12,
+		"typeID": "pokemon",
+		"condition": {
+		  "stringBiomes": [
+			"ominous_woods"
+		  ],
+		  "minY":50,
+		  "maxY":180
+		},
+		"rarity": 60.0
+	  },
+	  {
+		"spec": {
+		  "name": "Pineco"
+		},
+		"stringLocationTypes": [
+		  "Land",
+		  "Headbutt"
+		],
+		"minLevel": 5,
+		"maxLevel": 30,
+		"typeID": "pokemon",
+		"condition": {
+		  "stringBiomes": [
+			"taigas",
+			"redwoods"
+		  ]
+		},
+		"rarity": 130.0
+	  },
+		{
+		"spec": {
+		  "name": "Pineco"
+		},
+		"stringLocationTypes": [
+		  "Land",
+		  "Tree Top",
+		  "Headbutt"
+		],
+		"minLevel": 5,
+		"maxLevel": 30,
+		"typeID": "pokemon",
+		"condition": {
+		  "stringBiomes": [
+			"mountainous forests"
+		  ]
+		},
+		"rarity": 40.0
+	  },
     {
-      "spec": {
-        "name": "Pineco"
-      },
-      "stringLocationTypes": [
-        "Land",
-        "Headbutt"
-      ],
-      "minLevel": 5,
-      "maxLevel": 30,
-      "typeID": "pokemon",
-      "condition": {
-        "stringBiomes": [
-          "taigas",
-          "redwoods"
-        ]
-      },
-      "rarity": 130.0
-    },
-      {
-      "spec": {
-        "name": "Pineco"
-      },
-      "stringLocationTypes": [
-        "Land",
-        "Tree Top",
-        "Headbutt"
-      ],
-      "minLevel": 5,
-      "maxLevel": 30,
-      "typeID": "pokemon",
-      "condition": {
-        "stringBiomes": [
-          "mountainous forests"
-        ]
-      },
-      "rarity": 40.0
-    },
-    {
-      "spec": {
-        "name": "Pineco"
-      },
-      "stringLocationTypes": [
-        "Land",
-        "Tree Top",
-        "Headbutt"
-      ],
-      "minLevel": 6,
-      "maxLevel": 12,
-      "typeID": "pokemon",
-      "condition": {
-        "stringBiomes": [
-          "ominous_woods"
-        ],
-        "minY":50
-      },
-      "rarity": 60.0
-    }
-  ]
-}
+		"spec": {
+		  "name": "Pineco"
+		},
+		"stringLocationTypes": [
+		  "Manmade",
+		  "Tree Top",
+		  "Headbutt"
+		],
+		"minLevel": 5,
+		"maxLevel": 30,
+		"typeID": "pokemon",
+		"condition": {
+		  "stringBiomes": [
+			"ominous_woods"
+		  ]
+		},
+		"rarity": 40.0
+	  }
+	]
+  }

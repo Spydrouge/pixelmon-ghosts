@@ -6,7 +6,8 @@
         "name": "Phantump"
       },
       "stringLocationTypes": [
-        "Land"
+        "Land",
+        "Manmade"
       ],
       "minLevel": 15,
       "maxLevel": 24,
@@ -45,6 +46,28 @@
         "maxY":180
       },
       "rarity": 250.0
+    },
+    {
+      "spec": {
+        "name": "Phantump"
+      },
+      "stringLocationTypes": [
+        "Manmade"
+      ],
+      "minLevel": 2,
+      "maxLevel": 6,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "NIGHT"
+        ],
+        "stringBiomes": [
+          "ominous_woods"
+        ],
+        "minY":60,
+        "maxY":180
+      },
+      "rarity": 50.0
     },
     {
       "spec": {

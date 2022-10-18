@@ -64,7 +64,7 @@
         ],
         "minY":100
       },
-      "rarity": 14
+      "rarity": 20
     },
     {
       "spec": {
@@ -86,7 +86,7 @@
         ],
         "maxY":99
       },
-      "rarity": 14
+      "rarity": 20
     }
   ]
 }
